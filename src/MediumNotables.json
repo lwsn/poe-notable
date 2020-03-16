@@ -1,0 +1,361 @@
+[
+  {
+    "id": "dotfire",
+    "size": "medium",
+    "enchantment": "+5% to Fire Damage over Time Multiplier",
+    "notables": [
+      { "name": "Eye of the Storm", "weight": 533, "affix": "Prefix" },
+      { "name": "Master of Fire", "weight": 133, "affix": "Prefix" },
+      { "name": "Smoking Remains", "weight": 533, "affix": "Prefix" },
+      { "name": "Cremator", "weight": 533, "affix": "Prefix" },
+      { "name": "Blowback", "weight": 533, "affix": "Prefix" },
+      { "name": "Fan the Flames", "weight": 267, "affix": "Prefix" },
+      { "name": "Cooked Alive", "weight": 1067, "affix": "Prefix" },
+      { "name": "Burning Bright", "weight": 533, "affix": "Prefix" },
+      { "name": "Wrapped in Flame", "weight": 267, "affix": "Prefix" },
+      { "name": "Wasting Affliction", "weight": 267, "affix": "Prefix" },
+      { "name": "Haemorrhage", "weight": 533, "affix": "Prefix" },
+      { "name": "Flow of Life", "weight": 267, "affix": "Prefix" },
+      { "name": "Exposure Therapy", "weight": 1067, "affix": "Prefix" },
+      { "name": "Brush with Death", "weight": 267, "affix": "Prefix" },
+      { "name": "Vile Reinvigoration", "weight": 533, "affix": "Prefix" },
+      { "name": "Circling Oblivion", "weight": 1067, "affix": "Prefix" },
+      { "name": "Brewed for Potency", "weight": 1067, "affix": "Prefix" },
+      { "name": "Student of Decay", "weight": 533, "affix": "Prefix" }
+    ]
+  },
+
+  {
+    "id": "dotchaos",
+    "size": "medium",
+    "enchantment": "+5% to Chaos Damage over Time Multiplier",
+    "notables": [
+      { "name": "Unwaveringly Evil", "weight": 1111, "affix": "Prefix" },
+      { "name": "Dark Ideation", "weight": 278, "affix": "Prefix" },
+      { "name": "Wicked Pall", "weight": 556, "affix": "Prefix" },
+      { "name": "Septic Spells", "weight": 556, "affix": "Prefix" },
+      { "name": "Low Tolerance", "weight": 278, "affix": "Prefix" },
+      { "name": "Steady Torment", "weight": 278, "affix": "Prefix" },
+      { "name": "Eternal Suffering", "weight": 556, "affix": "Prefix" },
+      { "name": "Eldritch Inspiration", "weight": 556, "affix": "Prefix" },
+      { "name": "Wasting Affliction", "weight": 278, "affix": "Prefix" },
+      { "name": "Haemorrhage", "weight": 556, "affix": "Prefix" },
+      { "name": "Flow of Life", "weight": 278, "affix": "Prefix" },
+      { "name": "Exposure Therapy", "weight": 1111, "affix": "Prefix" },
+      { "name": "Brush with Death", "weight": 278, "affix": "Prefix" },
+      { "name": "Vile Reinvigoration", "weight": 556, "affix": "Prefix" },
+      { "name": "Circling Oblivion", "weight": 1111, "affix": "Prefix" },
+      { "name": "Brewed for Potency", "weight": 1111, "affix": "Prefix" },
+      { "name": "Student of Decay", "weight": 556, "affix": "Prefix" }
+    ]
+  },
+
+  {
+    "id": "dotphysical",
+    "size": "medium",
+    "enchantment": "+5% to Physical Damage over Time Multiplier",
+    "notables": [
+      { "name": "Wound Aggravation", "weight": 1111, "affix": "Prefix" },
+      { "name": "Vivid Hues", "weight": 556, "affix": "Prefix" },
+      { "name": "Rend", "weight": 556, "affix": "Prefix" },
+      { "name": "Disorienting Wounds", "weight": 1111, "affix": "Prefix" },
+      { "name": "Compound Injury", "weight": 556, "affix": "Prefix" },
+      { "name": "Steady Torment", "weight": 278, "affix": "Prefix" },
+      { "name": "Wasting Affliction", "weight": 278, "affix": "Prefix" },
+      { "name": "Haemorrhage", "weight": 556, "affix": "Prefix" },
+      { "name": "Flow of Life", "weight": 278, "affix": "Prefix" },
+      { "name": "Exposure Therapy", "weight": 1111, "affix": "Prefix" },
+      { "name": "Brush with Death", "weight": 278, "affix": "Prefix" },
+      { "name": "Vile Reinvigoration", "weight": 556, "affix": "Prefix" },
+      { "name": "Circling Oblivion", "weight": 1111, "affix": "Prefix" },
+      { "name": "Brewed for Potency", "weight": 1111, "affix": "Prefix" },
+      { "name": "Student of Decay", "weight": 556, "affix": "Prefix" }
+    ]
+  },
+
+  {
+    "id": "dotcold",
+    "size": "medium",
+    "enchantment": "+5% to Cold Damage over Time Multiplier",
+    "notables": [
+      { "name": "Wasting Affliction", "weight": 500, "affix": "Prefix" },
+      { "name": "Haemorrhage", "weight": 1000, "affix": "Prefix" },
+      { "name": "Flow of Life", "weight": 500, "affix": "Prefix" },
+      { "name": "Exposure Therapy", "weight": 2000, "affix": "Prefix" },
+      { "name": "Brush with Death", "weight": 500, "affix": "Prefix" },
+      { "name": "Vile Reinvigoration", "weight": 1000, "affix": "Prefix" },
+      { "name": "Circling Oblivion", "weight": 2000, "affix": "Prefix" },
+      { "name": "Brewed for Potency", "weight": 2000, "affix": "Prefix" },
+      { "name": "Blast-Freeze", "weight": 500, "affix": "Prefix" }
+    ]
+  },
+
+  {
+    "id": "dot",
+    "size": "medium",
+    "enchantment": "+4% to Damage over Time Multiplier",
+    "notables": [
+      { "name": "Wasting Affliction", "weight": 476, "affix": "Prefix" },
+      { "name": "Haemorrhage", "weight": 952, "affix": "Prefix" },
+      { "name": "Flow of Life", "weight": 476, "affix": "Prefix" },
+      { "name": "Exposure Therapy", "weight": 1905, "affix": "Prefix" },
+      { "name": "Brush with Death", "weight": 476, "affix": "Prefix" },
+      { "name": "Vile Reinvigoration", "weight": 952, "affix": "Prefix" },
+      { "name": "Circling Oblivion", "weight": 1905, "affix": "Prefix" },
+      { "name": "Brewed for Potency", "weight": 1905, "affix": "Prefix" },
+      { "name": "Student of Decay", "weight": 952, "affix": "Prefix" }
+    ]
+  },
+
+  {
+    "id": "ailment",
+    "size": "medium",
+    "enchantment": "10% increased Effect of Non-Damaging Ailments",
+    "notables": [
+      { "name": "Eye of the Storm", "weight": 1176, "affix": "Prefix" },
+      { "name": "Astonishing Affliction", "weight": 2353, "affix": "Prefix" },
+      { "name": "Cold Conduction", "weight": 1176, "affix": "Prefix" },
+      { "name": "Inspired Oppression", "weight": 294, "affix": "Prefix" },
+      { "name": "Chilling Presence", "weight": 294, "affix": "Prefix" },
+      { "name": "Deep Chill", "weight": 2353, "affix": "Prefix" },
+      { "name": "Blast-Freeze", "weight": 588, "affix": "Prefix" },
+      { "name": "Stormrider", "weight": 588, "affix": "Prefix" },
+      { "name": "Overshock", "weight": 1176, "affix": "Prefix" }
+    ]
+  },
+
+  {
+    "id": "aura",
+    "size": "medium",
+    "enchantment": "6% increased effect of Non-Curse Auras from your Skills",
+    "notables": [
+      { "name": "Replenishing Presence", "weight": 816, "affix": "Prefix" },
+      { "name": "Master of Command", "weight": 408, "affix": "Prefix" },
+      { "name": "First Among Equals", "weight": 1633, "affix": "Prefix" },
+      { "name": "Purposeful Harbinger", "weight": 204, "affix": "Prefix" },
+      { "name": "Precise Commander", "weight": 408, "affix": "Prefix" },
+      { "name": "Pure Commander", "weight": 1633, "affix": "Prefix" },
+      { "name": "Stalwart Commander", "weight": 1633, "affix": "Prefix" },
+      { "name": "Vengeful Commander", "weight": 1633, "affix": "Prefix" },
+      { "name": "Pure Might", "weight": 1633, "affix": "Prefix" }
+    ]
+  },
+
+  {
+    "id": "curse",
+    "size": "medium",
+    "enchantment": "5% increased Effect of your Curses",
+    "notables": [
+      { "name": "Evil Eye", "weight": 2500, "affix": "Prefix" },
+      { "name": "Whispers of Death", "weight": 2500, "affix": "Prefix" },
+      { "name": "Forbidden Words", "weight": 625, "affix": "Prefix" },
+      { "name": "Dark Discourse", "weight": 1250, "affix": "Prefix" },
+      { "name": "Victim Maker", "weight": 1250, "affix": "Prefix" },
+      { "name": "Master of Fear", "weight": 625, "affix": "Prefix" },
+      { "name": "Wish for Death", "weight": 1250, "affix": "Prefix" }
+    ]
+  },
+
+  {
+    "id": "herald",
+    "size": "medium",
+    "enchantment": "10% increased Damage while affected by a Herald",
+    "notables": [
+      { "name": "Purposeful Harbinger", "weight": 357, "affix": "Prefix" },
+      { "name": "Heraldry", "weight": 357, "affix": "Prefix" },
+      { "name": "Endbringer", "weight": 714, "affix": "Prefix" },
+      { "name": "Empowered Envoy", "weight": 2857, "affix": "Prefix" },
+      { "name": "Dark Messenger", "weight": 1429, "affix": "Prefix" },
+      { "name": "Agent of Destruction", "weight": 2857, "affix": "Prefix" },
+      { "name": "Lasting Impression", "weight": 714, "affix": "Prefix" },
+      { "name": "Self-Fulfilling Prophecy", "weight": 714, "affix": "Prefix" }
+    ]
+  },
+
+  {
+    "id": "minionherald",
+    "size": "medium",
+    "enchantment": "Minions deal 10% increased Damage while you are affected by a Herald",
+    "notables": [
+      { "name": "Purposeful Harbinger", "weight": 476, "affix": "Prefix" },
+      { "name": "Heraldry", "weight": 476, "affix": "Prefix" },
+      { "name": "Endbringer", "weight": 952, "affix": "Prefix" },
+      { "name": "Cult-Leader", "weight": 3810, "affix": "Prefix" },
+      { "name": "Lasting Impression", "weight": 952, "affix": "Prefix" },
+      { "name": "Invigorating Portents", "weight": 1905, "affix": "Prefix" },
+      { "name": "Pure Agony", "weight": 476, "affix": "Prefix" },
+      { "name": "Disciples", "weight": 952, "affix": "Prefix" }
+    ]
+  },
+
+  {
+    "id": "warcry",
+    "size": "medium",
+    "enchantment": "15% increased Warcry Buff Effect",
+    "notables": [
+      { "name": "Mob Mentality", "weight": 345, "affix": "Prefix" },
+      { "name": "Cry Wolf", "weight": 690, "affix": "Prefix" },
+      { "name": "Haunting Shout", "weight": 1379, "affix": "Prefix" },
+      { "name": "Lead By Example", "weight": 2759, "affix": "Prefix" },
+      { "name": "Provocateur", "weight": 1379, "affix": "Prefix" },
+      { "name": "Warning Call", "weight": 690, "affix": "Prefix" },
+      { "name": "Rattling Bellow", "weight": 2759, "affix": "Prefix" }
+    ]
+  },
+
+  {
+    "id": "critical",
+    "size": "medium",
+    "enchantment": "15% increased Critical Strike Chance",
+    "notables": [
+      { "name": "Precise Retaliation", "weight": 741, "affix": "Prefix" },
+      { "name": "Precise Commander", "weight": 370, "affix": "Prefix" },
+      { "name": "Skullbreaker", "weight": 370, "affix": "Prefix" },
+      { "name": "Pressure Points", "weight": 741, "affix": "Prefix" },
+      { "name": "Overwhelming Malice", "weight": 370, "affix": "Prefix" },
+      { "name": "Magnifier", "weight": 1481, "affix": "Prefix" },
+      { "name": "Savage Response", "weight": 741, "affix": "Prefix" },
+      { "name": "Eye of the Storm", "weight": 741, "affix": "Prefix" },
+      { "name": "Basics of Pain", "weight": 1481, "affix": "Prefix" },
+      { "name": "Quick Getaway", "weight": 1481, "affix": "Prefix" },
+      { "name": "Provocateur", "weight": 741, "affix": "Prefix" },
+      { "name": "Haemorrhage", "weight": 741, "affix": "Prefix" }
+    ]
+  },
+
+  {
+    "id": "minionlife",
+    "size": "medium",
+    "enchantment": "Minions have 12% increased maximum Life",
+    "notables": [
+      { "name": "Renewal", "weight": 1176, "affix": "Prefix" },
+      { "name": "Hulking Corpses", "weight": 1176, "affix": "Prefix" },
+      { "name": "Dread March", "weight": 2353, "affix": "Prefix" },
+      { "name": "Blessed Rebirth", "weight": 588, "affix": "Prefix" },
+      { "name": "Life from Death", "weight": 1176, "affix": "Prefix" },
+      { "name": "Feasting Fiends", "weight": 2353, "affix": "Prefix" },
+      { "name": "Bodyguards", "weight": 1176, "affix": "Prefix" }
+    ]
+  },
+
+  {
+    "id": "area",
+    "size": "medium",
+    "enchantment": "10% increased Area Damage",
+    "notables": [
+      { "name": "Magnifier", "weight": 2857, "affix": "Prefix" },
+      { "name": "Assert Dominance", "weight": 714, "affix": "Prefix" },
+      { "name": "Vast Power", "weight": 1429, "affix": "Prefix" },
+      { "name": "Powerful Assault", "weight": 1429, "affix": "Prefix" },
+      { "name": "Intensity", "weight": 714, "affix": "Prefix" },
+      { "name": "Titanic Swings", "weight": 1429, "affix": "Prefix" },
+      { "name": "Towering Threat", "weight": 714, "affix": "Prefix" },
+      { "name": "Expansive Might", "weight": 714, "affix": "Prefix" }
+    ]
+  },
+
+  {
+    "id": "projectile",
+    "size": "medium",
+    "enchantment": "10% increased Projectile Damage",
+    "notables": [
+      { "name": "Follow-Through", "weight": 714, "affix": "Prefix" },
+      { "name": "Streamlined", "weight": 2857, "affix": "Prefix" },
+      { "name": "Shrieking Bolts", "weight": 1429, "affix": "Prefix" },
+      { "name": "Eye to Eye", "weight": 1429, "affix": "Prefix" },
+      { "name": "Repeater", "weight": 2857, "affix": "Prefix" },
+      { "name": "Aerodynamics", "weight": 714, "affix": "Prefix" }
+    ]
+  },
+
+  {
+    "id": "trapmine",
+    "size": "medium",
+    "enchantment": "12% increased Trap Damage\n12% increased Mine Damage",
+    "notables": [
+      { "name": "Set and Forget", "weight": 1538, "affix": "Prefix" },
+      { "name": "Expert Sabotage", "weight": 1538, "affix": "Prefix" },
+      { "name": "Guerilla Tactics", "weight": 3077, "affix": "Prefix" },
+      { "name": "Expendability", "weight": 769, "affix": "Prefix" },
+      { "name": "Arcane Pyrotechnics", "weight": 769, "affix": "Prefix" },
+      { "name": "Surprise Sabotage", "weight": 1538, "affix": "Prefix" },
+      { "name": "Careful Handling", "weight": 769, "affix": "Prefix" }
+    ]
+  },
+
+  {
+    "id": "totem",
+    "size": "medium",
+    "enchantment": "12% increased Totem Damage",
+    "notables": [
+      { "name": "Ancestral Echo", "weight": 2353, "affix": "Prefix" },
+      { "name": "Ancestral Reach", "weight": 2353, "affix": "Prefix" },
+      { "name": "Ancestral Might", "weight": 1176, "affix": "Prefix" },
+      { "name": "Ancestral Preservation", "weight": 588, "affix": "Prefix" },
+      { "name": "Snaring Spirits", "weight": 1176, "affix": "Prefix" },
+      { "name": "Sleepless Sentries", "weight": 588, "affix": "Prefix" },
+      { "name": "Ancestral Guidance", "weight": 1176, "affix": "Prefix" },
+      { "name": "Ancestral Inspiration", "weight": 588, "affix": "Prefix" }
+    ]
+  },
+
+  {
+    "id": "brand",
+    "size": "medium",
+    "enchantment": "12% increased Damage with Brand Skills",
+    "notables": [
+      { "name": "Chip Away", "weight": 1667, "affix": "Prefix" },
+      { "name": "Seeker Runes", "weight": 833, "affix": "Prefix" },
+      { "name": "Remarkable", "weight": 1667, "affix": "Prefix" },
+      { "name": "Brand Loyalty", "weight": 3333, "affix": "Prefix" },
+      { "name": "Holy Conquest", "weight": 1667, "affix": "Prefix" },
+      { "name": "Grand Design", "weight": 833, "affix": "Prefix" }
+    ]
+  },
+
+  {
+    "id": "channeling",
+    "size": "medium",
+    "enchantment": "Channelling Skills deal 12% increased Damage",
+    "notables": [
+      { "name": "Vital Focus", "weight": 2759, "affix": "Prefix" },
+      { "name": "Rapid Infusion", "weight": 690, "affix": "Prefix" },
+      { "name": "Unwavering Focus", "weight": 1379, "affix": "Prefix" },
+      { "name": "Enduring Focus", "weight": 345, "affix": "Prefix" },
+      { "name": "Precise Focus", "weight": 1379, "affix": "Prefix" },
+      { "name": "Stoic Focus", "weight": 2759, "affix": "Prefix" },
+      { "name": "Hex Breaker", "weight": 690, "affix": "Prefix" }
+    ]
+  },
+
+  {
+    "id": "flaskeffect",
+    "size": "medium",
+    "enchantment": "6% increased Flask Effect Duration",
+    "notables": [
+      { "name": "Distilled Perfection", "weight": 1538, "affix": "Prefix" },
+      { "name": "Spiked Concoction", "weight": 769, "affix": "Prefix" },
+      { "name": "Fasting", "weight": 769, "affix": "Prefix" },
+      { "name": "Mender's Wellspring", "weight": 385, "affix": "Prefix" },
+      { "name": "Special Reserve", "weight": 1538, "affix": "Prefix" },
+      { "name": "Numbing Elixir", "weight": 1538, "affix": "Prefix" },
+      { "name": "Brewed for Potency", "weight": 1538, "affix": "Prefix" },
+      { "name": "Peak Vigour", "weight": 1538, "affix": "Prefix" },
+      { "name": "Liquid Inspiration", "weight": 385, "affix": "Prefix" }
+    ]
+  },
+
+  {
+    "id": "flaskmanalife",
+    "size": "medium",
+    "enchantment": "10% increased Life Recovery from Flasks\n10% increased Mana Recovery from Flasks",
+    "notables": [
+      { "name": "Distilled Perfection", "weight": 2353, "affix": "Prefix" },
+      { "name": "Spiked Concoction", "weight": 1176, "affix": "Prefix" },
+      { "name": "Fasting", "weight": 1176, "affix": "Prefix" },
+      { "name": "Mender's Wellspring", "weight": 588, "affix": "Prefix" },
+      { "name": "Special Reserve", "weight": 2353, "affix": "Prefix" },
+      { "name": "Numbing Elixir", "weight": 2353, "affix": "Prefix" }
+    ]
+  }
+]

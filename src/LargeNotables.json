@@ -1,0 +1,337 @@
+[
+  {
+    "id": "damageaxesword",
+    "size": "large",
+    "enchantment": "Axe Attacks deal 12% increased Damage with Hits and Ailments\nSword Attacks deal 12% increased Damage with Hits and Ailments",
+    "notables": [
+      { "name": "Deep Cuts", "weight": 169, "affix": "Prefix" },
+      { "name": "Vicious Skewering", "weight": 339, "affix": "Prefix" },
+      { "name": "Bloodscent", "weight": 169, "affix": "Prefix" },
+      { "name": "Run Through", "weight": 339, "affix": "Prefix" },
+      { "name": "Wound Aggravation", "weight": 1356, "affix": "Prefix" },
+      { "name": "Smite the Weak", "weight": 1356, "affix": "Suffix" },
+      { "name": "Heavy Hitter", "weight": 678, "affix": "Suffix" },
+      { "name": "Martial Prowess", "weight": 1356, "affix": "Suffix" },
+      { "name": "Calamitous", "weight": 678, "affix": "Prefix" },
+      { "name": "Devastator", "weight": 169, "affix": "Prefix" },
+      { "name": "Fuel the Fight", "weight": 1356, "affix": "Prefix" },
+      { "name": "Drive the Destruction", "weight": 1356, "affix": "Prefix" },
+      { "name": "Feed the Fury", "weight": 678, "affix": "Prefix" }
+    ]
+  },
+
+  {
+    "id": "damagemacestaff",
+    "size": "large",
+    "enchantment": "Mace or Sceptre Attacks deal 12% increased Damage with Hits and Ailments\nStaff Attacks deal 12% increased Damage with Hits and Ailments",
+    "notables": [
+      { "name": "Deep Cuts", "weight": 169, "affix": "Prefix" },
+      { "name": "Vicious Skewering", "weight": 339, "affix": "Prefix" },
+      { "name": "Overlord", "weight": 169, "affix": "Prefix" },
+      { "name": "Expansive Might", "weight": 339, "affix": "Prefix" },
+      { "name": "Weight Advantage", "weight": 1356, "affix": "Prefix" },
+      { "name": "Smite the Weak", "weight": 1356, "affix": "Suffix" },
+      { "name": "Heavy Hitter", "weight": 678, "affix": "Suffix" },
+      { "name": "Martial Prowess", "weight": 1356, "affix": "Suffix" },
+      { "name": "Calamitous", "weight": 678, "affix": "Prefix" },
+      { "name": "Devastator", "weight": 169, "affix": "Prefix" },
+      { "name": "Fuel the Fight", "weight": 1356, "affix": "Prefix" },
+      { "name": "Drive the Destruction", "weight": 1356, "affix": "Prefix" },
+      { "name": "Feed the Fury", "weight": 678, "affix": "Prefix" }
+    ]
+  },
+
+  {
+    "id": "damagedaggerclaw",
+    "size": "large",
+    "enchantment": "Dagger Attacks deal 12% increased Damage with Hits and Ailments\nClaw Attacks deal 12% increased Damage with Hits and Ailments",
+    "notables": [
+      { "name": "Deep Cuts", "weight": 182, "affix": "Prefix" },
+      { "name": "Vicious Skewering", "weight": 364, "affix": "Prefix" },
+      { "name": "Wind-up", "weight": 364, "affix": "Prefix" },
+      { "name": "Fan of Blades", "weight": 182, "affix": "Prefix" },
+      { "name": "Disease Vector", "weight": 727, "affix": "Prefix" },
+      { "name": "Smite the Weak", "weight": 1455, "affix": "Suffix" },
+      { "name": "Heavy Hitter", "weight": 727, "affix": "Suffix" },
+      { "name": "Martial Prowess", "weight": 1455, "affix": "Suffix" },
+      { "name": "Calamitous", "weight": 727, "affix": "Prefix" },
+      { "name": "Devastator", "weight": 182, "affix": "Prefix" },
+      { "name": "Fuel the Fight", "weight": 1455, "affix": "Prefix" },
+      { "name": "Drive the Destruction", "weight": 1455, "affix": "Prefix" },
+      { "name": "Feed the Fury", "weight": 727, "affix": "Prefix" }
+    ]
+  },
+
+  {
+    "id": "damagebow",
+    "size": "large",
+    "enchantment": "12% increased Damage with Bows",
+    "notables": [
+      { "name": "Deep Cuts", "weight": 156, "affix": "Prefix" },
+      { "name": "Vicious Skewering", "weight": 313, "affix": "Prefix" },
+      { "name": "Arcing Shot", "weight": 625, "affix": "Prefix" },
+      { "name": "Tempered Arrowheads", "weight": 625, "affix": "Prefix" },
+      { "name": "Broadside", "weight": 1250, "affix": "Prefix" },
+      { "name": "Smite the Weak", "weight": 1250, "affix": "Suffix" },
+      { "name": "Heavy Hitter", "weight": 625, "affix": "Suffix" },
+      { "name": "Martial Prowess", "weight": 1250, "affix": "Suffix" },
+      { "name": "Calamitous", "weight": 625, "affix": "Prefix" },
+      { "name": "Devastator", "weight": 156, "affix": "Prefix" },
+      { "name": "Fuel the Fight", "weight": 1250, "affix": "Prefix" },
+      { "name": "Drive the Destruction", "weight": 1250, "affix": "Prefix" },
+      { "name": "Feed the Fury", "weight": 625, "affix": "Prefix" }
+    ]
+  },
+
+  {
+    "id": "damagewand",
+    "size": "large",
+    "enchantment": "Wand Attacks deal 12% increased Damage with Hits and Ailments",
+    "notables": [
+      { "name": "Deep Cuts", "weight": 161, "affix": "Prefix" },
+      { "name": "Vicious Skewering", "weight": 323, "affix": "Prefix" },
+      { "name": "Explosive Force", "weight": 323, "affix": "Prefix" },
+      { "name": "Opportunistic Fusilade", "weight": 1290, "affix": "Prefix" },
+      { "name": "Storm's Hand", "weight": 645, "affix": "Prefix" },
+      { "name": "Smite the Weak", "weight": 1290, "affix": "Suffix" },
+      { "name": "Heavy Hitter", "weight": 645, "affix": "Suffix" },
+      { "name": "Martial Prowess", "weight": 1290, "affix": "Suffix" },
+      { "name": "Calamitous", "weight": 645, "affix": "Prefix" },
+      { "name": "Devastator", "weight": 161, "affix": "Prefix" },
+      { "name": "Fuel the Fight", "weight": 1290, "affix": "Prefix" },
+      { "name": "Drive the Destruction", "weight": 1290, "affix": "Prefix" },
+      { "name": "Feed the Fury", "weight": 645, "affix": "Prefix" }
+    ]
+  },
+
+  {
+    "id": "damagetwohand",
+    "size": "large",
+    "enchantment": "12% increased Damage with Two Handed Weapons",
+    "notables": [
+      { "name": "Deep Cuts", "weight": 122, "affix": "Prefix" },
+      { "name": "Vicious Skewering", "weight": 244, "affix": "Prefix" },
+      { "name": "Titanic Swings", "weight": 488, "affix": "Prefix" },
+      { "name": "Battlefield Dominator", "weight": 976, "affix": "Prefix" },
+      { "name": "Martial Mastery", "weight": 488, "affix": "Prefix" },
+      { "name": "Surefooted Striker", "weight": 488, "affix": "Prefix" },
+      { "name": "Graceful Execution", "weight": 976, "affix": "Prefix" },
+      { "name": "Brutal Infamy", "weight": 488, "affix": "Prefix" },
+      { "name": "Fearsome Warrior", "weight": 244, "affix": "Prefix" },
+      { "name": "Smite the Weak", "weight": 976, "affix": "Suffix" },
+      { "name": "Heavy Hitter", "weight": 488, "affix": "Suffix" },
+      { "name": "Martial Prowess", "weight": 976, "affix": "Suffix" },
+      { "name": "Calamitous", "weight": 488, "affix": "Prefix" },
+      { "name": "Devastator", "weight": 122, "affix": "Prefix" },
+      { "name": "Fuel the Fight", "weight": 976, "affix": "Prefix" },
+      { "name": "Drive the Destruction", "weight": 976, "affix": "Prefix" },
+      { "name": "Feed the Fury", "weight": 488, "affix": "Prefix" }
+    ]
+  },
+
+  {
+    "id": "damagedualwield",
+    "size": "large",
+    "enchantment": "12% increased Attack Damage while Dual Wielding",
+    "notables": [
+      { "name": "Deep Cuts", "weight": 125, "affix": "Prefix" },
+      { "name": "Vicious Skewering", "weight": 250, "affix": "Prefix" },
+      { "name": "Combat Rhythm", "weight": 500, "affix": "Prefix" },
+      { "name": "Hit and Run", "weight": 1000, "affix": "Prefix" },
+      { "name": "Insatiable Killer", "weight": 500, "affix": "Prefix" },
+      { "name": "Mage Bane", "weight": 250, "affix": "Prefix" },
+      { "name": "Martial Momentum", "weight": 500, "affix": "Prefix" },
+      { "name": "Deadly Repartee", "weight": 1000, "affix": "Prefix" },
+      { "name": "Quick and Deadly", "weight": 250, "affix": "Prefix" },
+      { "name": "Smite the Weak", "weight": 1000, "affix": "Suffix" },
+      { "name": "Heavy Hitter", "weight": 500, "affix": "Suffix" },
+      { "name": "Martial Prowess", "weight": 1000, "affix": "Suffix" },
+      { "name": "Calamitous", "weight": 500, "affix": "Prefix" },
+      { "name": "Devastator", "weight": 125, "affix": "Prefix" },
+      { "name": "Fuel the Fight", "weight": 1000, "affix": "Prefix" },
+      { "name": "Drive the Destruction", "weight": 1000, "affix": "Prefix" },
+      { "name": "Feed the Fury", "weight": 500, "affix": "Prefix" }
+    ]
+  },
+
+  {
+    "id": "damageshield",
+    "size": "large",
+    "enchantment": "12% increased Attack Damage while holding a Shield",
+    "notables": [
+      { "name": "Prodigious Defence", "weight": 2162, "affix": "Prefix" },
+      { "name": "Advance Guard", "weight": 1081, "affix": "Prefix" },
+      { "name": "Gladiatorial Combat", "weight": 541, "affix": "Prefix" },
+      { "name": "Strike Leader", "weight": 2162, "affix": "Prefix" },
+      { "name": "Gladiator's Fortitude", "weight": 541, "affix": "Prefix" },
+      { "name": "Precise Retaliation", "weight": 1081, "affix": "Prefix" },
+      { "name": "Veteran Defender", "weight": 2162, "affix": "Prefix" },
+      { "name": "Riot Queller", "weight": 270, "affix": "Prefix" }
+    ]
+  },
+
+  {
+    "id": "damageattack",
+    "size": "large",
+    "enchantment": "10% increased Attack Damage",
+    "notables": [
+      { "name": "Deep Cuts", "weight": 208, "affix": "Prefix" },
+      { "name": "Vicious Skewering", "weight": 417, "affix": "Prefix" },
+      { "name": "Smite the Weak", "weight": 1667, "affix": "Suffix" },
+      { "name": "Heavy Hitter", "weight": 833, "affix": "Suffix" },
+      { "name": "Martial Prowess", "weight": 1667, "affix": "Suffix" },
+      { "name": "Calamitous", "weight": 833, "affix": "Prefix" },
+      { "name": "Devastator", "weight": 208, "affix": "Prefix" },
+      { "name": "Fuel the Fight", "weight": 1667, "affix": "Prefix" },
+      { "name": "Drive the Destruction", "weight": 1667, "affix": "Prefix" },
+      { "name": "Feed the Fury", "weight": 833, "affix": "Prefix" }
+    ]
+  },
+
+  {
+    "id": "damagespell",
+    "size": "large",
+    "enchantment": "10% increased Spell Damage",
+    "notables": [
+      { "name": "Ancestral Inspiration", "weight": 571, "affix": "Prefix" },
+      { "name": "Arcane Adept", "weight": 571, "affix": "Prefix" },
+      { "name": "Seal Mender", "weight": 286, "affix": "Prefix" },
+      { "name": "Conjured Wall", "weight": 1143, "affix": "Prefix" },
+      { "name": "Arcane Heroism", "weight": 571, "affix": "Prefix" },
+      { "name": "Practiced Caster", "weight": 2286, "affix": "Prefix" },
+      { "name": "Burden Projection", "weight": 1143, "affix": "Prefix" },
+      { "name": "Thaumophage", "weight": 1143, "affix": "Suffix" },
+      { "name": "Essence Rush", "weight": 1143, "affix": "Suffix" },
+      { "name": "Sap Psyche", "weight": 571, "affix": "Suffix" },
+      { "name": "Mage Hunter", "weight": 571, "affix": "Prefix" }
+    ]
+  },
+
+  {
+    "id": "damageelemental",
+    "size": "large",
+    "enchantment": "10% increased Elemental Damage",
+    "notables": [
+      { "name": "Vengeful Commander", "weight": 2353, "affix": "Prefix" },
+      { "name": "Sadist", "weight": 588, "affix": "Prefix" },
+      { "name": "Corrosive Elements", "weight": 294, "affix": "Prefix" },
+      { "name": "Doryani's Lesson", "weight": 588, "affix": "Suffix" },
+      { "name": "Disorienting Display", "weight": 1176, "affix": "Suffix" },
+      { "name": "Prismatic Heart", "weight": 2353, "affix": "Prefix" },
+      { "name": "Widespread Destruction", "weight": 2353, "affix": "Suffix" },
+      { "name": "Inspired Oppression", "weight": 294, "affix": "Prefix" }
+    ]
+  },
+
+  {
+    "id": "damagephysical",
+    "size": "large",
+    "enchantment": "12% increased Physical Damage",
+    "notables": [
+      { "name": "Iron Breaker", "weight": 2667, "affix": "Prefix" },
+      { "name": "Master the Fundamentals", "weight": 1333, "affix": "Prefix" },
+      { "name": "Force Multiplier", "weight": 1333, "affix": "Suffix" },
+      { "name": "Furious Assault", "weight": 2667, "affix": "Suffix" },
+      { "name": "Grim Oath", "weight": 667, "affix": "Suffix" },
+      { "name": "Battle-Hardened", "weight": 1333, "affix": "Prefix" }
+    ]
+  },
+
+  {
+    "id": "damagefire",
+    "size": "large",
+    "enchantment": "12% increased Fire Damage",
+    "notables": [
+      { "name": "Vengeful Commander", "weight": 1739, "affix": "Prefix" },
+      { "name": "Sadist", "weight": 435, "affix": "Prefix" },
+      { "name": "Corrosive Elements", "weight": 217, "affix": "Prefix" },
+      { "name": "Doryani's Lesson", "weight": 435, "affix": "Suffix" },
+      { "name": "Disorienting Display", "weight": 870, "affix": "Suffix" },
+      { "name": "Prismatic Heart", "weight": 1739, "affix": "Prefix" },
+      { "name": "Widespread Destruction", "weight": 1739, "affix": "Suffix" },
+      { "name": "Master of Fire", "weight": 217, "affix": "Prefix" },
+      { "name": "Smoking Remains", "weight": 870, "affix": "Prefix" },
+      { "name": "Cremator", "weight": 870, "affix": "Prefix" },
+      { "name": "Burning Bright", "weight": 870, "affix": "Prefix" }
+    ]
+  },
+
+  {
+    "id": "damagelightning",
+    "size": "large",
+    "enchantment": "12% increased Lightning Damage",
+    "notables": [
+      { "name": "Vengeful Commander", "weight": 1212, "affix": "Prefix" },
+      { "name": "Sadist", "weight": 303, "affix": "Prefix" },
+      { "name": "Corrosive Elements", "weight": 152, "affix": "Prefix" },
+      { "name": "Doryani's Lesson", "weight": 303, "affix": "Suffix" },
+      { "name": "Disorienting Display", "weight": 606, "affix": "Suffix" },
+      { "name": "Prismatic Heart", "weight": 1212, "affix": "Prefix" },
+      { "name": "Widespread Destruction", "weight": 1212, "affix": "Suffix" },
+      { "name": "Snowstorm", "weight": 606, "affix": "Prefix" },
+      { "name": "Storm Drinker", "weight": 1212, "affix": "Prefix" },
+      { "name": "Paralysis", "weight": 606, "affix": "Prefix" },
+      { "name": "Supercharge", "weight": 303, "affix": "Prefix" },
+      { "name": "Inspired Oppression", "weight": 152, "affix": "Prefix" },
+      { "name": "Thunderstruck", "weight": 606, "affix": "Prefix" },
+      { "name": "Stormrider", "weight": 303, "affix": "Prefix" },
+      { "name": "Overshock", "weight": 606, "affix": "Prefix" },
+      { "name": "Scintillating Idea", "weight": 606, "affix": "Prefix" }
+    ]
+  },
+
+  {
+    "id": "damagecold",
+    "size": "large",
+    "enchantment": "12% increased Cold Damage",
+    "notables": [
+      { "name": "Vengeful Commander", "weight": 1379, "affix": "Prefix" },
+      { "name": "Sadist", "weight": 345, "affix": "Prefix" },
+      { "name": "Corrosive Elements", "weight": 172, "affix": "Prefix" },
+      { "name": "Doryani's Lesson", "weight": 345, "affix": "Suffix" },
+      { "name": "Disorienting Display", "weight": 690, "affix": "Suffix" },
+      { "name": "Prismatic Heart", "weight": 1379, "affix": "Prefix" },
+      { "name": "Widespread Destruction", "weight": 1379, "affix": "Suffix" },
+      { "name": "Snowstorm", "weight": 690, "affix": "Prefix" },
+      { "name": "Blanketed Snow", "weight": 345, "affix": "Prefix" },
+      { "name": "Cold to the Core", "weight": 345, "affix": "Prefix" },
+      { "name": "Cold-Blooded Killer", "weight": 690, "affix": "Prefix" },
+      { "name": "Inspired Oppression", "weight": 172, "affix": "Prefix" },
+      { "name": "Deep Chill", "weight": 1379, "affix": "Prefix" },
+      { "name": "Blast-Freeze", "weight": 345, "affix": "Prefix" },
+      { "name": "Stormrider", "weight": 345, "affix": "Prefix" }
+    ]
+  },
+
+  {
+    "id": "damagechaos",
+    "size": "large",
+    "enchantment": "12% increased Chaos Damage",
+    "notables": [
+      { "name": "Grim Oath", "weight": 571, "affix": "Suffix" },
+      { "name": "Overwhelming Malice", "weight": 571, "affix": "Prefix" },
+      { "name": "Touch of Cruelty", "weight": 2286, "affix": "Prefix" },
+      { "name": "Unwaveringly Evil", "weight": 2286, "affix": "Prefix" },
+      { "name": "Unspeakable Gifts", "weight": 286, "affix": "Suffix" },
+      { "name": "Dark Ideation", "weight": 571, "affix": "Prefix" },
+      { "name": "Unholy Grace", "weight": 2286, "affix": "Suffix" },
+      { "name": "Wicked Pall", "weight": 1143, "affix": "Prefix" }
+    ]
+  },
+
+  {
+    "id": "damageminions",
+    "size": "large",
+    "enchantment": "Minions deal 10% increased Damage",
+    "notables": [
+      { "name": "Renewal", "weight": 1290, "affix": "Prefix" },
+      { "name": "Raze and Pillage", "weight": 645, "affix": "Prefix" },
+      { "name": "Rotten Claws", "weight": 1290, "affix": "Prefix" },
+      { "name": "Call to the Slaughter", "weight": 2581, "affix": "Suffix" },
+      { "name": "Skeletal Atrophy", "weight": 645, "affix": "Prefix" },
+      { "name": "Vicious Bite", "weight": 323, "affix": "Suffix" },
+      { "name": "Primordial Bond", "weight": 645, "affix": "Suffix" },
+      { "name": "Feasting Fiends", "weight": 2581, "affix": "Prefix" }
+    ]
+  }
+]
