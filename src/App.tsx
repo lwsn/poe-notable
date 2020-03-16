@@ -1,5 +1,7 @@
 import React from "react";
 import styled from "@emotion/styled";
+import Notables from "./Notables.json";
+import NotableCard from "./NotablesCard";
 
 const Container = styled.div({
   display: "flex",
@@ -11,12 +13,22 @@ const Container = styled.div({
 const Box = styled.div({
   minWidth: "980px",
   backgroundColor: "black",
-  padding: "16px"
+  padding: "8px",
+  display: "flex",
+  flexDirection: "row",
+  flexWrap: "wrap",
+  div: {
+    margin: "8px"
+  }
 });
 
 const App = () => (
   <Container>
-    <Box />
+    <Box>
+      {Notables.map((notable, i) => (
+        <NotableCard key={i} notable={notable} />
+      ))}
+    </Box>
   </Container>
 );
 
