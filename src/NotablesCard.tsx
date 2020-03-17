@@ -8,16 +8,12 @@ interface Notable {
   keystone?: boolean;
 }
 
-const Wrapper = styled.div<{ keystone?: boolean }>(
-  {
-    display: "flex",
-    padding: "8px",
-    backgroundColor: "#111"
-  },
-  ({ keystone }) => ({
-    flex: keystone ? "1 1 100%" : "1 1 30%"
-  })
-);
+const Wrapper = styled.div<{ keystone?: boolean }>({
+  display: "flex",
+  padding: "8px",
+  backgroundColor: "#111",
+  border: "1px solid #222"
+});
 
 const TextContainer = styled.div({
   display: "flex",
@@ -39,13 +35,30 @@ const Description = styled.p({
 });
 
 const Icon = styled.div<{ keystone?: boolean; icon: string }>(
-  { backgroundSize: "cover" },
+  {
+    backgroundSize: "cover",
+    flexShrink: 0,
+    flexGrow: 0,
+    position: "relative",
+    backgroundColor: "#222",
+    ":after": {
+      display: "block",
+      content: `""`,
+      position: "absolute",
+      top: 0,
+      left: 0,
+      right: 0,
+      bottom: 0,
+      border: "1px solid rgba(255, 255, 255, 0.7)",
+      mixBlendMode: "overlay"
+    }
+  },
   ({ icon }) => ({
     backgroundImage: `url(${process.env.PUBLIC_URL}${icon})`
   }),
   ({ keystone }) => ({
-    width: keystone ? "64px" : "32px",
-    height: keystone ? "64px" : "32px"
+    width: keystone ? "64px" : "48px",
+    height: keystone ? "64px" : "48px"
   })
 );
 
@@ -54,7 +67,7 @@ const NotableCard = ({
 }: {
   notable: Notable;
 }) => (
-  <Wrapper keystone={keystone}>
+  <Wrapper>
     <Icon icon={icon} keystone={keystone} />
     <TextContainer>
       <Title>{name}</Title>
