@@ -8,11 +8,13 @@ import {
   Link,
   useLocation
 } from "react-router-dom";
+import AllJewels from "./AllJewels";
 
 const OuterWrapper = styled.div({
   overflow: "hidden",
   height: "100vh",
-  width: "100vw"
+  width: "100vw",
+  backgroundColor: "#555"
 });
 
 const Container = styled.div({
@@ -29,6 +31,7 @@ const Container = styled.div({
 
 const Box = styled.div({
   backgroundColor: "black",
+  color: "white",
   display: "flex",
   flexDirection: "column",
   overflow: "hidden"
@@ -36,14 +39,25 @@ const Box = styled.div({
 
 const TabsContainer = styled.div({
   borderBottom: "1px solid orange",
-  display: "flex"
+  display: "flex",
+  position: "relative",
+  ":before": {
+    content: `""`,
+    bottom: "0",
+    width: "100%",
+    display: "block",
+    height: "1px",
+    position: "absolute",
+    backgroundColor: "#000"
+  }
 });
 
 const Tab = styled(Link)<{ active: Boolean }>(
   {
     marginRight: "4px",
     textDecoration: "none",
-    padding: "8px"
+    padding: "8px",
+    zIndex: 1
   },
   ({ active }) => ({
     backgroundColor: active ? "orange" : "#000",
@@ -74,7 +88,9 @@ const App = () => (
         <Box>
           <Switch>
             <Route path="/notable/:id">single notable</Route>
-            <Route path="/jewels">sort by jewels</Route>
+            <Route path="/jewels">
+              <AllJewels />
+            </Route>
             <Route>
               <AllNotables />
             </Route>

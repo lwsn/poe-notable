@@ -1,16 +1,9 @@
 import React, { useState, useRef, useEffect } from "react";
 import styled from "@emotion/styled";
-import Notables from "./Notables.json";
+import Notables from "./Notables";
 import NotableCard from "./NotablesCard";
 import Fuse from "fuse.js";
 import { useLocation, useHistory } from "react-router-dom";
-
-interface Notable {
-  name: string;
-  description: string | string[];
-  icon: string;
-  keystone?: boolean;
-}
 
 const Container = styled.div<{ single?: boolean }>({
   display: "grid",
@@ -36,9 +29,40 @@ const OuterWrapper = styled.div({
 });
 
 const Input = styled.input({
+  padding: "12px 16px",
+  fontSize: "16px",
+  flexGrow: 1,
+  border: "none"
+});
+
+const InputWrapper = styled.div({
+  display: "flex",
+  background: "#FFF",
   margin: "0 0 16px",
-  padding: "8px",
-  fontSize: "16px"
+  alignItems: "center"
+});
+
+const Clear = styled.button({
+  ":focus": { outline: "none" },
+  background: "none",
+  border: "none",
+  padding: "0 24px 0 27px",
+  height: "100%",
+  position: "relative",
+  display: "flex",
+  flexDirection: "row-reverse",
+  alignItems: "center",
+  ":after, :before": {
+    content: `""`,
+    display: "block",
+    width: "3px",
+    height: "24px",
+    background: "#777",
+    transform: "rotateZ(45deg)",
+    borderRadius: "2px",
+    marginLeft: "-3px"
+  },
+  ":before": { transform: "rotateZ(-45deg)" }
 });
 
 const More = styled.div({
@@ -49,7 +73,7 @@ const formattedNotables = Notables.map(n => ({ item: n }));
 
 const maxNotables = 30;
 
-const getParams = (search: String) =>
+const getParams = (search: string) =>
   search
     .slice(1)
     .split("&")
@@ -59,26 +83,26 @@ const getParams = (search: String) =>
     );
 
 const List = React.memo(
-  ({ term }: { term: String }) => {
+  ({ term }: { term: string }) => {
     const { current: fuse } = useRef(
-      new Fuse<{ item: Notable }[], {}>(Notables, {
-        threshold: 0.4,
+      new Fuse(Notables, {
+        threshold: 0.15,
+        distance: 1000,
+        includeScore: true,
         keys: [
           {
             name: "description",
-            weight: 0.3
+            weight: 0.5
           },
           {
             name: "name",
-            weight: 0.7
+            weight: 0.5
           }
         ]
       })
     );
 
-    const result: { item: Notable }[] = term
-      ? fuse.search(term)
-      : formattedNotables;
+    const result = term ? fuse.search(term) : formattedNotables;
 
     const rest = result.length - maxNotables;
 
@@ -117,11 +141,15 @@ const AllNotables = () => {
 
   return (
     <OuterWrapper>
-      <Input
-        onChange={({ target: { value } }) => setTerm(value)}
-        value={term}
-        type="text"
-      />
+      <InputWrapper>
+        <Input
+          onChange={({ target: { value } }) => setTerm(value)}
+          value={term}
+          type="text"
+          placeholder="Search notable name or description..."
+        />
+        {term && <Clear onClick={() => setTerm("")} />}
+      </InputWrapper>
       <List term={debouncedTerm} />
     </OuterWrapper>
   );
