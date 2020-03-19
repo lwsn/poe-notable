@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import styled from "@emotion/styled";
 import Jewels from "./Jewels";
 import Notables from "./Notables";
+import NotableCard from "./NotablesCard";
 
 const Container = styled.div({
   display: "grid",
@@ -34,7 +35,8 @@ const Jewel = styled.div({
 const Enchantment = styled.div({
   color: "lightblue",
   lineHeight: "18px",
-  fontSize: "14px"
+  fontSize: "14px",
+  marginRight: "32px"
 });
 
 const OuterWrapper = styled.div({
@@ -48,15 +50,8 @@ const OuterWrapper = styled.div({
 const NotablesContainer = styled.div({
   marginTop: "8px",
   display: "grid",
-  gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
+  gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
   gridGap: "8px"
-});
-
-const NotableCard = styled.div({
-  display: "flex",
-  backgroundColor: "rgba(0,0,0,0.4)",
-  padding: "4px",
-  alignItems: "center"
 });
 
 const ToggleExpand = styled.button<{ expanded?: boolean }>(
@@ -64,13 +59,14 @@ const ToggleExpand = styled.button<{ expanded?: boolean }>(
     position: "absolute",
     top: 0,
     right: 0,
+    left: 0,
     height: "34px",
-    width: "34px",
+    width: "100%",
     border: "none",
-    padding: 0,
+    padding: "0 16px",
     display: "flex",
+    flexDirection: "row-reverse",
     alignItems: "center",
-    justifyContent: "center",
     background: "none",
     cursor: "pointer",
     ":focus": { outline: "none" },
@@ -89,37 +85,6 @@ const ToggleExpand = styled.button<{ expanded?: boolean }>(
       transform: `rotateZ(${expanded ? "225" : "45"}deg)`,
       marginTop: expanded ? "5px" : "-5px"
     }
-  })
-);
-
-const NotableHeader = styled.h4({
-  margin: "0 0 0 8px ",
-  fontSize: "14px"
-});
-
-const NotableIcon = styled.div<{ keystone?: boolean; icon: string }>(
-  {
-    backgroundSize: "cover",
-    flexShrink: 0,
-    flexGrow: 0,
-    position: "relative",
-    backgroundColor: "#222",
-    ":after": {
-      display: "block",
-      content: `""`,
-      position: "absolute",
-      top: 0,
-      left: 0,
-      right: 0,
-      bottom: 0,
-      border: "1px solid rgba(255, 255, 255, 0.7)",
-      mixBlendMode: "overlay"
-    },
-    width: "32px",
-    height: "32px"
-  },
-  ({ icon }) => ({
-    backgroundImage: `url(${process.env.PUBLIC_URL}${icon})`
   })
 );
 
@@ -146,11 +111,8 @@ const SingleJewel = ({
         <NotablesContainer>
           {Notables.filter(({ id }) =>
             notables.some(({ id: nid }) => id === nid)
-          ).map(({ icon, id, name }) => (
-            <NotableCard key={id}>
-              <NotableIcon icon={icon} />
-              <NotableHeader>{name}</NotableHeader>
-            </NotableCard>
+          ).map(notable => (
+            <NotableCard key={notable.id} notable={notable} />
           ))}
         </NotablesContainer>
       )}

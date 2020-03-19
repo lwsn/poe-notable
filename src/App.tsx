@@ -2,13 +2,15 @@ import React from "react";
 import styled from "@emotion/styled";
 import AllNotables from "./AllNotables";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
   Link,
+  Redirect,
   useLocation
 } from "react-router-dom";
 import AllJewels from "./AllJewels";
+import SingleNotable from "./SingleNotable";
 
 const OuterWrapper = styled.div({
   overflow: "hidden",
@@ -70,10 +72,10 @@ const Tabs = () => {
 
   return (
     <TabsContainer>
-      <Tab to="" active={location.pathname === "/"}>
+      <Tab to="/" active={location.pathname === ""}>
         All notables
       </Tab>
-      <Tab to="/jewels" active={location.pathname === "/jewels"}>
+      <Tab to="/jewels" active={location.pathname === "jewels"}>
         Cluster jewels
       </Tab>
     </TabsContainer>
@@ -87,13 +89,16 @@ const App = () => (
         <Tabs />
         <Box>
           <Switch>
-            <Route path="/notable/:id">single notable</Route>
+            <Route path="/notable/:id">
+              <SingleNotable />
+            </Route>
             <Route path="/jewels">
               <AllJewels />
             </Route>
-            <Route>
+            <Route exact path="/">
               <AllNotables />
             </Route>
+            <Redirect to="/" />
           </Switch>
         </Box>
       </Container>

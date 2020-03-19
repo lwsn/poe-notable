@@ -44,6 +44,7 @@ const InputWrapper = styled.div({
 
 const Clear = styled.button({
   ":focus": { outline: "none" },
+  cursor: "pointer",
   background: "none",
   border: "none",
   padding: "0 24px 0 27px",

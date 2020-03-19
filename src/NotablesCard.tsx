@@ -1,18 +1,25 @@
 import React from "react";
 import styled from "@emotion/styled";
+import { Link } from "react-router-dom";
 
 interface Notable {
   name: string;
   description: string | string[];
+  id: string;
   icon: string;
   keystone?: boolean;
 }
 
-const Wrapper = styled.div<{ keystone?: boolean }>({
+const Wrapper = styled(Link)<{ keystone?: boolean }>({
   display: "flex",
   padding: "8px",
   backgroundColor: "#111",
-  border: "1px solid #222"
+  border: "1px solid #222",
+  textDecoration: "none",
+  transition: "background-color 0.3s",
+  ":hover": {
+    backgroundColor: "#1A1A1A"
+  }
 });
 
 const TextContainer = styled.div({
@@ -63,11 +70,11 @@ const Icon = styled.div<{ keystone?: boolean; icon: string }>(
 );
 
 const NotableCard = ({
-  notable: { name, description, icon, keystone }
+  notable: { name, description, icon, keystone, id }
 }: {
   notable: Notable;
 }) => (
-  <Wrapper>
+  <Wrapper to={`/notable/${id}`}>
     <Icon icon={icon} keystone={keystone} />
     <TextContainer>
       <Title>{name}</Title>
