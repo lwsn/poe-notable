@@ -19,7 +19,7 @@ const Container = styled.div({
   }
 });
 
-const JewelHeader = styled.h3({
+const JewelSectionHeader = styled.h3({
   "&:first-of-type": { marginTop: 0 },
   margin: "8px 0 0"
 });
@@ -54,25 +54,20 @@ const NotablesContainer = styled.div({
   gridGap: "8px"
 });
 
-const ToggleExpand = styled.button<{ expanded?: boolean }>(
+const JewelHeader = styled.button<{ expanded?: boolean }>(
   {
-    position: "absolute",
-    top: 0,
-    right: 0,
-    left: 0,
-    height: "34px",
-    width: "100%",
+    position: "relative",
     border: "none",
-    padding: "0 16px",
     display: "flex",
-    flexDirection: "row-reverse",
-    alignItems: "center",
+    flexDirection: "column",
     background: "none",
     cursor: "pointer",
     ":focus": { outline: "none" },
     ":after": {
       content: `""`,
+      position: "absolute",
       display: "block",
+      right: "4px",
       width: 0,
       height: 0,
       border: "4px solid transparent",
@@ -83,7 +78,7 @@ const ToggleExpand = styled.button<{ expanded?: boolean }>(
   ({ expanded }) => ({
     ":after": {
       transform: `rotateZ(${expanded ? "225" : "45"}deg)`,
-      marginTop: expanded ? "5px" : "-5px"
+      top: expanded ? "5px" : 0
     }
   })
 );
@@ -97,16 +92,14 @@ const SingleJewel = ({
 
   return (
     <Jewel>
-      <ToggleExpand
-        onClick={() => setExpanded(!expanded)}
-        expanded={expanded}
-      />
-      {typeof enchantment === "string" ? (
-        <Enchantment>{enchantment}</Enchantment>
-      ) : (
-        Array.isArray(enchantment) &&
-        enchantment.map(e => <Enchantment>{e}</Enchantment>)
-      )}
+      <JewelHeader onClick={() => setExpanded(!expanded)} expanded={expanded}>
+        {typeof enchantment === "string" ? (
+          <Enchantment>{enchantment}</Enchantment>
+        ) : (
+          Array.isArray(enchantment) &&
+          enchantment.map(e => <Enchantment>{e}</Enchantment>)
+        )}
+      </JewelHeader>
       {expanded && (
         <NotablesContainer>
           {Notables.filter(({ id }) =>
@@ -132,11 +125,11 @@ const AllJewels = () => {
   return (
     <OuterWrapper>
       <Container>
-        <JewelHeader>Large</JewelHeader>
+        <JewelSectionHeader>Large</JewelSectionHeader>
         <JewelSection jewels={Jewels.filter(({ size }) => size === "large")} />
-        <JewelHeader>Medium</JewelHeader>
+        <JewelSectionHeader>Medium</JewelSectionHeader>
         <JewelSection jewels={Jewels.filter(({ size }) => size === "medium")} />
-        <JewelHeader>Small</JewelHeader>
+        <JewelSectionHeader>Small</JewelSectionHeader>
         <JewelSection jewels={Jewels.filter(({ size }) => size === "small")} />
       </Container>
     </OuterWrapper>
