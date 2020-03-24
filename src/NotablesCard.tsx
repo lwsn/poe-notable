@@ -81,7 +81,9 @@ const NotableCard = ({
       {typeof description === "string" ? (
         <Description>{description}</Description>
       ) : (
-        description.map(text => <Description>{text}</Description>)
+        description.map((text, key) => (
+          <Description key={key}>{text}</Description>
+        ))
       )}
     </TextContainer>
   </Wrapper>

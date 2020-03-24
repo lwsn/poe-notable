@@ -54,16 +54,16 @@ const TabsContainer = styled.div({
   }
 });
 
-const Tab = styled(Link)<{ active: Boolean }>(
+const Tab = styled(Link)<{ isActive: Boolean }>(
   {
     marginRight: "4px",
     textDecoration: "none",
     padding: "8px",
     zIndex: 1
   },
-  ({ active }) => ({
-    backgroundColor: active ? "orange" : "#000",
-    color: active ? "#000" : "orange"
+  ({ isActive }) => ({
+    backgroundColor: isActive ? "orange" : "#000",
+    color: isActive ? "#000" : "orange"
   })
 );
 
@@ -72,10 +72,10 @@ const Tabs = () => {
 
   return (
     <TabsContainer>
-      <Tab to="/" active={location.pathname === ""}>
+      <Tab to="/" isActive={location.pathname === "/"}>
         All notables
       </Tab>
-      <Tab to="/jewels" active={location.pathname === "jewels"}>
+      <Tab to="/jewels" isActive={location.pathname === "/jewels"}>
         Cluster jewels
       </Tab>
     </TabsContainer>
