@@ -83,12 +83,19 @@ const JewelHeader = styled.button<{ expanded?: boolean }>(
   })
 );
 
-const SingleJewel = ({
+export const SingleJewel = ({
   jewel: { enchantment, notables }
 }: {
   jewel: typeof Jewels[0];
 }) => {
   const [expanded, setExpanded] = useState(false);
+
+  const suffixWeight = notables
+    .filter(({ affix }) => affix === "Suffix")
+    .reduce((acc, { weight }) => acc + weight, 0);
+  const prefixWeight = notables
+    .filter(({ affix }) => affix === "Prefix")
+    .reduce((acc, { weight }) => acc + weight, 0);
 
   return (
     <Jewel>
@@ -97,16 +104,34 @@ const SingleJewel = ({
           <Enchantment>{enchantment}</Enchantment>
         ) : (
           Array.isArray(enchantment) &&
-          enchantment.map(e => <Enchantment>{e}</Enchantment>)
+          enchantment.map((e, key) => <Enchantment key={key}>{e}</Enchantment>)
         )}
       </JewelHeader>
       {expanded && (
         <NotablesContainer>
           {Notables.filter(({ id }) =>
             notables.some(({ id: nid }) => id === nid)
-          ).map(notable => (
-            <NotableCard key={notable.id} notable={notable} />
-          ))}
+          ).map(notable => {
+            const { weight, affix } =
+              notables.find(({ id: nid }) => nid === notable.id) || {};
+
+            const probability = weight
+              ? (
+                  weight / (affix === "Prefix" ? prefixWeight : suffixWeight)
+                ).toLocaleString("en-us", {
+                  style: "percent",
+                  maximumFractionDigits: 2
+                })
+              : undefined;
+
+            return (
+              <NotableCard
+                key={notable.id}
+                notable={notable}
+                probability={`${affix}: ${probability}`}
+              />
+            );
+          })}
         </NotablesContainer>
       )}
     </Jewel>

@@ -2122,6 +2122,7 @@ export default [
     ]
   },
   {
+    id: "life",
     size: "small",
     enchantment: "4% increased maximum Life",
     notables: [
@@ -2229,6 +2230,7 @@ export default [
     ]
   },
   {
+    id: "energyshield",
     size: "small",
     enchantment: "6% increased maximum Energy Shield",
     notables: [
@@ -2285,6 +2287,7 @@ export default [
     ]
   },
   {
+    id: "mana",
     size: "small",
     enchantment: "6% increased maximum Mana",
     notables: [
@@ -2347,6 +2350,7 @@ export default [
     ]
   },
   {
+    id: "armour",
     size: "small",
     enchantment: "15% increased Armour",
     notables: [
@@ -2398,6 +2402,7 @@ export default [
     ]
   },
   {
+    id: "evasion",
     size: "small",
     enchantment: "15% increased Evasion Rating",
     notables: [
@@ -2436,6 +2441,7 @@ export default [
     ]
   },
   {
+    id: "blockattack",
     size: "small",
     enchantment: "1% Chance to Block Attack Damage",
     notables: [
@@ -2512,6 +2518,7 @@ export default [
     ]
   },
   {
+    id: "blockspell",
     size: "small",
     enchantment: "1% Chance to Block Spell Damage",
     notables: [
@@ -2588,6 +2595,7 @@ export default [
     ]
   },
   {
+    id: "fireresistance",
     size: "small",
     enchantment: "+15% to Fire Resistance",
     notables: [
@@ -2650,6 +2658,7 @@ export default [
     ]
   },
   {
+    id: "coldresistance",
     size: "small",
     enchantment: "+15% to Cold Resistance",
     notables: [
@@ -2696,6 +2705,7 @@ export default [
     ]
   },
   {
+    id: "lightningresistance",
     size: "small",
     enchantment: "+15% to Lightning Resistance",
     notables: [
@@ -2742,6 +2752,7 @@ export default [
     ]
   },
   {
+    id: "chaosresistance",
     size: "small",
     enchantment: "+12% to Chaos Resistance",
     notables: [
@@ -2774,6 +2785,7 @@ export default [
     ]
   },
   {
+    id: "dodgeattack",
     size: "small",
     enchantment: "1% chance to Dodge Attack Hits",
     notables: [
@@ -2793,6 +2805,97 @@ export default [
         id: "darting-movements"
       },
       { weight: 294, affix: "Prefix", name: "No Witnesses", id: "no-witnesses" }
+    ]
+  },
+  {
+    id: "kitavas-teachings",
+    size: "small",
+    enchantment: "Kitava's Teachings",
+    notables: [
+      {
+        weight: 1,
+        affix: "Prefix",
+        name: "Disciple of Kitava",
+        id: "disciple-of-kitava"
+      }
+    ]
+  },
+  {
+    id: "calamitous-visions",
+    size: "small",
+    enchantment: "Calamitous Visions",
+    notables: [
+      {
+        weight: 1,
+        affix: "Prefix",
+        name: "Lone Messenger",
+        id: "lone-messenger"
+      }
+    ]
+  },
+  {
+    id: "natural-affinity",
+    size: "small",
+    enchantment: "Natural Affinity",
+    notables: [
+      {
+        weight: 1,
+        affix: "Prefix",
+        name: "Nature's Patience",
+        id: "natures-patience"
+      }
+    ]
+  },
+  {
+    id: "the-interrogation",
+    size: "small",
+    enchantment: "The Interrogation",
+    notables: [
+      {
+        weight: 1,
+        affix: "Prefix",
+        name: "Secrets of Suffering",
+        id: "secrets-of-suffering"
+      }
+    ]
+  },
+  {
+    id: "the-siege",
+    size: "small",
+    enchantment: "The Siege",
+    notables: [
+      {
+        weight: 1,
+        affix: "Prefix",
+        name: "Kineticism",
+        id: "kineticism"
+      }
+    ]
+  },
+  {
+    id: "the-front-line",
+    size: "small",
+    enchantment: "The Front Line",
+    notables: [
+      {
+        weight: 1,
+        affix: "Prefix",
+        name: "Veteran's Awareness",
+        id: "veterans-awareness"
+      }
+    ]
+  },
+  {
+    id: "one-with-nothing",
+    size: "small",
+    enchantment: "One With Nothing",
+    notables: [
+      {
+        weight: 1,
+        affix: "Prefix",
+        name: "Hollow Palm Technique",
+        id: "hollow-palm-technique"
+      }
     ]
   }
 ];

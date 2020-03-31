@@ -25,6 +25,7 @@ const Wrapper = styled(Link)<{ keystone?: boolean }>({
 const TextContainer = styled.div({
   display: "flex",
   flexDirection: "column",
+  flexGrow: 1,
   color: "white",
   marginLeft: "8px"
 });
@@ -39,6 +40,16 @@ const Description = styled.p({
   fontSize: "12px",
   lineHeight: "16px",
   margin: "0 0 4px"
+});
+
+const Probability = styled.p({
+  fontSize: "11px",
+  lineHeight: "14px",
+  fontStyle: "italic",
+  textAlign: "right",
+  width: "100%",
+  marginTop: "auto",
+  marginBottom: 0
 });
 
 const Icon = styled.div<{ keystone?: boolean; icon: string }>(
@@ -70,9 +81,11 @@ const Icon = styled.div<{ keystone?: boolean; icon: string }>(
 );
 
 const NotableCard = ({
-  notable: { name, description, icon, keystone, id }
+  notable: { name, description, icon, keystone, id },
+  probability
 }: {
   notable: Notable;
+  probability?: string;
 }) => (
   <Wrapper to={`/notable/${id}`}>
     <Icon icon={icon} keystone={keystone} />
@@ -85,6 +98,7 @@ const NotableCard = ({
           <Description key={key}>{text}</Description>
         ))
       )}
+      {probability && <Probability>{probability}</Probability>}
     </TextContainer>
   </Wrapper>
 );
