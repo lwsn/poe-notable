@@ -37,8 +37,6 @@ const Notable = () => {
     notables.some(({ id: nid }) => nid === id)
   );
 
-  console.log(appearsOn);
-
   return notable ? (
     <Container>
       <NotableCard notable={notable} />
