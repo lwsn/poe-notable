@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/poe-notable/static/css/main.88c025de.chunk.css",
-    "main.js": "/poe-notable/static/js/main.0c23034a.chunk.js",
-    "main.js.map": "/poe-notable/static/js/main.0c23034a.chunk.js.map",
+    "main.js": "/poe-notable/static/js/main.0f35d32b.chunk.js",
+    "main.js.map": "/poe-notable/static/js/main.0f35d32b.chunk.js.map",
     "runtime-main.js": "/poe-notable/static/js/runtime-main.f827873d.js",
     "runtime-main.js.map": "/poe-notable/static/js/runtime-main.f827873d.js.map",
     "static/js/2.3481c4f1.chunk.js": "/poe-notable/static/js/2.3481c4f1.chunk.js",
     "static/js/2.3481c4f1.chunk.js.map": "/poe-notable/static/js/2.3481c4f1.chunk.js.map",
     "index.html": "/poe-notable/index.html",
-    "precache-manifest.79ab2efb8d023e8510bbedf14a0b40c5.js": "/poe-notable/precache-manifest.79ab2efb8d023e8510bbedf14a0b40c5.js",
+    "precache-manifest.6979acd6ba0c13f2bbb39befe4a4809c.js": "/poe-notable/precache-manifest.6979acd6ba0c13f2bbb39befe4a4809c.js",
     "service-worker.js": "/poe-notable/service-worker.js",
     "static/css/main.88c025de.chunk.css.map": "/poe-notable/static/css/main.88c025de.chunk.css.map",
     "static/js/2.3481c4f1.chunk.js.LICENSE.txt": "/poe-notable/static/js/2.3481c4f1.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.f827873d.js",
     "static/js/2.3481c4f1.chunk.js",
     "static/css/main.88c025de.chunk.css",
-    "static/js/main.0c23034a.chunk.js"
+    "static/js/main.0f35d32b.chunk.js"
   ]
 }
