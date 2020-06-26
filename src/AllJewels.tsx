@@ -102,10 +102,10 @@ const SingleJewel = ({
       </JewelHeader>
       {expanded && (
         <NotablesContainer>
-          {Notables.filter(({ id }) =>
-            notables.some(({ id: nid }) => id === nid)
+          {Notables.filter(({ skill }) =>
+            notables.some(({ skill: nskill }) => skill === nskill)
           ).map(notable => (
-            <NotableCard key={notable.id} notable={notable} />
+            <NotableCard key={notable.skill} notable={notable} />
           ))}
         </NotablesContainer>
       )}

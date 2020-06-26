@@ -1,0 +1,545 @@
+{
+  "44237": [
+    "affliction_attack_damage_while_holding_a_shield",
+    "affliction_chance_to_block"
+  ],
+  "35790": ["affliction_attack_damage_while_holding_a_shield"],
+  "12806": [
+    "affliction_attack_damage_while_holding_a_shield",
+    "affliction_chance_to_block"
+  ],
+  "28384": ["affliction_chance_to_block"],
+  "9042": ["affliction_chance_to_block"],
+  "28398": [
+    "affliction_attack_damage_while_holding_a_shield",
+    "affliction_critical_chance"
+  ],
+  "23989": ["affliction_attack_damage_while_holding_a_shield"],
+  "28015": ["affliction_physical_damage"],
+  "2796": ["affliction_physical_damage"],
+  "28635": [
+    "affliction_attack_damage_",
+    "affliction_axe_and_sword_damage",
+    "affliction_mace_and_staff_damage",
+    "affliction_dagger_and_claw_damage",
+    "affliction_bow_damage",
+    "affliction_wand_damage",
+    "affliction_damage_with_two_handed_melee_weapons",
+    "affliction_attack_damage_while_dual_wielding_",
+    "affliction_attack_damage_while_holding_a_shield"
+  ],
+  "62634": ["affliction_aura_effect"],
+  "29540": ["affliction_aura_effect"],
+  "47393": ["affliction_aura_effect"],
+  "51870": [
+    "affliction_aura_effect",
+    "affliction_damage_while_you_have_a_herald",
+    "affliction_minion_damage_while_you_have_a_herald"
+  ],
+  "58221": ["affliction_aura_effect", "affliction_critical_chance"],
+  "59350": [
+    "affliction_aura_effect",
+    "affliction_lightning_resistance",
+    "affliction_cold_resistance",
+    "affliction_fire_resistance"
+  ],
+  "32259": ["affliction_aura_effect", "affliction_fire_resistance"],
+  "31333": ["affliction_aura_effect", "affliction_cold_resistance"],
+  "907": ["affliction_aura_effect", "affliction_lightning_resistance"],
+  "61616": [
+    "affliction_aura_effect",
+    "affliction_armour",
+    "affliction_evasion",
+    "affliction_maximum_energy_shield"
+  ],
+  "28338": [
+    "affliction_aura_effect",
+    "affliction_elemental_damage",
+    "affliction_lightning_damage",
+    "affliction_cold_damage",
+    "affliction_fire_damage"
+  ],
+  "63142": ["affliction_critical_chance"],
+  "38633": ["affliction_critical_chance"],
+  "2977": ["affliction_critical_chance", "affliction_chaos_damage"],
+  "60617": ["affliction_critical_chance", "affliction_area_damage"],
+  "25966": ["affliction_critical_chance"],
+  "51541": [
+    "affliction_critical_chance",
+    "affliction_fire_damage_over_time_multiplier",
+    "affliction_effect_of_non-damaging_ailments"
+  ],
+  "44544": ["affliction_critical_chance"],
+  "23238": ["affliction_critical_chance"],
+  "12149": ["affliction_area_damage"],
+  "63969": ["affliction_area_damage"],
+  "11661": ["affliction_area_damage"],
+  "48550": [
+    "affliction_area_damage",
+    "affliction_damage_with_two_handed_melee_weapons"
+  ],
+  "63607": ["affliction_area_damage", "affliction_maximum_life"],
+  "31440": ["affliction_totem_damage"],
+  "57212": ["affliction_totem_damage"],
+  "60864": ["affliction_totem_damage"],
+  "56686": ["affliction_totem_damage"],
+  "2004": ["affliction_totem_damage"],
+  "57383": ["affliction_totem_damage"],
+  "54209": ["affliction_totem_damage"],
+  "13950": ["affliction_totem_damage", "affliction_spell_damage"],
+  "54382": ["affliction_channelling_skill_damage"],
+  "45935": ["affliction_channelling_skill_damage"],
+  "38275": ["affliction_channelling_skill_damage"],
+  "46264": ["affliction_channelling_skill_damage"],
+  "55714": ["affliction_channelling_skill_damage"],
+  "35363": [
+    "affliction_channelling_skill_damage",
+    "affliction_chance_to_block"
+  ],
+  "65117": ["affliction_channelling_skill_damage"],
+  "15990": ["affliction_spell_damage"],
+  "56886": [
+    "affliction_flask_duration",
+    "affliction_life_and_mana_recovery_from_flasks"
+  ],
+  "25282": [
+    "affliction_flask_duration",
+    "affliction_life_and_mana_recovery_from_flasks"
+  ],
+  "5075": [
+    "affliction_flask_duration",
+    "affliction_life_and_mana_recovery_from_flasks"
+  ],
+  "47584": [
+    "affliction_flask_duration",
+    "affliction_life_and_mana_recovery_from_flasks"
+  ],
+  "62707": [
+    "affliction_flask_duration",
+    "affliction_life_and_mana_recovery_from_flasks"
+  ],
+  "28744": ["affliction_warcry_buff_effect"],
+  "17816": ["affliction_warcry_buff_effect"],
+  "6696": ["affliction_warcry_buff_effect"],
+  "36655": ["affliction_warcry_buff_effect"],
+  "33182": ["affliction_warcry_buff_effect", "affliction_critical_chance"],
+  "7107": ["affliction_warcry_buff_effect"],
+  "29450": ["affliction_warcry_buff_effect"],
+  "39006": ["affliction_axe_and_sword_damage"],
+  "58189": ["affliction_axe_and_sword_damage"],
+  "60894": [
+    "affliction_axe_and_sword_damage",
+    "affliction_physical_damage_over_time_multiplier"
+  ],
+  "13054": ["affliction_mace_and_staff_damage"],
+  "48925": ["affliction_mace_and_staff_damage", "affliction_area_damage"],
+  "4205": ["affliction_mace_and_staff_damage"],
+  "39738": ["affliction_dagger_and_claw_damage"],
+  "57141": ["affliction_dagger_and_claw_damage"],
+  "7343": ["affliction_bow_damage"],
+  "38563": ["affliction_bow_damage"],
+  "20834": ["affliction_bow_damage"],
+  "33002": ["affliction_wand_damage"],
+  "41056": ["affliction_wand_damage"],
+  "18463": ["affliction_damage_with_two_handed_melee_weapons"],
+  "14431": ["affliction_damage_with_two_handed_melee_weapons"],
+  "61474": ["affliction_damage_with_two_handed_melee_weapons"],
+  "42687": ["affliction_damage_with_two_handed_melee_weapons"],
+  "6553": ["affliction_damage_with_two_handed_melee_weapons"],
+  "20996": ["affliction_damage_with_two_handed_melee_weapons"],
+  "24484": ["affliction_attack_damage_while_dual_wielding_"],
+  "62618": [
+    "affliction_attack_damage_while_dual_wielding_",
+    "affliction_chance_to_dodge_attacks"
+  ],
+  "23232": ["affliction_attack_damage_while_dual_wielding_"],
+  "24889": [
+    "affliction_attack_damage_while_dual_wielding_",
+    "affliction_chance_to_block"
+  ],
+  "2655": ["affliction_attack_damage_while_dual_wielding_"],
+  "1478": ["affliction_attack_damage_while_dual_wielding_"],
+  "39058": ["affliction_attack_damage_while_dual_wielding_"],
+  "41594": [
+    "affliction_attack_damage_",
+    "affliction_axe_and_sword_damage",
+    "affliction_mace_and_staff_damage",
+    "affliction_dagger_and_claw_damage",
+    "affliction_bow_damage",
+    "affliction_wand_damage",
+    "affliction_damage_with_two_handed_melee_weapons",
+    "affliction_attack_damage_while_dual_wielding_",
+    "affliction_attack_damage_while_holding_a_shield"
+  ],
+  "22581": [
+    "affliction_attack_damage_",
+    "affliction_axe_and_sword_damage",
+    "affliction_mace_and_staff_damage",
+    "affliction_dagger_and_claw_damage",
+    "affliction_bow_damage",
+    "affliction_wand_damage",
+    "affliction_damage_with_two_handed_melee_weapons",
+    "affliction_attack_damage_while_dual_wielding_",
+    "affliction_attack_damage_while_holding_a_shield"
+  ],
+  "14518": [
+    "affliction_attack_damage_",
+    "affliction_axe_and_sword_damage",
+    "affliction_mace_and_staff_damage",
+    "affliction_dagger_and_claw_damage",
+    "affliction_bow_damage",
+    "affliction_wand_damage",
+    "affliction_damage_with_two_handed_melee_weapons",
+    "affliction_attack_damage_while_dual_wielding_",
+    "affliction_attack_damage_while_holding_a_shield"
+  ],
+  "41284": [
+    "affliction_attack_damage_",
+    "affliction_axe_and_sword_damage",
+    "affliction_mace_and_staff_damage",
+    "affliction_dagger_and_claw_damage",
+    "affliction_bow_damage",
+    "affliction_wand_damage",
+    "affliction_damage_with_two_handed_melee_weapons",
+    "affliction_attack_damage_while_dual_wielding_",
+    "affliction_attack_damage_while_holding_a_shield"
+  ],
+  "26197": [
+    "affliction_attack_damage_",
+    "affliction_axe_and_sword_damage",
+    "affliction_mace_and_staff_damage",
+    "affliction_dagger_and_claw_damage",
+    "affliction_bow_damage",
+    "affliction_wand_damage",
+    "affliction_damage_with_two_handed_melee_weapons",
+    "affliction_attack_damage_while_dual_wielding_",
+    "affliction_attack_damage_while_holding_a_shield"
+  ],
+  "1066": ["affliction_spell_damage"],
+  "784": ["affliction_spell_damage"],
+  "20533": ["affliction_spell_damage"],
+  "34205": ["affliction_spell_damage"],
+  "5190": ["affliction_spell_damage"],
+  "42117": [
+    "affliction_elemental_damage",
+    "affliction_lightning_damage",
+    "affliction_cold_damage",
+    "affliction_fire_damage"
+  ],
+  "2306": [
+    "affliction_elemental_damage",
+    "affliction_lightning_damage",
+    "affliction_cold_damage",
+    "affliction_fire_damage"
+  ],
+  "17050": [
+    "affliction_elemental_damage",
+    "affliction_lightning_damage",
+    "affliction_cold_damage",
+    "affliction_fire_damage",
+    "affliction_lightning_resistance",
+    "affliction_cold_resistance",
+    "affliction_fire_resistance"
+  ],
+  "33482": [
+    "affliction_fire_damage",
+    "affliction_fire_damage_over_time_multiplier"
+  ],
+  "13790": [
+    "affliction_fire_damage",
+    "affliction_fire_damage_over_time_multiplier"
+  ],
+  "56696": [
+    "affliction_fire_damage",
+    "affliction_fire_damage_over_time_multiplier"
+  ],
+  "40870": ["affliction_lightning_damage", "affliction_cold_damage"],
+  "22607": ["affliction_lightning_damage"],
+  "31825": ["affliction_lightning_damage"],
+  "59646": ["affliction_lightning_damage"],
+  "6258": ["affliction_cold_damage"],
+  "54436": ["affliction_cold_damage"],
+  "49273": ["affliction_chaos_damage"],
+  "38592": [
+    "affliction_chaos_damage",
+    "affliction_chaos_damage_over_time_multiplier"
+  ],
+  "40828": [
+    "affliction_chaos_damage",
+    "affliction_chaos_damage_over_time_multiplier"
+  ],
+  "34595": [
+    "affliction_chaos_damage",
+    "affliction_chaos_damage_over_time_multiplier"
+  ],
+  "58949": ["affliction_minion_damage", "affliction_minion_life"],
+  "6703": ["affliction_minion_damage"],
+  "16650": ["affliction_minion_damage"],
+  "11535": ["affliction_minion_damage"],
+  "68": ["affliction_minion_life"],
+  "29748": ["affliction_fire_damage_over_time_multiplier"],
+  "45128": ["affliction_fire_damage_over_time_multiplier"],
+  "408": ["affliction_fire_damage_over_time_multiplier"],
+  "56065": [
+    "affliction_fire_damage_over_time_multiplier",
+    "affliction_fire_damage"
+  ],
+  "10952": ["affliction_fire_damage_over_time_multiplier"],
+  "4942": ["affliction_physical_damage_over_time_multiplier"],
+  "8258": ["affliction_physical_damage_over_time_multiplier"],
+  "42338": ["affliction_physical_damage_over_time_multiplier"],
+  "37384": ["affliction_physical_damage_over_time_multiplier"],
+  "38399": ["affliction_chaos_damage_over_time_multiplier"],
+  "36370": ["affliction_chaos_damage_over_time_multiplier"],
+  "47424": [
+    "affliction_chaos_damage_over_time_multiplier",
+    "affliction_physical_damage_over_time_multiplier"
+  ],
+  "11995": ["affliction_chaos_damage_over_time_multiplier"],
+  "61043": [
+    "affliction_chaos_damage_over_time_multiplier",
+    "affliction_maximum_mana"
+  ],
+  "19686": [
+    "affliction_damage_over_time_multiplier",
+    "affliction_cold_damage_over_time_multiplier",
+    "affliction_physical_damage_over_time_multiplier",
+    "affliction_fire_damage_over_time_multiplier",
+    "affliction_chaos_damage_over_time_multiplier"
+  ],
+  "56879": [
+    "affliction_damage_over_time_multiplier",
+    "affliction_cold_damage_over_time_multiplier",
+    "affliction_physical_damage_over_time_multiplier",
+    "affliction_fire_damage_over_time_multiplier",
+    "affliction_chaos_damage_over_time_multiplier",
+    "affliction_critical_chance"
+  ],
+  "34581": [
+    "affliction_damage_over_time_multiplier",
+    "affliction_cold_damage_over_time_multiplier",
+    "affliction_physical_damage_over_time_multiplier",
+    "affliction_fire_damage_over_time_multiplier",
+    "affliction_chaos_damage_over_time_multiplier",
+    "affliction_maximum_life"
+  ],
+  "56070": [
+    "affliction_damage_over_time_multiplier",
+    "affliction_cold_damage_over_time_multiplier",
+    "affliction_physical_damage_over_time_multiplier",
+    "affliction_fire_damage_over_time_multiplier",
+    "affliction_chaos_damage_over_time_multiplier",
+    "affliction_chaos_resistance"
+  ],
+  "28146": [
+    "affliction_damage_over_time_multiplier",
+    "affliction_cold_damage_over_time_multiplier",
+    "affliction_physical_damage_over_time_multiplier",
+    "affliction_fire_damage_over_time_multiplier",
+    "affliction_chaos_damage_over_time_multiplier",
+    "affliction_maximum_life",
+    "affliction_maximum_energy_shield"
+  ],
+  "65110": [
+    "affliction_damage_over_time_multiplier",
+    "affliction_cold_damage_over_time_multiplier",
+    "affliction_physical_damage_over_time_multiplier",
+    "affliction_fire_damage_over_time_multiplier",
+    "affliction_chaos_damage_over_time_multiplier",
+    "affliction_maximum_energy_shield"
+  ],
+  "10355": [
+    "affliction_damage_over_time_multiplier",
+    "affliction_cold_damage_over_time_multiplier",
+    "affliction_physical_damage_over_time_multiplier",
+    "affliction_fire_damage_over_time_multiplier",
+    "affliction_chaos_damage_over_time_multiplier"
+  ],
+  "4094": [
+    "affliction_damage_over_time_multiplier",
+    "affliction_cold_damage_over_time_multiplier",
+    "affliction_physical_damage_over_time_multiplier",
+    "affliction_fire_damage_over_time_multiplier",
+    "affliction_chaos_damage_over_time_multiplier",
+    "affliction_flask_duration"
+  ],
+  "51467": ["affliction_effect_of_non-damaging_ailments"],
+  "25563": ["affliction_effect_of_non-damaging_ailments"],
+  "20343": [
+    "affliction_effect_of_non-damaging_ailments",
+    "affliction_elemental_damage",
+    "affliction_lightning_damage",
+    "affliction_cold_damage"
+  ],
+  "58248": [
+    "affliction_effect_of_non-damaging_ailments",
+    "affliction_cold_damage_over_time_multiplier"
+  ],
+  "18861": [
+    "affliction_effect_of_non-damaging_ailments",
+    "affliction_cold_damage",
+    "affliction_cold_damage_over_time_multiplier"
+  ],
+  "35430": ["affliction_lightning_damage"],
+  "37478": [
+    "affliction_effect_of_non-damaging_ailments",
+    "affliction_cold_damage",
+    "affliction_lightning_damage"
+  ],
+  "28682": [
+    "affliction_lightning_damage",
+    "affliction_effect_of_non-damaging_ailments"
+  ],
+  "42305": ["affliction_curse_effect"],
+  "57104": ["affliction_curse_effect"],
+  "61549": ["affliction_curse_effect"],
+  "18624": ["affliction_curse_effect"],
+  "42929": ["affliction_curse_effect"],
+  "14418": ["affliction_curse_effect"],
+  "7279": ["affliction_curse_effect"],
+  "33": ["affliction_curse_effect", "affliction_fire_damage"],
+  "25938": ["affliction_curse_effect", "affliction_cold_damage"],
+  "17662": ["affliction_curse_effect", "affliction_lightning_damage"],
+  "14061": ["affliction_curse_effect", "affliction_chaos_damage"],
+  "42601": ["affliction_curse_effect", "affliction_physical_damage"],
+  "28551": [
+    "affliction_damage_while_you_have_a_herald",
+    "affliction_minion_damage_while_you_have_a_herald"
+  ],
+  "24038": [
+    "affliction_damage_while_you_have_a_herald",
+    "affliction_minion_damage_while_you_have_a_herald"
+  ],
+  "17066": ["affliction_damage_while_you_have_a_herald"],
+  "8897": ["affliction_damage_while_you_have_a_herald"],
+  "61998": ["affliction_damage_while_you_have_a_herald"],
+  "17905": [
+    "affliction_damage_while_you_have_a_herald",
+    "affliction_minion_damage_while_you_have_a_herald"
+  ],
+  "40402": ["affliction_minion_damage_while_you_have_a_herald"],
+  "5781": ["affliction_minion_damage_while_you_have_a_herald"],
+  "24357": ["affliction_minion_damage_while_you_have_a_herald"],
+  "55171": ["affliction_minion_life"],
+  "42126": ["affliction_minion_life"],
+  "62318": ["affliction_minion_life"],
+  "22540": ["affliction_minion_life", "affliction_minion_damage"],
+  "11199": ["affliction_minion_life"],
+  "36645": ["affliction_projectile_damage"],
+  "12400": ["affliction_projectile_damage"],
+  "54170": ["affliction_projectile_damage"],
+  "53285": ["affliction_projectile_damage"],
+  "13812": ["affliction_projectile_damage"],
+  "26839": ["affliction_brand_damage"],
+  "37358": ["affliction_brand_damage"],
+  "59307": ["affliction_brand_damage"],
+  "36276": ["affliction_brand_damage"],
+  "42636": ["affliction_brand_damage"],
+  "13392": ["affliction_brand_damage"],
+  "29193": ["affliction_trap_and_mine_damage"],
+  "54760": ["affliction_trap_and_mine_damage"],
+  "24645": ["affliction_trap_and_mine_damage"],
+  "65138": ["affliction_trap_and_mine_damage"],
+  "52058": ["affliction_trap_and_mine_damage"],
+  "22434": ["affliction_trap_and_mine_damage"],
+  "20383": [
+    "affliction_trap_and_mine_damage",
+    "affliction_maximum_mana",
+    "affliction_maximum_life"
+  ],
+  "8949": ["affliction_maximum_life", "affliction_flask_duration"],
+  "52844": ["affliction_maximum_life"],
+  "15538": ["affliction_maximum_life"],
+  "62706": ["affliction_maximum_life", "affliction_maximum_energy_shield"],
+  "19723": ["affliction_maximum_life"],
+  "49694": ["affliction_maximum_life"],
+  "40858": ["affliction_maximum_life"],
+  "3723": ["affliction_maximum_life"],
+  "12867": ["affliction_maximum_mana"],
+  "4958": ["affliction_maximum_mana", "affliction_flask_duration"],
+  "20968": ["affliction_maximum_mana"],
+  "15175": ["affliction_maximum_mana"],
+  "2220": ["affliction_maximum_mana"],
+  "43834": ["affliction_maximum_mana", "affliction_lightning_damage"],
+  "23884": ["affliction_maximum_mana", "affliction_maximum_life"],
+  "62160": ["affliction_maximum_mana"],
+  "42024": ["affliction_maximum_mana"],
+  "32031": ["affliction_maximum_mana", "affliction_armour"],
+  "52544": ["affliction_maximum_energy_shield"],
+  "20241": ["affliction_maximum_energy_shield"],
+  "33698": ["affliction_maximum_energy_shield", "affliction_maximum_mana"],
+  "64782": ["affliction_maximum_energy_shield"],
+  "11513": ["affliction_maximum_energy_shield"],
+  "39331": ["affliction_maximum_life", "affliction_armour"],
+  "54766": [
+    "affliction_armour",
+    "affliction_lightning_resistance",
+    "affliction_cold_resistance",
+    "affliction_fire_resistance"
+  ],
+  "50820": ["affliction_armour"],
+  "60647": ["affliction_armour", "affliction_chance_to_block"],
+  "14412": ["affliction_armour", "affliction_fire_resistance"],
+  "57572": ["affliction_armour"],
+  "21907": ["affliction_armour", "affliction_aura_effect"],
+  "42313": [
+    "affliction_evasion",
+    "affliction_lightning_resistance",
+    "affliction_cold_resistance",
+    "affliction_fire_resistance"
+  ],
+  "64259": ["affliction_evasion", "affliction_maximum_life"],
+  "22704": ["affliction_evasion", "affliction_chance_to_dodge_attacks"],
+  "46074": ["affliction_evasion"],
+  "9245": ["affliction_evasion"],
+  "60690": ["affliction_evasion", "affliction_aura_effect"],
+  "4641": [
+    "affliction_chance_to_block",
+    "affliction_lightning_resistance",
+    "affliction_cold_resistance",
+    "affliction_fire_resistance"
+  ],
+  "58944": ["affliction_chance_to_block", "affliction_maximum_life"],
+  "34108": ["affliction_chance_to_block", "affliction_maximum_energy_shield"],
+  "11011": ["affliction_chance_to_block", "affliction_maximum_life"],
+  "25450": ["affliction_chance_to_block", "affliction_spell_damage"],
+  "64407": [
+    "affliction_chance_to_block",
+    "affliction_attack_damage_while_holding_a_shield"
+  ],
+  "53067": ["affliction_chance_to_block"],
+  "23042": ["affliction_chance_to_dodge_attacks"],
+  "40181": ["affliction_chance_to_dodge_attacks"],
+  "9276": ["affliction_chance_to_dodge_attacks"],
+  "42530": ["affliction_fire_resistance"],
+  "17769": ["affliction_fire_resistance", "affliction_aura_effect"],
+  "13549": ["affliction_fire_resistance", "affliction_armour"],
+  "38683": ["affliction_cold_resistance"],
+  "19508": ["affliction_cold_resistance"],
+  "26322": ["affliction_cold_resistance", "affliction_aura_effect"],
+  "58904": ["affliction_cold_resistance"],
+  "33676": ["affliction_cold_resistance"],
+  "44203": ["affliction_lightning_resistance", "affliction_maximum_mana"],
+  "22002": ["affliction_lightning_resistance"],
+  "51421": ["affliction_lightning_resistance", "affliction_aura_effect"],
+  "10409": [
+    "affliction_lightning_resistance",
+    "affliction_maximum_mana",
+    "affliction_maximum_life"
+  ],
+  "54798": ["affliction_lightning_resistance"],
+  "51523": ["affliction_chaos_resistance"],
+  "21688": ["affliction_chaos_resistance"],
+  "64717": [
+    "affliction_chaos_resistance",
+    "affliction_maximum_life",
+    "affliction_maximum_mana"
+  ],
+  "26179": [
+    "affliction_chaos_resistance",
+    "affliction_damage_over_time_multiplier",
+    "affliction_physical_damage_over_time_multiplier",
+    "affliction_fire_damage_over_time_multiplier",
+    "affliction_chaos_damage_over_time_multiplier"
+  ]
+}

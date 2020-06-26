@@ -7,58 +7,83 @@ export default [
       "Sword Attacks deal 12% increased Damage with Hits and Ailments"
     ],
     notables: [
-      { weight: 169, affix: "Prefix", name: "Deep Cuts", id: "deep-cuts" },
+      {
+        weight: 169,
+        affix: "Prefix",
+        name: "Deep Cuts",
+        skill: 56760
+      },
       {
         weight: 339,
         affix: "Prefix",
         name: "Vicious Skewering",
-        id: "vicious-skewering"
+        skill: 28635
       },
-      { weight: 169, affix: "Prefix", name: "Bloodscent", id: "bloodscent" },
-      { weight: 339, affix: "Prefix", name: "Run Through", id: "run-through" },
+      {
+        weight: 169,
+        affix: "Prefix",
+        name: "Bloodscent",
+        skill: 39006
+      },
+      {
+        weight: 339,
+        affix: "Prefix",
+        name: "Run Through",
+        skill: 58189
+      },
       {
         weight: 1356,
         affix: "Prefix",
         name: "Wound Aggravation",
-        id: "wound-aggravation"
+        skill: 60894
       },
       {
         weight: 1356,
         affix: "Suffix",
         name: "Smite the Weak",
-        id: "smite-the-weak"
+        skill: 44670
       },
       {
         weight: 678,
         affix: "Suffix",
         name: "Heavy Hitter",
-        id: "heavy-hitter"
+        skill: 38790
       },
       {
         weight: 1356,
         affix: "Suffix",
         name: "Martial Prowess",
-        id: "martial-prowess"
+        skill: 37
       },
-      { weight: 678, affix: "Prefix", name: "Calamitous", id: "calamitous" },
-      { weight: 169, affix: "Prefix", name: "Devastator", id: "devastator" },
+      {
+        weight: 678,
+        affix: "Prefix",
+        name: "Calamitous",
+        skill: 41594
+      },
+      {
+        weight: 169,
+        affix: "Prefix",
+        name: "Devastator",
+        skill: 22581
+      },
       {
         weight: 1356,
         affix: "Prefix",
         name: "Fuel the Fight",
-        id: "fuel-the-fight"
+        skill: 14518
       },
       {
         weight: 1356,
         affix: "Prefix",
         name: "Drive the Destruction",
-        id: "drive-the-destruction"
+        skill: 41284
       },
       {
         weight: 678,
         affix: "Prefix",
         name: "Feed the Fury",
-        id: "feed-the-fury"
+        skill: 26197
       }
     ]
   },
@@ -70,63 +95,83 @@ export default [
       "Staff Attacks deal 12% increased Damage with Hits and Ailments"
     ],
     notables: [
-      { weight: 169, affix: "Prefix", name: "Deep Cuts", id: "deep-cuts" },
+      {
+        weight: 169,
+        affix: "Prefix",
+        name: "Deep Cuts",
+        skill: 56760
+      },
       {
         weight: 339,
         affix: "Prefix",
         name: "Vicious Skewering",
-        id: "vicious-skewering"
+        skill: 28635
       },
-      { weight: 169, affix: "Prefix", name: "Overlord", id: "overlord" },
+      {
+        weight: 169,
+        affix: "Prefix",
+        name: "Overlord",
+        skill: 13054
+      },
       {
         weight: 339,
         affix: "Prefix",
         name: "Expansive Might",
-        id: "expansive-might"
+        skill: 48925
       },
       {
         weight: 1356,
         affix: "Prefix",
         name: "Weight Advantage",
-        id: "weight-advantage"
+        skill: 4205
       },
       {
         weight: 1356,
         affix: "Suffix",
         name: "Smite the Weak",
-        id: "smite-the-weak"
+        skill: 44670
       },
       {
         weight: 678,
         affix: "Suffix",
         name: "Heavy Hitter",
-        id: "heavy-hitter"
+        skill: 38790
       },
       {
         weight: 1356,
         affix: "Suffix",
         name: "Martial Prowess",
-        id: "martial-prowess"
+        skill: 37
       },
-      { weight: 678, affix: "Prefix", name: "Calamitous", id: "calamitous" },
-      { weight: 169, affix: "Prefix", name: "Devastator", id: "devastator" },
+      {
+        weight: 678,
+        affix: "Prefix",
+        name: "Calamitous",
+        skill: 41594
+      },
+      {
+        weight: 169,
+        affix: "Prefix",
+        name: "Devastator",
+        skill: 22581
+      },
       {
         weight: 1356,
         affix: "Prefix",
         name: "Fuel the Fight",
-        id: "fuel-the-fight"
+        skill: 14518
       },
       {
         weight: 1356,
         affix: "Prefix",
         name: "Drive the Destruction",
-        id: "drive-the-destruction"
+        skill: 41284
       },
       {
         weight: 678,
         affix: "Prefix",
         name: "Feed the Fury",
-        id: "feed-the-fury"
+        skill: 26197
       }
     ]
   },
@@ -138,63 +183,83 @@ export default [
       "Claw Attacks deal 12% increased Damage with Hits and Ailments"
     ],
     notables: [
-      { weight: 182, affix: "Prefix", name: "Deep Cuts", id: "deep-cuts" },
+      {
+        weight: 182,
+        affix: "Prefix",
+        name: "Deep Cuts",
+        skill: 56760
+      },
       {
         weight: 364,
         affix: "Prefix",
         name: "Vicious Skewering",
-        id: "vicious-skewering"
+        skill: 28635
       },
-      { weight: 364, affix: "Prefix", name: "Wind-up", id: "wind-up" },
+      {
+        weight: 364,
+        affix: "Prefix",
+        name: "Wind-up",
+        skill: 1067
+      },
       {
         weight: 182,
         affix: "Prefix",
         name: "Fan of Blades",
-        id: "fan-of-blades"
+        skill: 39738
       },
       {
         weight: 727,
         affix: "Prefix",
         name: "Disease Vector",
-        id: "disease-vector"
+        skill: 57141
       },
       {
         weight: 1455,
         affix: "Suffix",
         name: "Smite the Weak",
-        id: "smite-the-weak"
+        skill: 44670
       },
       {
         weight: 727,
         affix: "Suffix",
         name: "Heavy Hitter",
-        id: "heavy-hitter"
+        skill: 38790
       },
       {
         weight: 1455,
         affix: "Suffix",
         name: "Martial Prowess",
-        id: "martial-prowess"
+        skill: 37
       },
-      { weight: 727, affix: "Prefix", name: "Calamitous", id: "calamitous" },
-      { weight: 182, affix: "Prefix", name: "Devastator", id: "devastator" },
+      {
+        weight: 727,
+        affix: "Prefix",
+        name: "Calamitous",
+        skill: 41594
+      },
+      {
+        weight: 182,
+        affix: "Prefix",
+        name: "Devastator",
+        skill: 22581
+      },
       {
         weight: 1455,
         affix: "Prefix",
         name: "Fuel the Fight",
-        id: "fuel-the-fight"
+        skill: 14518
       },
       {
         weight: 1455,
         affix: "Prefix",
         name: "Drive the Destruction",
-        id: "drive-the-destruction"
+        skill: 41284
       },
       {
         weight: 727,
         affix: "Prefix",
         name: "Feed the Fury",
-        id: "feed-the-fury"
+        skill: 26197
       }
     ]
   },
@@ -203,58 +268,83 @@ export default [
     size: "large",
     enchantment: "12% increased Damage with Bows",
     notables: [
-      { weight: 156, affix: "Prefix", name: "Deep Cuts", id: "deep-cuts" },
+      {
+        weight: 156,
+        affix: "Prefix",
+        name: "Deep Cuts",
+        skill: 56760
+      },
       {
         weight: 313,
         affix: "Prefix",
         name: "Vicious Skewering",
-        id: "vicious-skewering"
+        skill: 28635
       },
-      { weight: 625, affix: "Prefix", name: "Arcing Shot", id: "arcing-shot" },
+      {
+        weight: 625,
+        affix: "Prefix",
+        name: "Arcing Shot",
+        skill: 7343
+      },
       {
         weight: 625,
         affix: "Prefix",
         name: "Tempered Arrowheads",
-        id: "tempered-arrowheads"
+        skill: 38563
       },
-      { weight: 1250, affix: "Prefix", name: "Broadside", id: "broadside" },
+      {
+        weight: 1250,
+        affix: "Prefix",
+        name: "Broadside",
+        skill: 20834
+      },
       {
         weight: 1250,
         affix: "Suffix",
         name: "Smite the Weak",
-        id: "smite-the-weak"
+        skill: 44670
       },
       {
         weight: 625,
         affix: "Suffix",
         name: "Heavy Hitter",
-        id: "heavy-hitter"
+        skill: 38790
       },
       {
         weight: 1250,
         affix: "Suffix",
         name: "Martial Prowess",
-        id: "martial-prowess"
+        skill: 37
       },
-      { weight: 625, affix: "Prefix", name: "Calamitous", id: "calamitous" },
-      { weight: 156, affix: "Prefix", name: "Devastator", id: "devastator" },
+      {
+        weight: 625,
+        affix: "Prefix",
+        name: "Calamitous",
+        skill: 41594
+      },
+      {
+        weight: 156,
+        affix: "Prefix",
+        name: "Devastator",
+        skill: 22581
+      },
       {
         weight: 1250,
         affix: "Prefix",
         name: "Fuel the Fight",
-        id: "fuel-the-fight"
+        skill: 14518
       },
       {
         weight: 1250,
         affix: "Prefix",
         name: "Drive the Destruction",
-        id: "drive-the-destruction"
+        skill: 41284
       },
       {
         weight: 625,
         affix: "Prefix",
         name: "Feed the Fury",
-        id: "feed-the-fury"
+        skill: 26197
       }
     ]
   },
@@ -264,63 +354,83 @@ export default [
     enchantment:
       "Wand Attacks deal 12% increased Damage with Hits and Ailments",
     notables: [
-      { weight: 161, affix: "Prefix", name: "Deep Cuts", id: "deep-cuts" },
+      {
+        weight: 161,
+        affix: "Prefix",
+        name: "Deep Cuts",
+        skill: 56760
+      },
       {
         weight: 323,
         affix: "Prefix",
         name: "Vicious Skewering",
-        id: "vicious-skewering"
+        skill: 28635
       },
       {
         weight: 323,
         affix: "Prefix",
         name: "Explosive Force",
-        id: "explosive-force"
+        skill: 33002
       },
       {
         weight: 1290,
         affix: "Prefix",
         name: "Opportunistic Fusilade",
-        id: "opportunistic-fusilade"
+        skill: 41056
       },
-      { weight: 645, affix: "Prefix", name: "Storm's Hand", id: "storms-hand" },
+      {
+        weight: 645,
+        affix: "Prefix",
+        name: "Storm's Hand",
+        skill: 30622
+      },
       {
         weight: 1290,
         affix: "Suffix",
         name: "Smite the Weak",
-        id: "smite-the-weak"
+        skill: 44670
       },
       {
         weight: 645,
         affix: "Suffix",
         name: "Heavy Hitter",
-        id: "heavy-hitter"
+        skill: 38790
       },
       {
         weight: 1290,
         affix: "Suffix",
         name: "Martial Prowess",
-        id: "martial-prowess"
+        skill: 37
       },
-      { weight: 645, affix: "Prefix", name: "Calamitous", id: "calamitous" },
-      { weight: 161, affix: "Prefix", name: "Devastator", id: "devastator" },
+      {
+        weight: 645,
+        affix: "Prefix",
+        name: "Calamitous",
+        skill: 41594
+      },
+      {
+        weight: 161,
+        affix: "Prefix",
+        name: "Devastator",
+        skill: 22581
+      },
       {
         weight: 1290,
         affix: "Prefix",
         name: "Fuel the Fight",
-        id: "fuel-the-fight"
+        skill: 14518
       },
       {
         weight: 1290,
         affix: "Prefix",
         name: "Drive the Destruction",
-        id: "drive-the-destruction"
+        skill: 41284
       },
       {
         weight: 645,
         affix: "Prefix",
         name: "Feed the Fury",
-        id: "feed-the-fury"
+        skill: 26197
       }
     ]
   },
@@ -329,92 +439,107 @@ export default [
     size: "large",
     enchantment: "12% increased Damage with Two Handed Weapons",
     notables: [
-      { weight: 122, affix: "Prefix", name: "Deep Cuts", id: "deep-cuts" },
+      {
+        weight: 122,
+        affix: "Prefix",
+        name: "Deep Cuts",
+        skill: 56760
+      },
       {
         weight: 244,
         affix: "Prefix",
         name: "Vicious Skewering",
-        id: "vicious-skewering"
+        skill: 28635
       },
       {
         weight: 488,
         affix: "Prefix",
         name: "Titanic Swings",
-        id: "titanic-swings"
+        skill: 48550
       },
       {
         weight: 976,
         affix: "Prefix",
         name: "Battlefield Dominator",
-        id: "battlefield-dominator"
+        skill: 18463
       },
       {
         weight: 488,
         affix: "Prefix",
         name: "Martial Mastery",
-        id: "martial-mastery"
+        skill: 14431
       },
       {
         weight: 488,
         affix: "Prefix",
         name: "Surefooted Striker",
-        id: "surefooted-striker"
+        skill: 61474
       },
       {
         weight: 976,
         affix: "Prefix",
         name: "Graceful Execution",
-        id: "graceful-execution"
+        skill: 42687
       },
       {
         weight: 488,
         affix: "Prefix",
         name: "Brutal Infamy",
-        id: "brutal-infamy"
+        skill: 6553
       },
       {
         weight: 244,
         affix: "Prefix",
         name: "Fearsome Warrior",
-        id: "fearsome-warrior"
+        skill: 20996
       },
       {
         weight: 976,
         affix: "Suffix",
         name: "Smite the Weak",
-        id: "smite-the-weak"
+        skill: 44670
       },
       {
         weight: 488,
         affix: "Suffix",
         name: "Heavy Hitter",
-        id: "heavy-hitter"
+        skill: 38790
       },
       {
         weight: 976,
         affix: "Suffix",
         name: "Martial Prowess",
-        id: "martial-prowess"
+        skill: 37
       },
-      { weight: 488, affix: "Prefix", name: "Calamitous", id: "calamitous" },
-      { weight: 122, affix: "Prefix", name: "Devastator", id: "devastator" },
+      {
+        weight: 488,
+        affix: "Prefix",
+        name: "Calamitous",
+        skill: 41594
+      },
+      {
+        weight: 122,
+        affix: "Prefix",
+        name: "Devastator",
+        skill: 22581
+      },
       {
         weight: 976,
         affix: "Prefix",
         name: "Fuel the Fight",
-        id: "fuel-the-fight"
+        skill: 14518
       },
       {
         weight: 976,
         affix: "Prefix",
         name: "Drive the Destruction",
-        id: "drive-the-destruction"
+        skill: 41284
       },
       {
         weight: 488,
         affix: "Prefix",
         name: "Feed the Fury",
-        id: "feed-the-fury"
+        skill: 26197
       }
     ]
   },
@@ -423,82 +548,107 @@ export default [
     size: "large",
     enchantment: "12% increased Attack Damage while Dual Wielding",
     notables: [
-      { weight: 125, affix: "Prefix", name: "Deep Cuts", id: "deep-cuts" },
+      {
+        weight: 125,
+        affix: "Prefix",
+        name: "Deep Cuts",
+        skill: 56760
+      },
       {
         weight: 250,
         affix: "Prefix",
         name: "Vicious Skewering",
-        id: "vicious-skewering"
+        skill: 28635
       },
       {
         weight: 500,
         affix: "Prefix",
         name: "Combat Rhythm",
-        id: "combat-rhythm"
+        skill: 24484
       },
-      { weight: 1000, affix: "Prefix", name: "Hit and Run", id: "hit-and-run" },
+      {
+        weight: 1000,
+        affix: "Prefix",
+        name: "Hit and Run",
+        skill: 62618
+      },
       {
         weight: 500,
         affix: "Prefix",
         name: "Insatiable Killer",
-        id: "insatiable-killer"
+        skill: 23232
       },
-      { weight: 250, affix: "Prefix", name: "Mage Bane", id: "mage-bane" },
+      {
+        weight: 250,
+        affix: "Prefix",
+        name: "Mage Bane",
+        skill: 24889
+      },
       {
         weight: 500,
         affix: "Prefix",
         name: "Martial Momentum",
-        id: "martial-momentum"
+        skill: 2655
       },
       {
         weight: 1000,
         affix: "Prefix",
         name: "Deadly Repartee",
-        id: "deadly-repartee"
+        skill: 1478
       },
       {
         weight: 250,
         affix: "Prefix",
         name: "Quick and Deadly",
-        id: "quick-and-deadly"
+        skill: 39058
       },
       {
         weight: 1000,
         affix: "Suffix",
         name: "Smite the Weak",
-        id: "smite-the-weak"
+        skill: 44670
       },
       {
         weight: 500,
         affix: "Suffix",
         name: "Heavy Hitter",
-        id: "heavy-hitter"
+        skill: 38790
       },
       {
         weight: 1000,
         affix: "Suffix",
         name: "Martial Prowess",
-        id: "martial-prowess"
+        skill: 37
       },
-      { weight: 500, affix: "Prefix", name: "Calamitous", id: "calamitous" },
-      { weight: 125, affix: "Prefix", name: "Devastator", id: "devastator" },
+      {
+        weight: 500,
+        affix: "Prefix",
+        name: "Calamitous",
+        skill: 41594
+      },
+      {
+        weight: 125,
+        affix: "Prefix",
+        name: "Devastator",
+        skill: 22581
+      },
       {
         weight: 1000,
         affix: "Prefix",
         name: "Fuel the Fight",
-        id: "fuel-the-fight"
+        skill: 14518
       },
       {
         weight: 1000,
         affix: "Prefix",
         name: "Drive the Destruction",
-        id: "drive-the-destruction"
+        skill: 41284
       },
       {
         weight: 500,
         affix: "Prefix",
         name: "Feed the Fury",
-        id: "feed-the-fury"
+        skill: 26197
       }
     ]
   },
@@ -511,45 +661,50 @@ export default [
         weight: 2162,
         affix: "Prefix",
         name: "Prodigious Defence",
-        id: "prodigious-defence"
+        skill: 44237
       },
       {
         weight: 1081,
         affix: "Prefix",
         name: "Advance Guard",
-        id: "advance-guard"
+        skill: 35790
       },
       {
         weight: 541,
         affix: "Prefix",
         name: "Gladiatorial Combat",
-        id: "gladiatorial-combat"
+        skill: 36455
       },
       {
         weight: 2162,
         affix: "Prefix",
         name: "Strike Leader",
-        id: "strike-leader"
+        skill: 12806
       },
       {
         weight: 541,
         affix: "Prefix",
         name: "Gladiator's Fortitude",
-        id: "gladiators-fortitude"
+        skill: 36807
       },
       {
         weight: 1081,
         affix: "Prefix",
         name: "Precise Retaliation",
-        id: "precise-retaliation"
+        skill: 28398
       },
       {
         weight: 2162,
         affix: "Prefix",
         name: "Veteran Defender",
-        id: "veteran-defender"
+        skill: 23989
       },
-      { weight: 270, affix: "Prefix", name: "Riot Queller", id: "riot-queller" }
+      {
+        weight: 270,
+        affix: "Prefix",
+        name: "Riot Queller",
+        skill: 64407
+      }
     ]
   },
   {
@@ -557,50 +712,65 @@ export default [
     size: "large",
     enchantment: "10% increased Attack Damage",
     notables: [
-      { weight: 208, affix: "Prefix", name: "Deep Cuts", id: "deep-cuts" },
+      {
+        weight: 208,
+        affix: "Prefix",
+        name: "Deep Cuts",
+        skill: 56760
+      },
       {
         weight: 417,
         affix: "Prefix",
         name: "Vicious Skewering",
-        id: "vicious-skewering"
+        skill: 28635
       },
       {
         weight: 1667,
         affix: "Suffix",
         name: "Smite the Weak",
-        id: "smite-the-weak"
+        skill: 44670
       },
       {
         weight: 833,
         affix: "Suffix",
         name: "Heavy Hitter",
-        id: "heavy-hitter"
+        skill: 38790
       },
       {
         weight: 1667,
         affix: "Suffix",
         name: "Martial Prowess",
-        id: "martial-prowess"
+        skill: 37
       },
-      { weight: 833, affix: "Prefix", name: "Calamitous", id: "calamitous" },
-      { weight: 208, affix: "Prefix", name: "Devastator", id: "devastator" },
+      {
+        weight: 833,
+        affix: "Prefix",
+        name: "Calamitous",
+        skill: 41594
+      },
+      {
+        weight: 208,
+        affix: "Prefix",
+        name: "Devastator",
+        skill: 22581
+      },
       {
         weight: 1667,
         affix: "Prefix",
         name: "Fuel the Fight",
-        id: "fuel-the-fight"
+        skill: 14518
       },
       {
         weight: 1667,
         affix: "Prefix",
         name: "Drive the Destruction",
-        id: "drive-the-destruction"
+        skill: 41284
       },
       {
         weight: 833,
         affix: "Prefix",
         name: "Feed the Fury",
-        id: "feed-the-fury"
+        skill: 26197
       }
     ]
   },
@@ -613,48 +783,68 @@ export default [
         weight: 571,
         affix: "Prefix",
         name: "Ancestral Inspiration",
-        id: "ancestral-inspiration"
+        skill: 13950
       },
       {
         weight: 571,
         affix: "Prefix",
         name: "Arcane Adept",
-        id: "arcane-adept"
+        skill: 15990
       },
-      { weight: 286, affix: "Prefix", name: "Seal Mender", id: "seal-mender" },
+      {
+        weight: 286,
+        affix: "Prefix",
+        name: "Seal Mender",
+        skill: 1066
+      },
       {
         weight: 1143,
         affix: "Prefix",
         name: "Conjured Wall",
-        id: "conjured-wall"
+        skill: 784
       },
       {
         weight: 571,
         affix: "Prefix",
         name: "Arcane Heroism",
-        id: "arcane-heroism"
+        skill: 20533
       },
       {
         weight: 2286,
         affix: "Prefix",
         name: "Practiced Caster",
-        id: "practiced-caster"
+        skill: 34205
       },
       {
         weight: 1143,
         affix: "Prefix",
         name: "Burden Projection",
-        id: "burden-projection"
+        skill: 5190
       },
-      { weight: 1143, affix: "Suffix", name: "Thaumophage", id: "thaumophage" },
+      {
+        weight: 1143,
+        affix: "Suffix",
+        name: "Thaumophage",
+        skill: 14085
+      },
       {
         weight: 1143,
         affix: "Suffix",
         name: "Essence Rush",
-        id: "essence-rush"
+        skill: 32415
       },
-      { weight: 571, affix: "Suffix", name: "Sap Psyche", id: "sap-psyche" },
-      { weight: 571, affix: "Prefix", name: "Mage Hunter", id: "mage-hunter" }
+      {
+        weight: 571,
+        affix: "Suffix",
+        name: "Sap Psyche",
+        skill: 42648
+      },
+      {
+        weight: 571,
+        affix: "Prefix",
+        name: "Mage Hunter",
+        skill: 25450
+      }
     ]
   },
   {
@@ -666,44 +856,49 @@ export default [
         weight: 2353,
         affix: "Prefix",
         name: "Vengeful Commander",
-        id: "vengeful-commander"
+        skill: 28338
       },
-      { weight: 588, affix: "Prefix", name: "Sadist", id: "sadist" },
+      {
+        weight: 588,
+        affix: "Prefix",
+        name: "Sadist",
+        skill: 42117
+      },
       {
         weight: 294,
         affix: "Prefix",
         name: "Corrosive Elements",
-        id: "corrosive-elements"
+        skill: 2306
       },
       {
         weight: 588,
         affix: "Suffix",
         name: "Doryani's Lesson",
-        id: "doryanis-lesson"
+        skill: 7039
       },
       {
         weight: 1176,
         affix: "Suffix",
         name: "Disorienting Display",
-        id: "disorienting-display"
+        skill: 17255
       },
       {
         weight: 2353,
         affix: "Prefix",
         name: "Prismatic Heart",
-        id: "prismatic-heart"
+        skill: 17050
       },
       {
         weight: 2353,
         affix: "Suffix",
         name: "Widespread Destruction",
-        id: "widespread-destruction"
+        skill: 36776
       },
       {
         weight: 294,
         affix: "Prefix",
         name: "Inspired Oppression",
-        id: "inspired-oppression"
+        skill: 20343
       }
     ]
   },
@@ -716,32 +911,37 @@ export default [
         weight: 2667,
         affix: "Prefix",
         name: "Iron Breaker",
-        id: "iron-breaker"
+        skill: 28015
       },
       {
         weight: 1333,
         affix: "Prefix",
         name: "Master the Fundamentals",
-        id: "master-the-fundamentals"
+        skill: 2796
       },
       {
         weight: 1333,
         affix: "Suffix",
         name: "Force Multiplier",
-        id: "force-multiplier"
+        skill: 3805
       },
       {
         weight: 2667,
         affix: "Suffix",
         name: "Furious Assault",
-        id: "furious-assault"
+        skill: 981
       },
-      { weight: 667, affix: "Suffix", name: "Grim Oath", id: "grim-oath" },
+      {
+        weight: 667,
+        affix: "Suffix",
+        name: "Grim Oath",
+        skill: 23335
+      },
       {
         weight: 1333,
         affix: "Prefix",
         name: "Battle-Hardened",
-        id: "battle-hardened"
+        skill: 53318
       }
     ]
   },
@@ -754,57 +954,67 @@ export default [
         weight: 1739,
         affix: "Prefix",
         name: "Vengeful Commander",
-        id: "vengeful-commander"
+        skill: 28338
       },
-      { weight: 435, affix: "Prefix", name: "Sadist", id: "sadist" },
+      {
+        weight: 435,
+        affix: "Prefix",
+        name: "Sadist",
+        skill: 42117
+      },
       {
         weight: 217,
         affix: "Prefix",
         name: "Corrosive Elements",
-        id: "corrosive-elements"
+        skill: 2306
       },
       {
         weight: 435,
         affix: "Suffix",
         name: "Doryani's Lesson",
-        id: "doryanis-lesson"
+        skill: 7039
       },
       {
         weight: 870,
         affix: "Suffix",
         name: "Disorienting Display",
-        id: "disorienting-display"
+        skill: 17255
       },
       {
         weight: 1739,
         affix: "Prefix",
         name: "Prismatic Heart",
-        id: "prismatic-heart"
+        skill: 17050
       },
       {
         weight: 1739,
         affix: "Suffix",
         name: "Widespread Destruction",
-        id: "widespread-destruction"
+        skill: 36776
       },
       {
         weight: 217,
         affix: "Prefix",
         name: "Master of Fire",
-        id: "master-of-fire"
+        skill: 33482
       },
       {
         weight: 870,
         affix: "Prefix",
         name: "Smoking Remains",
-        id: "smoking-remains"
+        skill: 13790
       },
-      { weight: 870, affix: "Prefix", name: "Cremator", id: "cremator" },
+      {
+        weight: 870,
+        affix: "Prefix",
+        name: "Cremator",
+        skill: 56696
+      },
       {
         weight: 870,
         affix: "Prefix",
         name: "Burning Bright",
-        id: "burning-bright"
+        skill: 56065
       }
     ]
   },
@@ -817,67 +1027,97 @@ export default [
         weight: 1212,
         affix: "Prefix",
         name: "Vengeful Commander",
-        id: "vengeful-commander"
+        skill: 28338
       },
-      { weight: 303, affix: "Prefix", name: "Sadist", id: "sadist" },
+      {
+        weight: 303,
+        affix: "Prefix",
+        name: "Sadist",
+        skill: 42117
+      },
       {
         weight: 152,
         affix: "Prefix",
         name: "Corrosive Elements",
-        id: "corrosive-elements"
+        skill: 2306
       },
       {
         weight: 303,
         affix: "Suffix",
         name: "Doryani's Lesson",
-        id: "doryanis-lesson"
+        skill: 7039
       },
       {
         weight: 606,
         affix: "Suffix",
         name: "Disorienting Display",
-        id: "disorienting-display"
+        skill: 17255
       },
       {
         weight: 1212,
         affix: "Prefix",
         name: "Prismatic Heart",
-        id: "prismatic-heart"
+        skill: 17050
       },
       {
         weight: 1212,
         affix: "Suffix",
         name: "Widespread Destruction",
-        id: "widespread-destruction"
+        skill: 36776
       },
-      { weight: 606, affix: "Prefix", name: "Snowstorm", id: "snowstorm" },
+      {
+        weight: 606,
+        affix: "Prefix",
+        name: "Snowstorm",
+        skill: 40870
+      },
       {
         weight: 1212,
         affix: "Prefix",
         name: "Storm Drinker",
-        id: "storm-drinker"
+        skill: 22607
       },
-      { weight: 606, affix: "Prefix", name: "Paralysis", id: "paralysis" },
-      { weight: 303, affix: "Prefix", name: "Supercharge", id: "supercharge" },
+      {
+        weight: 606,
+        affix: "Prefix",
+        name: "Paralysis",
+        skill: 31825
+      },
+      {
+        weight: 303,
+        affix: "Prefix",
+        name: "Supercharge",
+        skill: 59646
+      },
       {
         weight: 152,
         affix: "Prefix",
         name: "Inspired Oppression",
-        id: "inspired-oppression"
+        skill: 20343
       },
       {
         weight: 606,
         affix: "Prefix",
         name: "Thunderstruck",
-        id: "thunderstruck"
+        skill: 35430
       },
-      { weight: 303, affix: "Prefix", name: "Stormrider", id: "stormrider" },
-      { weight: 606, affix: "Prefix", name: "Overshock", id: "overshock" },
+      {
+        weight: 303,
+        affix: "Prefix",
+        name: "Stormrider",
+        skill: 37478
+      },
+      {
+        weight: 606,
+        affix: "Prefix",
+        name: "Overshock",
+        skill: 28682
+      },
       {
         weight: 606,
         affix: "Prefix",
         name: "Scintillating Idea",
-        id: "scintillating-idea"
+        skill: 43834
       }
     ]
   },
@@ -890,72 +1130,92 @@ export default [
         weight: 1379,
         affix: "Prefix",
         name: "Vengeful Commander",
-        id: "vengeful-commander"
+        skill: 28338
       },
-      { weight: 345, affix: "Prefix", name: "Sadist", id: "sadist" },
+      {
+        weight: 345,
+        affix: "Prefix",
+        name: "Sadist",
+        skill: 42117
+      },
       {
         weight: 172,
         affix: "Prefix",
         name: "Corrosive Elements",
-        id: "corrosive-elements"
+        skill: 2306
       },
       {
         weight: 345,
         affix: "Suffix",
         name: "Doryani's Lesson",
-        id: "doryanis-lesson"
+        skill: 7039
       },
       {
         weight: 690,
         affix: "Suffix",
         name: "Disorienting Display",
-        id: "disorienting-display"
+        skill: 17255
       },
       {
         weight: 1379,
         affix: "Prefix",
         name: "Prismatic Heart",
-        id: "prismatic-heart"
+        skill: 17050
       },
       {
         weight: 1379,
         affix: "Suffix",
         name: "Widespread Destruction",
-        id: "widespread-destruction"
+        skill: 36776
       },
-      { weight: 690, affix: "Prefix", name: "Snowstorm", id: "snowstorm" },
+      {
+        weight: 690,
+        affix: "Prefix",
+        name: "Snowstorm",
+        skill: 40870
+      },
       {
         weight: 345,
         affix: "Prefix",
         name: "Blanketed Snow",
-        id: "blanketed-snow"
+        skill: 6258
       },
       {
         weight: 345,
         affix: "Prefix",
         name: "Cold to the Core",
-        id: "cold-to-the-core"
+        skill: 54436
       },
       {
         weight: 690,
         affix: "Prefix",
         name: "Cold-Blooded Killer",
-        id: "cold-blooded-killer"
+        skill: 23113
       },
       {
         weight: 172,
         affix: "Prefix",
         name: "Inspired Oppression",
-        id: "inspired-oppression"
+        skill: 20343
       },
-      { weight: 1379, affix: "Prefix", name: "Deep Chill", id: "deep-chill" },
+      {
+        weight: 1379,
+        affix: "Prefix",
+        name: "Deep Chill",
+        skill: 18861
+      },
       {
         weight: 345,
         affix: "Prefix",
         name: "Blast-Freeze",
-        id: "blast-freeze"
+        skill: 39874
       },
-      { weight: 345, affix: "Prefix", name: "Stormrider", id: "stormrider" }
+      {
+        weight: 345,
+        affix: "Prefix",
+        name: "Stormrider",
+        skill: 37478
+      }
     ]
   },
   {
@@ -963,44 +1223,54 @@ export default [
     size: "large",
     enchantment: "12% increased Chaos Damage",
     notables: [
-      { weight: 571, affix: "Suffix", name: "Grim Oath", id: "grim-oath" },
+      {
+        weight: 571,
+        affix: "Suffix",
+        name: "Grim Oath",
+        skill: 23335
+      },
       {
         weight: 571,
         affix: "Prefix",
         name: "Overwhelming Malice",
-        id: "overwhelming-malice"
+        skill: 2977
       },
       {
         weight: 2286,
         affix: "Prefix",
         name: "Touch of Cruelty",
-        id: "touch-of-cruelty"
+        skill: 49273
       },
       {
         weight: 2286,
         affix: "Prefix",
         name: "Unwaveringly Evil",
-        id: "unwaveringly-evil"
+        skill: 38592
       },
       {
         weight: 286,
         affix: "Suffix",
         name: "Unspeakable Gifts",
-        id: "unspeakable-gifts"
+        skill: 1494
       },
       {
         weight: 571,
         affix: "Prefix",
         name: "Dark Ideation",
-        id: "dark-ideation"
+        skill: 40828
       },
       {
         weight: 2286,
         affix: "Suffix",
         name: "Unholy Grace",
-        id: "unholy-grace"
+        skill: 2264
       },
-      { weight: 1143, affix: "Prefix", name: "Wicked Pall", id: "wicked-pall" }
+      {
+        weight: 1143,
+        affix: "Prefix",
+        name: "Wicked Pall",
+        skill: 34595
+      }
     ]
   },
   {
@@ -1008,48 +1278,53 @@ export default [
     size: "large",
     enchantment: "Minions deal 10% increased Damage",
     notables: [
-      { weight: 1290, affix: "Prefix", name: "Renewal", id: "renewal" },
+      {
+        weight: 1290,
+        affix: "Prefix",
+        name: "Renewal",
+        skill: 58949
+      },
       {
         weight: 645,
         affix: "Prefix",
         name: "Raze and Pillage",
-        id: "raze-and-pillage"
+        skill: 6703
       },
       {
         weight: 1290,
         affix: "Prefix",
         name: "Rotten Claws",
-        id: "rotten-claws"
+        skill: 16650
       },
       {
         weight: 2581,
         affix: "Suffix",
         name: "Call to the Slaughter",
-        id: "call-to-the-slaughter"
+        skill: 55022
       },
       {
         weight: 645,
         affix: "Prefix",
         name: "Skeletal Atrophy",
-        id: "skeletal-atrophy"
+        skill: 11535
       },
       {
         weight: 323,
         affix: "Suffix",
         name: "Vicious Bite",
-        id: "vicious-bite"
+        skill: 41983
       },
       {
         weight: 645,
         affix: "Suffix",
         name: "Primordial Bond",
-        id: "primordial-bond"
+        skill: 57892
       },
       {
         weight: 2581,
         affix: "Prefix",
         name: "Feasting Fiends",
-        id: "feasting-fiends"
+        skill: 22540
       }
     ]
   },
@@ -1062,94 +1337,109 @@ export default [
         weight: 533,
         affix: "Prefix",
         name: "Eye of the Storm",
-        id: "eye-of-the-storm"
+        skill: 51541
       },
       {
         weight: 133,
         affix: "Prefix",
         name: "Master of Fire",
-        id: "master-of-fire"
+        skill: 33482
       },
       {
         weight: 533,
         affix: "Prefix",
         name: "Smoking Remains",
-        id: "smoking-remains"
+        skill: 13790
       },
-      { weight: 533, affix: "Prefix", name: "Cremator", id: "cremator" },
-      { weight: 533, affix: "Prefix", name: "Blowback", id: "blowback" },
+      {
+        weight: 533,
+        affix: "Prefix",
+        name: "Cremator",
+        skill: 56696
+      },
+      {
+        weight: 533,
+        affix: "Prefix",
+        name: "Blowback",
+        skill: 29748
+      },
       {
         weight: 267,
         affix: "Prefix",
         name: "Fan the Flames",
-        id: "fan-the-flames"
+        skill: 45128
       },
       {
         weight: 1067,
         affix: "Prefix",
         name: "Cooked Alive",
-        id: "cooked-alive"
+        skill: 408
       },
       {
         weight: 533,
         affix: "Prefix",
         name: "Burning Bright",
-        id: "burning-bright"
+        skill: 56065
       },
       {
         weight: 267,
         affix: "Prefix",
         name: "Wrapped in Flame",
-        id: "wrapped-in-flame"
+        skill: 10952
       },
       {
         weight: 267,
         affix: "Prefix",
         name: "Wasting Affliction",
-        id: "wasting-affliction"
+        skill: 19686
       },
-      { weight: 533, affix: "Prefix", name: "Haemorrhage", id: "haemorrhage" },
+      {
+        weight: 533,
+        affix: "Prefix",
+        name: "Haemorrhage",
+        skill: 56879
+      },
       {
         weight: 267,
         affix: "Prefix",
         name: "Flow of Life",
-        id: "flow-of-life"
+        skill: 34581
       },
       {
         weight: 1067,
         affix: "Prefix",
         name: "Exposure Therapy",
-        id: "exposure-therapy"
+        skill: 56070
       },
       {
         weight: 267,
         affix: "Prefix",
         name: "Brush with Death",
-        id: "brush-with-death"
+        skill: 28146
       },
       {
         weight: 533,
         affix: "Prefix",
         name: "Vile Reinvigoration",
-        id: "vile-reinvigoration"
+        skill: 65110
       },
       {
         weight: 1067,
         affix: "Prefix",
         name: "Circling Oblivion",
-        id: "circling-oblivion"
+        skill: 10355
       },
       {
         weight: 1067,
         affix: "Prefix",
         name: "Brewed for Potency",
-        id: "brewed-for-potency"
+        skill: 4094
       },
       {
         weight: 533,
         affix: "Prefix",
         name: "Student of Decay",
-        id: "student-of-decay"
+        skill: 26179
       }
     ]
   },
@@ -1162,93 +1452,103 @@ export default [
         weight: 1111,
         affix: "Prefix",
         name: "Unwaveringly Evil",
-        id: "unwaveringly-evil"
+        skill: 38592
       },
       {
         weight: 278,
         affix: "Prefix",
         name: "Dark Ideation",
-        id: "dark-ideation"
+        skill: 40828
       },
-      { weight: 556, affix: "Prefix", name: "Wicked Pall", id: "wicked-pall" },
+      {
+        weight: 556,
+        affix: "Prefix",
+        name: "Wicked Pall",
+        skill: 34595
+      },
       {
         weight: 556,
         affix: "Prefix",
         name: "Septic Spells",
-        id: "septic-spells"
+        skill: 38399
       },
       {
         weight: 278,
         affix: "Prefix",
         name: "Low Tolerance",
-        id: "low-tolerance"
+        skill: 36370
       },
       {
         weight: 278,
         affix: "Prefix",
         name: "Steady Torment",
-        id: "steady-torment"
+        skill: 47424
       },
       {
         weight: 556,
         affix: "Prefix",
         name: "Eternal Suffering",
-        id: "eternal-suffering"
+        skill: 11995
       },
       {
         weight: 556,
         affix: "Prefix",
         name: "Eldritch Inspiration",
-        id: "eldritch-inspiration"
+        skill: 61043
       },
       {
         weight: 278,
         affix: "Prefix",
         name: "Wasting Affliction",
-        id: "wasting-affliction"
+        skill: 19686
       },
-      { weight: 556, affix: "Prefix", name: "Haemorrhage", id: "haemorrhage" },
+      {
+        weight: 556,
+        affix: "Prefix",
+        name: "Haemorrhage",
+        skill: 56879
+      },
       {
         weight: 278,
         affix: "Prefix",
         name: "Flow of Life",
-        id: "flow-of-life"
+        skill: 34581
       },
       {
         weight: 1111,
         affix: "Prefix",
         name: "Exposure Therapy",
-        id: "exposure-therapy"
+        skill: 56070
       },
       {
         weight: 278,
         affix: "Prefix",
         name: "Brush with Death",
-        id: "brush-with-death"
+        skill: 28146
       },
       {
         weight: 556,
         affix: "Prefix",
         name: "Vile Reinvigoration",
-        id: "vile-reinvigoration"
+        skill: 65110
       },
       {
         weight: 1111,
         affix: "Prefix",
         name: "Circling Oblivion",
-        id: "circling-oblivion"
+        skill: 10355
       },
       {
         weight: 1111,
         affix: "Prefix",
         name: "Brewed for Potency",
-        id: "brewed-for-potency"
+        skill: 4094
       },
       {
         weight: 556,
         affix: "Prefix",
         name: "Student of Decay",
-        id: "student-of-decay"
+        skill: 26179
       }
     ]
   },
@@ -1261,76 +1561,86 @@ export default [
         weight: 1111,
         affix: "Prefix",
         name: "Wound Aggravation",
-        id: "wound-aggravation"
+        skill: 60894
       },
-      { weight: 556, affix: "Prefix", name: "Vivid Hues", id: "vivid-hues" },
-      { weight: 556, affix: "Prefix", name: "Rend", id: "rend" },
+      {
+        weight: 556,
+        affix: "Prefix",
+        name: "Vivid Hues",
+        skill: 4942
+      },
+      { weight: 556, affix: "Prefix", name: "Rend", skill: 8258, id: "rend" },
       {
         weight: 1111,
         affix: "Prefix",
         name: "Disorienting Wounds",
-        id: "disorienting-wounds"
+        skill: 42338
       },
       {
         weight: 556,
         affix: "Prefix",
         name: "Compound Injury",
-        id: "compound-injury"
+        skill: 37384
       },
       {
         weight: 278,
         affix: "Prefix",
         name: "Steady Torment",
-        id: "steady-torment"
+        skill: 47424
       },
       {
         weight: 278,
         affix: "Prefix",
         name: "Wasting Affliction",
-        id: "wasting-affliction"
+        skill: 19686
       },
-      { weight: 556, affix: "Prefix", name: "Haemorrhage", id: "haemorrhage" },
+      {
+        weight: 556,
+        affix: "Prefix",
+        name: "Haemorrhage",
+        skill: 56879
+      },
       {
         weight: 278,
         affix: "Prefix",
         name: "Flow of Life",
-        id: "flow-of-life"
+        skill: 34581
       },
       {
         weight: 1111,
         affix: "Prefix",
         name: "Exposure Therapy",
-        id: "exposure-therapy"
+        skill: 56070
       },
       {
         weight: 278,
         affix: "Prefix",
         name: "Brush with Death",
-        id: "brush-with-death"
+        skill: 28146
       },
       {
         weight: 556,
         affix: "Prefix",
         name: "Vile Reinvigoration",
-        id: "vile-reinvigoration"
+        skill: 65110
       },
       {
         weight: 1111,
         affix: "Prefix",
         name: "Circling Oblivion",
-        id: "circling-oblivion"
+        skill: 10355
       },
       {
         weight: 1111,
         affix: "Prefix",
         name: "Brewed for Potency",
-        id: "brewed-for-potency"
+        skill: 4094
       },
       {
         weight: 556,
         affix: "Prefix",
         name: "Student of Decay",
-        id: "student-of-decay"
+        skill: 26179
       }
     ]
   },
@@ -1343,46 +1653,56 @@ export default [
         weight: 500,
         affix: "Prefix",
         name: "Wasting Affliction",
-        id: "wasting-affliction"
+        skill: 19686
       },
-      { weight: 1000, affix: "Prefix", name: "Haemorrhage", id: "haemorrhage" },
+      {
+        weight: 1000,
+        affix: "Prefix",
+        name: "Haemorrhage",
+        skill: 56879
+      },
       {
         weight: 500,
         affix: "Prefix",
         name: "Flow of Life",
-        id: "flow-of-life"
+        skill: 34581
       },
       {
         weight: 2000,
         affix: "Prefix",
         name: "Exposure Therapy",
-        id: "exposure-therapy"
+        skill: 56070
       },
       {
         weight: 500,
         affix: "Prefix",
         name: "Brush with Death",
-        id: "brush-with-death"
+        skill: 28146
       },
       {
         weight: 1000,
         affix: "Prefix",
         name: "Vile Reinvigoration",
-        id: "vile-reinvigoration"
+        skill: 65110
       },
       {
         weight: 2000,
         affix: "Prefix",
         name: "Circling Oblivion",
-        id: "circling-oblivion"
+        skill: 10355
       },
       {
         weight: 2000,
         affix: "Prefix",
         name: "Brewed for Potency",
-        id: "brewed-for-potency"
+        skill: 4094
       },
-      { weight: 500, affix: "Prefix", name: "Blast-Freeze", id: "blast-freeze" }
+      {
+        weight: 500,
+        affix: "Prefix",
+        name: "Blast-Freeze",
+        skill: 39874
+      }
     ]
   },
   {
@@ -1394,50 +1714,55 @@ export default [
         weight: 476,
         affix: "Prefix",
         name: "Wasting Affliction",
-        id: "wasting-affliction"
+        skill: 19686
       },
-      { weight: 952, affix: "Prefix", name: "Haemorrhage", id: "haemorrhage" },
+      {
+        weight: 952,
+        affix: "Prefix",
+        name: "Haemorrhage",
+        skill: 56879
+      },
       {
         weight: 476,
         affix: "Prefix",
         name: "Flow of Life",
-        id: "flow-of-life"
+        skill: 34581
       },
       {
         weight: 1905,
         affix: "Prefix",
         name: "Exposure Therapy",
-        id: "exposure-therapy"
+        skill: 56070
       },
       {
         weight: 476,
         affix: "Prefix",
         name: "Brush with Death",
-        id: "brush-with-death"
+        skill: 28146
       },
       {
         weight: 952,
         affix: "Prefix",
         name: "Vile Reinvigoration",
-        id: "vile-reinvigoration"
+        skill: 65110
       },
       {
         weight: 1905,
         affix: "Prefix",
         name: "Circling Oblivion",
-        id: "circling-oblivion"
+        skill: 10355
       },
       {
         weight: 1905,
         affix: "Prefix",
         name: "Brewed for Potency",
-        id: "brewed-for-potency"
+        skill: 4094
       },
       {
         weight: 952,
         affix: "Prefix",
         name: "Student of Decay",
-        id: "student-of-decay"
+        skill: 26179
       }
     ]
   },
@@ -1450,41 +1775,56 @@ export default [
         weight: 1176,
         affix: "Prefix",
         name: "Eye of the Storm",
-        id: "eye-of-the-storm"
+        skill: 51541
       },
       {
         weight: 2353,
         affix: "Prefix",
         name: "Astonishing Affliction",
-        id: "astonishing-affliction"
+        skill: 51467
       },
       {
         weight: 1176,
         affix: "Prefix",
         name: "Cold Conduction",
-        id: "cold-conduction"
+        skill: 25563
       },
       {
         weight: 294,
         affix: "Prefix",
         name: "Inspired Oppression",
-        id: "inspired-oppression"
+        skill: 20343
       },
       {
         weight: 294,
         affix: "Prefix",
         name: "Chilling Presence",
-        id: "chilling-presence"
+        skill: 58248
       },
-      { weight: 2353, affix: "Prefix", name: "Deep Chill", id: "deep-chill" },
+      {
+        weight: 2353,
+        affix: "Prefix",
+        name: "Deep Chill",
+        skill: 18861
+      },
       {
         weight: 588,
         affix: "Prefix",
         name: "Blast-Freeze",
-        id: "blast-freeze"
+        skill: 39874
       },
-      { weight: 588, affix: "Prefix", name: "Stormrider", id: "stormrider" },
-      { weight: 1176, affix: "Prefix", name: "Overshock", id: "overshock" }
+      {
+        weight: 588,
+        affix: "Prefix",
+        name: "Stormrider",
+        skill: 37478
+      },
+      {
+        weight: 1176,
+        affix: "Prefix",
+        name: "Overshock",
+        skill: 28682
+      }
     ]
   },
   {
@@ -1496,51 +1836,56 @@ export default [
         weight: 816,
         affix: "Prefix",
         name: "Replenishing Presence",
-        id: "replenishing-presence"
+        skill: 62634
       },
       {
         weight: 408,
         affix: "Prefix",
         name: "Master of Command",
-        id: "master-of-command"
+        skill: 29540
       },
       {
         weight: 1633,
         affix: "Prefix",
         name: "First Among Equals",
-        id: "first-among-equals"
+        skill: 47393
       },
       {
         weight: 204,
         affix: "Prefix",
         name: "Purposeful Harbinger",
-        id: "purposeful-harbinger"
+        skill: 51870
       },
       {
         weight: 408,
         affix: "Prefix",
         name: "Precise Commander",
-        id: "precise-commander"
+        skill: 58221
       },
       {
         weight: 1633,
         affix: "Prefix",
         name: "Pure Commander",
-        id: "pure-commander"
+        skill: 59350
       },
       {
         weight: 1633,
         affix: "Prefix",
         name: "Stalwart Commander",
-        id: "stalwart-commander"
+        skill: 61616
       },
       {
         weight: 1633,
         affix: "Prefix",
         name: "Vengeful Commander",
-        id: "vengeful-commander"
+        skill: 28338
       },
-      { weight: 1633, affix: "Prefix", name: "Pure Might", id: "pure-might" }
+      {
+        weight: 1633,
+        affix: "Prefix",
+        name: "Pure Might",
+        skill: 17769
+      }
     ]
   },
   {
@@ -1548,42 +1893,47 @@ export default [
     size: "medium",
     enchantment: "5% increased Effect of your Curses",
     notables: [
-      { weight: 2500, affix: "Prefix", name: "Evil Eye", id: "evil-eye" },
+      {
+        weight: 2500,
+        affix: "Prefix",
+        name: "Evil Eye",
+        skill: 42305
+      },
       {
         weight: 2500,
         affix: "Prefix",
         name: "Whispers of Death",
-        id: "whispers-of-death"
+        skill: 57104
       },
       {
         weight: 625,
         affix: "Prefix",
         name: "Forbidden Words",
-        id: "forbidden-words"
+        skill: 61549
       },
       {
         weight: 1250,
         affix: "Prefix",
         name: "Dark Discourse",
-        id: "dark-discourse"
+        skill: 18624
       },
       {
         weight: 1250,
         affix: "Prefix",
         name: "Victim Maker",
-        id: "victim-maker"
+        skill: 42929
       },
       {
         weight: 625,
         affix: "Prefix",
         name: "Master of Fear",
-        id: "master-of-fear"
+        skill: 14418
       },
       {
         weight: 1250,
         affix: "Prefix",
         name: "Wish for Death",
-        id: "wish-for-death"
+        skill: 7279
       }
     ]
   },
@@ -1596,39 +1946,49 @@ export default [
         weight: 357,
         affix: "Prefix",
         name: "Purposeful Harbinger",
-        id: "purposeful-harbinger"
+        skill: 51870
       },
-      { weight: 357, affix: "Prefix", name: "Heraldry", id: "heraldry" },
-      { weight: 714, affix: "Prefix", name: "Endbringer", id: "endbringer" },
+      {
+        weight: 357,
+        affix: "Prefix",
+        name: "Heraldry",
+        skill: 28551
+      },
+      {
+        weight: 714,
+        affix: "Prefix",
+        name: "Endbringer",
+        skill: 24038
+      },
       {
         weight: 2857,
         affix: "Prefix",
         name: "Empowered Envoy",
-        id: "empowered-envoy"
+        skill: 17066
       },
       {
         weight: 1429,
         affix: "Prefix",
         name: "Dark Messenger",
-        id: "dark-messenger"
+        skill: 8897
       },
       {
         weight: 2857,
         affix: "Prefix",
         name: "Agent of Destruction",
-        id: "agent-of-destruction"
+        skill: 61998
       },
       {
         weight: 714,
         affix: "Prefix",
         name: "Lasting Impression",
-        id: "lasting-impression"
+        skill: 17905
       },
       {
         weight: 714,
         affix: "Prefix",
         name: "Self-Fulfilling Prophecy",
-        id: "self-fulfilling-prophecy"
+        skill: 65521
       }
     ]
   },
@@ -1642,25 +2002,50 @@ export default [
         weight: 476,
         affix: "Prefix",
         name: "Purposeful Harbinger",
-        id: "purposeful-harbinger"
+        skill: 51870
       },
-      { weight: 476, affix: "Prefix", name: "Heraldry", id: "heraldry" },
-      { weight: 952, affix: "Prefix", name: "Endbringer", id: "endbringer" },
-      { weight: 3810, affix: "Prefix", name: "Cult-Leader", id: "cult-leader" },
+      {
+        weight: 476,
+        affix: "Prefix",
+        name: "Heraldry",
+        skill: 28551
+      },
+      {
+        weight: 952,
+        affix: "Prefix",
+        name: "Endbringer",
+        skill: 24038
+      },
+      {
+        weight: 3810,
+        affix: "Prefix",
+        name: "Cult-Leader",
+        skill: 16952
+      },
       {
         weight: 952,
         affix: "Prefix",
         name: "Lasting Impression",
-        id: "lasting-impression"
+        skill: 17905
       },
       {
         weight: 1905,
         affix: "Prefix",
         name: "Invigorating Portents",
-        id: "invigorating-portents"
+        skill: 40402
       },
-      { weight: 476, affix: "Prefix", name: "Pure Agony", id: "pure-agony" },
-      { weight: 952, affix: "Prefix", name: "Disciples", id: "disciples" }
+      {
+        weight: 476,
+        affix: "Prefix",
+        name: "Pure Agony",
+        skill: 5781
+      },
+      {
+        weight: 952,
+        affix: "Prefix",
+        name: "Disciples",
+        skill: 24357
+      }
     ]
   },
   {
@@ -1672,33 +2057,43 @@ export default [
         weight: 345,
         affix: "Prefix",
         name: "Mob Mentality",
-        id: "mob-mentality"
+        skill: 28744
       },
-      { weight: 690, affix: "Prefix", name: "Cry Wolf", id: "cry-wolf" },
+      {
+        weight: 690,
+        affix: "Prefix",
+        name: "Cry Wolf",
+        skill: 17816
+      },
       {
         weight: 1379,
         affix: "Prefix",
         name: "Haunting Shout",
-        id: "haunting-shout"
+        skill: 6696
       },
       {
         weight: 2759,
         affix: "Prefix",
         name: "Lead By Example",
-        id: "lead-by-example"
+        skill: 36655
       },
-      { weight: 1379, affix: "Prefix", name: "Provocateur", id: "provocateur" },
+      {
+        weight: 1379,
+        affix: "Prefix",
+        name: "Provocateur",
+        skill: 33182
+      },
       {
         weight: 690,
         affix: "Prefix",
         name: "Warning Call",
-        id: "warning-call"
+        skill: 7107
       },
       {
         weight: 2759,
         affix: "Prefix",
         name: "Rattling Bellow",
-        id: "rattling-bellow"
+        skill: 29450
       }
     ]
   },
@@ -1711,59 +2106,74 @@ export default [
         weight: 741,
         affix: "Prefix",
         name: "Precise Retaliation",
-        id: "precise-retaliation"
+        skill: 28398
       },
       {
         weight: 370,
         affix: "Prefix",
         name: "Precise Commander",
-        id: "precise-commander"
+        skill: 58221
       },
       {
         weight: 370,
         affix: "Prefix",
         name: "Skullbreaker",
-        id: "skullbreaker"
+        skill: 63142
       },
       {
         weight: 741,
         affix: "Prefix",
         name: "Pressure Points",
-        id: "pressure-points"
+        skill: 38633
       },
       {
         weight: 370,
         affix: "Prefix",
         name: "Overwhelming Malice",
-        id: "overwhelming-malice"
+        skill: 2977
       },
-      { weight: 1481, affix: "Prefix", name: "Magnifier", id: "magnifier" },
+      {
+        weight: 1481,
+        affix: "Prefix",
+        name: "Magnifier",
+        skill: 60617
+      },
       {
         weight: 741,
         affix: "Prefix",
         name: "Savage Response",
-        id: "savage-response"
+        skill: 25966
       },
       {
         weight: 741,
         affix: "Prefix",
         name: "Eye of the Storm",
-        id: "eye-of-the-storm"
+        skill: 51541
       },
       {
         weight: 1481,
         affix: "Prefix",
         name: "Basics of Pain",
-        id: "basics-of-pain"
+        skill: 44544
       },
       {
         weight: 1481,
         affix: "Prefix",
         name: "Quick Getaway",
-        id: "quick-getaway"
+        skill: 23238
       },
-      { weight: 741, affix: "Prefix", name: "Provocateur", id: "provocateur" },
-      { weight: 741, affix: "Prefix", name: "Haemorrhage", id: "haemorrhage" }
+      {
+        weight: 741,
+        affix: "Prefix",
+        name: "Provocateur",
+        skill: 33182
+      },
+      {
+        weight: 741,
+        affix: "Prefix",
+        name: "Haemorrhage",
+        skill: 56879
+      }
     ]
   },
   {
@@ -1771,33 +2181,48 @@ export default [
     size: "medium",
     enchantment: "Minions have 12% increased maximum Life",
     notables: [
-      { weight: 1176, affix: "Prefix", name: "Renewal", id: "renewal" },
+      {
+        weight: 1176,
+        affix: "Prefix",
+        name: "Renewal",
+        skill: 58949
+      },
       {
         weight: 1176,
         affix: "Prefix",
         name: "Hulking Corpses",
-        id: "hulking-corpses"
+        skill: 68
       },
-      { weight: 2353, affix: "Prefix", name: "Dread March", id: "dread-march" },
+      {
+        weight: 2353,
+        affix: "Prefix",
+        name: "Dread March",
+        skill: 55171
+      },
       {
         weight: 588,
         affix: "Prefix",
         name: "Blessed Rebirth",
-        id: "blessed-rebirth"
+        skill: 42126
       },
       {
         weight: 1176,
         affix: "Prefix",
         name: "Life from Death",
-        id: "life-from-death"
+        skill: 62318
       },
       {
         weight: 2353,
         affix: "Prefix",
         name: "Feasting Fiends",
-        id: "feasting-fiends"
+        skill: 22540
       },
-      { weight: 1176, affix: "Prefix", name: "Bodyguards", id: "bodyguards" }
+      {
+        weight: 1176,
+        affix: "Prefix",
+        name: "Bodyguards",
+        skill: 11199
+      }
     ]
   },
   {
@@ -1805,38 +2230,53 @@ export default [
     size: "medium",
     enchantment: "10% increased Area Damage",
     notables: [
-      { weight: 2857, affix: "Prefix", name: "Magnifier", id: "magnifier" },
+      {
+        weight: 2857,
+        affix: "Prefix",
+        name: "Magnifier",
+        skill: 60617
+      },
       {
         weight: 714,
         affix: "Prefix",
         name: "Assert Dominance",
-        id: "assert-dominance"
+        skill: 12149
       },
-      { weight: 1429, affix: "Prefix", name: "Vast Power", id: "vast-power" },
+      {
+        weight: 1429,
+        affix: "Prefix",
+        name: "Vast Power",
+        skill: 63969
+      },
       {
         weight: 1429,
         affix: "Prefix",
         name: "Powerful Assault",
-        id: "powerful-assault"
+        skill: 11661
       },
-      { weight: 714, affix: "Prefix", name: "Intensity", id: "intensity" },
+      {
+        weight: 714,
+        affix: "Prefix",
+        name: "Intensity",
+        skill: 42145
+      },
       {
         weight: 1429,
         affix: "Prefix",
         name: "Titanic Swings",
-        id: "titanic-swings"
+        skill: 48550
       },
       {
         weight: 714,
         affix: "Prefix",
         name: "Towering Threat",
-        id: "towering-threat"
+        skill: 63607
       },
       {
         weight: 714,
         affix: "Prefix",
         name: "Expansive Might",
-        id: "expansive-might"
+        skill: 48925
       }
     ]
   },
@@ -1849,18 +2289,38 @@ export default [
         weight: 714,
         affix: "Prefix",
         name: "Follow-Through",
-        id: "follow-through"
+        skill: 42068
       },
-      { weight: 2857, affix: "Prefix", name: "Streamlined", id: "streamlined" },
+      {
+        weight: 2857,
+        affix: "Prefix",
+        name: "Streamlined",
+        skill: 36645
+      },
       {
         weight: 1429,
         affix: "Prefix",
         name: "Shrieking Bolts",
-        id: "shrieking-bolts"
+        skill: 12400
       },
-      { weight: 1429, affix: "Prefix", name: "Eye to Eye", id: "eye-to-eye" },
-      { weight: 2857, affix: "Prefix", name: "Repeater", id: "repeater" },
-      { weight: 714, affix: "Prefix", name: "Aerodynamics", id: "aerodynamics" }
+      {
+        weight: 1429,
+        affix: "Prefix",
+        name: "Eye to Eye",
+        skill: 54170
+      },
+      {
+        weight: 2857,
+        affix: "Prefix",
+        name: "Repeater",
+        skill: 53285
+      },
+      {
+        weight: 714,
+        affix: "Prefix",
+        name: "Aerodynamics",
+        skill: 13812
+      }
     ]
   },
   {
@@ -1872,43 +2332,43 @@ export default [
         weight: 1538,
         affix: "Prefix",
         name: "Set and Forget",
-        id: "set-and-forget"
+        skill: 29193
       },
       {
         weight: 1538,
         affix: "Prefix",
         name: "Expert Sabotage",
-        id: "expert-sabotage"
+        skill: 54760
       },
       {
         weight: 3077,
         affix: "Prefix",
         name: "Guerilla Tactics",
-        id: "guerilla-tactics"
+        skill: 24645
       },
       {
         weight: 769,
         affix: "Prefix",
         name: "Expendability",
-        id: "expendability"
+        skill: 65138
       },
       {
         weight: 769,
         affix: "Prefix",
         name: "Arcane Pyrotechnics",
-        id: "arcane-pyrotechnics"
+        skill: 52058
       },
       {
         weight: 1538,
         affix: "Prefix",
         name: "Surprise Sabotage",
-        id: "surprise-sabotage"
+        skill: 22434
       },
       {
         weight: 769,
         affix: "Prefix",
         name: "Careful Handling",
-        id: "careful-handling"
+        skill: 20383
       }
     ]
   },
@@ -1921,49 +2381,49 @@ export default [
         weight: 2353,
         affix: "Prefix",
         name: "Ancestral Echo",
-        id: "ancestral-echo"
+        skill: 31440
       },
       {
         weight: 2353,
         affix: "Prefix",
         name: "Ancestral Reach",
-        id: "ancestral-reach"
+        skill: 57212
       },
       {
         weight: 1176,
         affix: "Prefix",
         name: "Ancestral Might",
-        id: "ancestral-might"
+        skill: 60864
       },
       {
         weight: 588,
         affix: "Prefix",
         name: "Ancestral Preservation",
-        id: "ancestral-preservation"
+        skill: 56686
       },
       {
         weight: 1176,
         affix: "Prefix",
         name: "Snaring Spirits",
-        id: "snaring-spirits"
+        skill: 2004
       },
       {
         weight: 588,
         affix: "Prefix",
         name: "Sleepless Sentries",
-        id: "sleepless-sentries"
+        skill: 57383
       },
       {
         weight: 1176,
         affix: "Prefix",
         name: "Ancestral Guidance",
-        id: "ancestral-guidance"
+        skill: 54209
       },
       {
         weight: 588,
         affix: "Prefix",
         name: "Ancestral Inspiration",
-        id: "ancestral-inspiration"
+        skill: 13950
       }
     ]
   },
@@ -1972,27 +2432,42 @@ export default [
     size: "medium",
     enchantment: "12% increased Damage with Brand Skills",
     notables: [
-      { weight: 1667, affix: "Prefix", name: "Chip Away", id: "chip-away" },
+      {
+        weight: 1667,
+        affix: "Prefix",
+        name: "Chip Away",
+        skill: 26839
+      },
       {
         weight: 833,
         affix: "Prefix",
         name: "Seeker Runes",
-        id: "seeker-runes"
+        skill: 37358
       },
-      { weight: 1667, affix: "Prefix", name: "Remarkable", id: "remarkable" },
+      {
+        weight: 1667,
+        affix: "Prefix",
+        name: "Remarkable",
+        skill: 59307
+      },
       {
         weight: 3333,
         affix: "Prefix",
         name: "Brand Loyalty",
-        id: "brand-loyalty"
+        skill: 36276
       },
       {
         weight: 1667,
         affix: "Prefix",
         name: "Holy Conquest",
-        id: "holy-conquest"
+        skill: 42636
       },
-      { weight: 833, affix: "Prefix", name: "Grand Design", id: "grand-design" }
+      {
+        weight: 833,
+        affix: "Prefix",
+        name: "Grand Design",
+        skill: 13392
+      }
     ]
   },
   {
@@ -2000,33 +2475,48 @@ export default [
     size: "medium",
     enchantment: "Channelling Skills deal 12% increased Damage",
     notables: [
-      { weight: 2759, affix: "Prefix", name: "Vital Focus", id: "vital-focus" },
+      {
+        weight: 2759,
+        affix: "Prefix",
+        name: "Vital Focus",
+        skill: 54382
+      },
       {
         weight: 690,
         affix: "Prefix",
         name: "Rapid Infusion",
-        id: "rapid-infusion"
+        skill: 45935
       },
       {
         weight: 1379,
         affix: "Prefix",
         name: "Unwavering Focus",
-        id: "unwavering-focus"
+        skill: 38275
       },
       {
         weight: 345,
         affix: "Prefix",
         name: "Enduring Focus",
-        id: "enduring-focus"
+        skill: 46264
       },
       {
         weight: 1379,
         affix: "Prefix",
         name: "Precise Focus",
-        id: "precise-focus"
+        skill: 55714
       },
-      { weight: 2759, affix: "Prefix", name: "Stoic Focus", id: "stoic-focus" },
-      { weight: 690, affix: "Prefix", name: "Hex Breaker", id: "hex-breaker" }
+      {
+        weight: 2759,
+        affix: "Prefix",
+        name: "Stoic Focus",
+        skill: 35363
+      },
+      {
+        weight: 690,
+        affix: "Prefix",
+        name: "Hex Breaker",
+        skill: 65117
+      }
     ]
   },
   {
@@ -2038,45 +2528,55 @@ export default [
         weight: 1538,
         affix: "Prefix",
         name: "Distilled Perfection",
-        id: "distilled-perfection"
+        skill: 56886
       },
       {
         weight: 769,
         affix: "Prefix",
         name: "Spiked Concoction",
-        id: "spiked-concoction"
+        skill: 25282
       },
-      { weight: 769, affix: "Prefix", name: "Fasting", id: "fasting" },
+      {
+        weight: 769,
+        affix: "Prefix",
+        name: "Fasting",
+        skill: 5075
+      },
       {
         weight: 385,
         affix: "Prefix",
         name: "Mender's Wellspring",
-        id: "menders-wellspring"
+        skill: 41509
       },
       {
         weight: 1538,
         affix: "Prefix",
         name: "Special Reserve",
-        id: "special-reserve"
+        skill: 47584
       },
       {
         weight: 1538,
         affix: "Prefix",
         name: "Numbing Elixir",
-        id: "numbing-elixir"
+        skill: 62707
       },
       {
         weight: 1538,
         affix: "Prefix",
         name: "Brewed for Potency",
-        id: "brewed-for-potency"
+        skill: 4094
       },
-      { weight: 1538, affix: "Prefix", name: "Peak Vigour", id: "peak-vigour" },
+      {
+        weight: 1538,
+        affix: "Prefix",
+        name: "Peak Vigour",
+        skill: 8949
+      },
       {
         weight: 385,
         affix: "Prefix",
         name: "Liquid Inspiration",
-        id: "liquid-inspiration"
+        skill: 4958
       }
     ]
   },
@@ -2092,32 +2592,37 @@ export default [
         weight: 2353,
         affix: "Prefix",
         name: "Distilled Perfection",
-        id: "distilled-perfection"
+        skill: 56886
       },
       {
         weight: 1176,
         affix: "Prefix",
         name: "Spiked Concoction",
-        id: "spiked-concoction"
+        skill: 25282
       },
-      { weight: 1176, affix: "Prefix", name: "Fasting", id: "fasting" },
+      {
+        weight: 1176,
+        affix: "Prefix",
+        name: "Fasting",
+        skill: 5075
+      },
       {
         weight: 588,
         affix: "Prefix",
         name: "Mender's Wellspring",
-        id: "menders-wellspring"
+        skill: 41509
       },
       {
         weight: 2353,
         affix: "Prefix",
         name: "Special Reserve",
-        id: "special-reserve"
+        skill: 47584
       },
       {
         weight: 2353,
         affix: "Prefix",
         name: "Numbing Elixir",
-        id: "numbing-elixir"
+        skill: 62707
       }
     ]
   },
@@ -2129,103 +2634,123 @@ export default [
         weight: 278,
         affix: "Prefix",
         name: "Gladiator's Fortitude",
-        id: "gladiators-fortitude"
+        skill: 36807
       },
       {
         weight: 278,
         affix: "Prefix",
         name: "Towering Threat",
-        id: "towering-threat"
+        skill: 63607
       },
       {
         weight: 556,
         affix: "Prefix",
         name: "Cold-Blooded Killer",
-        id: "cold-blooded-killer"
+        skill: 23113
       },
       {
         weight: 278,
         affix: "Prefix",
         name: "Flow of Life",
-        id: "flow-of-life"
+        skill: 34581
       },
       {
         weight: 278,
         affix: "Prefix",
         name: "Brush with Death",
-        id: "brush-with-death"
+        skill: 28146
       },
       {
         weight: 278,
         affix: "Prefix",
         name: "Careful Handling",
-        id: "careful-handling"
+        skill: 20383
       },
-      { weight: 1111, affix: "Prefix", name: "Peak Vigour", id: "peak-vigour" },
-      { weight: 139, affix: "Prefix", name: "Fettle", id: "fettle" },
+      {
+        weight: 1111,
+        affix: "Prefix",
+        name: "Peak Vigour",
+        skill: 8949
+      },
+      {
+        weight: 139,
+        affix: "Prefix",
+        name: "Fettle",
+        skill: 52844
+      },
       {
         weight: 278,
         affix: "Prefix",
         name: "Feast of Flesh",
-        id: "feast-of-flesh"
+        skill: 15538
       },
       {
         weight: 556,
         affix: "Prefix",
         name: "Sublime Sensation",
-        id: "sublime-sensation"
+        skill: 62706
       },
       {
         weight: 1111,
         affix: "Prefix",
         name: "Surging Vitality",
-        id: "surging-vitality"
+        skill: 19723
       },
       {
         weight: 556,
         affix: "Prefix",
         name: "Peace Amidst Chaos",
-        id: "peace-amidst-chaos"
+        skill: 49694
       },
-      { weight: 278, affix: "Prefix", name: "Adrenaline", id: "adrenaline" },
+      {
+        weight: 278,
+        affix: "Prefix",
+        name: "Adrenaline",
+        skill: 40858
+      },
       {
         weight: 139,
         affix: "Prefix",
         name: "Wall of Muscle",
-        id: "wall-of-muscle"
+        skill: 3723
       },
       {
         weight: 278,
         affix: "Prefix",
         name: "Holistic Health",
-        id: "holistic-health"
+        skill: 23884
       },
       {
         weight: 278,
         affix: "Prefix",
         name: "Heart of Iron",
-        id: "heart-of-iron"
+        skill: 39331
       },
       {
         weight: 556,
         affix: "Prefix",
         name: "Natural Vigour",
-        id: "natural-vigour"
+        skill: 64259
       },
       {
         weight: 1111,
         affix: "Prefix",
         name: "Vicious Guard",
-        id: "vicious-guard"
+        skill: 58944
       },
       {
         weight: 278,
         affix: "Prefix",
         name: "Rote Reinforcement",
-        id: "rote-reinforcement"
+        skill: 11011
       },
-      { weight: 1111, affix: "Prefix", name: "Sage", id: "sage" },
-      { weight: 278, affix: "Prefix", name: "Blessed", id: "blessed" }
+      { weight: 1111, affix: "Prefix", name: "Sage", skill: 10409, id: "sage" },
+      {
+        weight: 278,
+        affix: "Prefix",
+        name: "Blessed",
+        skill: 42126
+      }
     ]
   },
   {
@@ -2236,51 +2761,61 @@ export default [
         weight: 1569,
         affix: "Prefix",
         name: "Stalwart Commander",
-        id: "stalwart-commander"
+        skill: 61616
       },
       {
         weight: 392,
         affix: "Prefix",
         name: "Brush with Death",
-        id: "brush-with-death"
+        skill: 28146
       },
       {
         weight: 784,
         affix: "Prefix",
         name: "Vile Reinvigoration",
-        id: "vile-reinvigoration"
+        skill: 65110
       },
       {
         weight: 784,
         affix: "Prefix",
         name: "Sublime Sensation",
-        id: "sublime-sensation"
+        skill: 62706
       },
       {
         weight: 1569,
         affix: "Prefix",
         name: "Savour the Moment",
-        id: "savour-the-moment"
+        skill: 52544
       },
       {
         weight: 784,
         affix: "Prefix",
         name: "Energy From Naught",
-        id: "energy-from-naught"
+        skill: 20241
       },
-      { weight: 196, affix: "Prefix", name: "Will Shaper", id: "will-shaper" },
-      { weight: 1569, affix: "Prefix", name: "Spring Back", id: "spring-back" },
+      {
+        weight: 196,
+        affix: "Prefix",
+        name: "Will Shaper",
+        skill: 33698
+      },
+      {
+        weight: 1569,
+        affix: "Prefix",
+        name: "Spring Back",
+        skill: 64782
+      },
       {
         weight: 784,
         affix: "Prefix",
         name: "Conservation of Energy",
-        id: "conservation-of-energy"
+        skill: 11513
       },
       {
         weight: 1569,
         affix: "Prefix",
         name: "Mystical Ward",
-        id: "mystical-ward"
+        skill: 34108
       }
     ]
   },
@@ -2292,58 +2827,87 @@ export default [
         weight: 714,
         affix: "Prefix",
         name: "Eldritch Inspiration",
-        id: "eldritch-inspiration"
+        skill: 61043
       },
       {
         weight: 357,
         affix: "Prefix",
         name: "Careful Handling",
-        id: "careful-handling"
+        skill: 20383
       },
-      { weight: 714, affix: "Prefix", name: "Mindfulness", id: "mindfulness" },
+      {
+        weight: 714,
+        affix: "Prefix",
+        name: "Mindfulness",
+        skill: 12867
+      },
       {
         weight: 357,
         affix: "Prefix",
         name: "Liquid Inspiration",
-        id: "liquid-inspiration"
+        skill: 4958
       },
-      { weight: 1429, affix: "Prefix", name: "Openness", id: "openness" },
+      {
+        weight: 1429,
+        affix: "Prefix",
+        name: "Openness",
+        skill: 20968
+      },
       {
         weight: 714,
         affix: "Prefix",
         name: "Daring Ideas",
-        id: "daring-ideas"
+        skill: 15175
       },
       {
         weight: 1429,
         affix: "Prefix",
         name: "Clarity of Purpose",
-        id: "clarity-of-purpose"
+        skill: 2220
       },
       {
         weight: 714,
         affix: "Prefix",
         name: "Scintillating Idea",
-        id: "scintillating-idea"
+        skill: 43834
       },
       {
         weight: 357,
         affix: "Prefix",
         name: "Holistic Health",
-        id: "holistic-health"
+        skill: 23884
       },
-      { weight: 179, affix: "Prefix", name: "Genius", id: "genius" },
-      { weight: 357, affix: "Prefix", name: "Improvisor", id: "improvisor" },
+      {
+        weight: 357,
+        affix: "Prefix",
+        name: "Improvisor",
+        skill: 42024
+      },
       {
         weight: 357,
         affix: "Prefix",
         name: "Stubborn Student",
-        id: "stubborn-student"
+        skill: 32031
       },
-      { weight: 179, affix: "Prefix", name: "Will Shaper", id: "will-shaper" },
-      { weight: 357, affix: "Prefix", name: "Wizardry", id: "wizardry" },
-      { weight: 1429, affix: "Prefix", name: "Sage", id: "sage" },
-      { weight: 357, affix: "Prefix", name: "Blessed", id: "blessed" }
+      {
+        weight: 179,
+        affix: "Prefix",
+        name: "Will Shaper",
+        skill: 33698
+      },
+      {
+        weight: 357,
+        affix: "Prefix",
+        name: "Wizardry",
+        skill: 44203
+      },
+      { weight: 1429, affix: "Prefix", name: "Sage", skill: 10409, id: "sage" },
+      {
+        weight: 357,
+        affix: "Prefix",
+        name: "Blessed",
+        skill: 42126
+      }
     ]
   },
   {
@@ -2354,47 +2918,62 @@ export default [
         weight: 1053,
         affix: "Prefix",
         name: "Battle-Hardened",
-        id: "battle-hardened"
+        skill: 53318
       },
       {
         weight: 2105,
         affix: "Prefix",
         name: "Stalwart Commander",
-        id: "stalwart-commander"
+        skill: 61616
       },
       {
         weight: 526,
         affix: "Prefix",
         name: "Stubborn Student",
-        id: "stubborn-student"
+        skill: 32031
       },
       {
         weight: 526,
         affix: "Prefix",
         name: "Heart of Iron",
-        id: "heart-of-iron"
+        skill: 39331
       },
       {
         weight: 526,
         affix: "Prefix",
         name: "Prismatic Carapace",
-        id: "prismatic-carapace"
+        skill: 54766
       },
-      { weight: 1053, affix: "Prefix", name: "Militarism", id: "militarism" },
-      { weight: 2105, affix: "Prefix", name: "Second Skin", id: "second-skin" },
+      {
+        weight: 1053,
+        affix: "Prefix",
+        name: "Militarism",
+        skill: 50820
+      },
+      {
+        weight: 2105,
+        affix: "Prefix",
+        name: "Second Skin",
+        skill: 60647
+      },
       {
         weight: 1053,
         affix: "Prefix",
         name: "Dragon Hunter",
-        id: "dragon-hunter"
+        skill: 14412
       },
       {
         weight: 526,
         affix: "Prefix",
         name: "Enduring Composure",
-        id: "enduring-composure"
+        skill: 57572
       },
-      { weight: 526, affix: "Prefix", name: "Blacksmith", id: "blacksmith" }
+      {
+        weight: 526,
+        affix: "Prefix",
+        name: "Blacksmith",
+        skill: 13549
+      }
     ]
   },
   {
@@ -2405,34 +2984,44 @@ export default [
         weight: 1053,
         affix: "Prefix",
         name: "Battle-Hardened",
-        id: "battle-hardened"
+        skill: 53318
       },
       {
         weight: 2105,
         affix: "Prefix",
         name: "Stalwart Commander",
-        id: "stalwart-commander"
+        skill: 61616
       },
       {
         weight: 526,
         affix: "Prefix",
         name: "Prismatic Dance",
-        id: "prismatic-dance"
+        skill: 42313
       },
       {
         weight: 1053,
         affix: "Prefix",
         name: "Natural Vigour",
-        id: "natural-vigour"
+        skill: 64259
       },
-      { weight: 2105, affix: "Prefix", name: "Untouchable", id: "untouchable" },
+      {
+        weight: 2105,
+        affix: "Prefix",
+        name: "Untouchable",
+        skill: 22704
+      },
       {
         weight: 1053,
         affix: "Prefix",
         name: "Shifting Shadow",
-        id: "shifting-shadow"
+        skill: 46074
       },
-      { weight: 2105, affix: "Prefix", name: "Readiness", id: "readiness" }
+      {
+        weight: 2105,
+        affix: "Prefix",
+        name: "Readiness",
+        skill: 9245
+      }
     ]
   },
   {
@@ -2443,71 +3032,91 @@ export default [
         weight: 1159,
         affix: "Prefix",
         name: "Prodigious Defence",
-        id: "prodigious-defence"
+        skill: 44237
       },
       {
         weight: 1159,
         affix: "Prefix",
         name: "Strike Leader",
-        id: "strike-leader"
+        skill: 12806
       },
       {
         weight: 290,
         affix: "Prefix",
         name: "Powerful Ward",
-        id: "powerful-ward"
+        skill: 28384
       },
       {
         weight: 290,
         affix: "Prefix",
         name: "Enduring Ward",
-        id: "enduring-ward"
+        skill: 9042
       },
-      { weight: 1159, affix: "Prefix", name: "Stoic Focus", id: "stoic-focus" },
-      { weight: 290, affix: "Prefix", name: "Mage Bane", id: "mage-bane" },
-      { weight: 1159, affix: "Prefix", name: "Second Skin", id: "second-skin" },
+      {
+        weight: 1159,
+        affix: "Prefix",
+        name: "Stoic Focus",
+        skill: 35363
+      },
+      {
+        weight: 290,
+        affix: "Prefix",
+        name: "Mage Bane",
+        skill: 24889
+      },
+      {
+        weight: 1159,
+        affix: "Prefix",
+        name: "Second Skin",
+        skill: 60647
+      },
       {
         weight: 290,
         affix: "Prefix",
         name: "Confident Combatant",
-        id: "confident-combatant"
+        skill: 11318
       },
       {
         weight: 580,
         affix: "Prefix",
         name: "Flexible Sentry",
-        id: "flexible-sentry"
+        skill: 4641
       },
       {
         weight: 1159,
         affix: "Prefix",
         name: "Vicious Guard",
-        id: "vicious-guard"
+        skill: 58944
       },
       {
         weight: 1159,
         affix: "Prefix",
         name: "Mystical Ward",
-        id: "mystical-ward"
+        skill: 34108
       },
       {
         weight: 290,
         affix: "Prefix",
         name: "Rote Reinforcement",
-        id: "rote-reinforcement"
+        skill: 11011
       },
-      { weight: 290, affix: "Prefix", name: "Mage Hunter", id: "mage-hunter" },
+      {
+        weight: 290,
+        affix: "Prefix",
+        name: "Mage Hunter",
+        skill: 25450
+      },
       {
         weight: 145,
         affix: "Prefix",
         name: "Riot Queller",
-        id: "riot-queller"
+        skill: 64407
       },
       {
         weight: 580,
         affix: "Prefix",
         name: "One with the Shield",
-        id: "one-with-the-shield"
+        skill: 53067
       }
     ]
   },
@@ -2519,71 +3128,91 @@ export default [
         weight: 1159,
         affix: "Prefix",
         name: "Prodigious Defence",
-        id: "prodigious-defence"
+        skill: 44237
       },
       {
         weight: 1159,
         affix: "Prefix",
         name: "Strike Leader",
-        id: "strike-leader"
+        skill: 12806
       },
       {
         weight: 290,
         affix: "Prefix",
         name: "Powerful Ward",
-        id: "powerful-ward"
+        skill: 28384
       },
       {
         weight: 290,
         affix: "Prefix",
         name: "Enduring Ward",
-        id: "enduring-ward"
+        skill: 9042
       },
-      { weight: 1159, affix: "Prefix", name: "Stoic Focus", id: "stoic-focus" },
-      { weight: 290, affix: "Prefix", name: "Mage Bane", id: "mage-bane" },
-      { weight: 1159, affix: "Prefix", name: "Second Skin", id: "second-skin" },
+      {
+        weight: 1159,
+        affix: "Prefix",
+        name: "Stoic Focus",
+        skill: 35363
+      },
+      {
+        weight: 290,
+        affix: "Prefix",
+        name: "Mage Bane",
+        skill: 24889
+      },
+      {
+        weight: 1159,
+        affix: "Prefix",
+        name: "Second Skin",
+        skill: 60647
+      },
       {
         weight: 290,
         affix: "Prefix",
         name: "Confident Combatant",
-        id: "confident-combatant"
+        skill: 11318
       },
       {
         weight: 580,
         affix: "Prefix",
         name: "Flexible Sentry",
-        id: "flexible-sentry"
+        skill: 4641
       },
       {
         weight: 1159,
         affix: "Prefix",
         name: "Vicious Guard",
-        id: "vicious-guard"
+        skill: 58944
       },
       {
         weight: 1159,
         affix: "Prefix",
         name: "Mystical Ward",
-        id: "mystical-ward"
+        skill: 34108
       },
       {
         weight: 290,
         affix: "Prefix",
         name: "Rote Reinforcement",
-        id: "rote-reinforcement"
+        skill: 11011
       },
-      { weight: 290, affix: "Prefix", name: "Mage Hunter", id: "mage-hunter" },
+      {
+        weight: 290,
+        affix: "Prefix",
+        name: "Mage Hunter",
+        skill: 25450
+      },
       {
         weight: 145,
         affix: "Prefix",
         name: "Riot Queller",
-        id: "riot-queller"
+        skill: 64407
       },
       {
         weight: 580,
         affix: "Prefix",
         name: "One with the Shield",
-        id: "one-with-the-shield"
+        skill: 53067
       }
     ]
   },
@@ -2595,57 +3224,67 @@ export default [
         weight: 1538,
         affix: "Prefix",
         name: "Pure Commander",
-        id: "pure-commander"
+        skill: 59350
       },
       {
         weight: 1538,
         affix: "Prefix",
         name: "Prismatic Heart",
-        id: "prismatic-heart"
+        skill: 17050
       },
       {
         weight: 385,
         affix: "Prefix",
         name: "Prismatic Carapace",
-        id: "prismatic-carapace"
+        skill: 54766
       },
       {
         weight: 769,
         affix: "Prefix",
         name: "Dragon Hunter",
-        id: "dragon-hunter"
+        skill: 14412
       },
       {
         weight: 385,
         affix: "Prefix",
         name: "Prismatic Dance",
-        id: "prismatic-dance"
+        skill: 42313
       },
       {
         weight: 769,
         affix: "Prefix",
         name: "Flexible Sentry",
-        id: "flexible-sentry"
+        skill: 4641
       },
       {
         weight: 385,
         affix: "Prefix",
         name: "Molten One's Mark",
-        id: "molten-ones-mark"
+        skill: 48803
       },
       {
         weight: 1538,
         affix: "Prefix",
         name: "Fire Attunement",
-        id: "fire-attunement"
+        skill: 42530
       },
-      { weight: 1538, affix: "Prefix", name: "Pure Might", id: "pure-might" },
-      { weight: 385, affix: "Prefix", name: "Blacksmith", id: "blacksmith" },
+      {
+        weight: 1538,
+        affix: "Prefix",
+        name: "Pure Might",
+        skill: 17769
+      },
+      {
+        weight: 385,
+        affix: "Prefix",
+        name: "Blacksmith",
+        skill: 13549
+      },
       {
         weight: 769,
         affix: "Prefix",
         name: "Non-Flammable",
-        id: "non-flammable"
+        skill: 1581
       }
     ]
   },
@@ -2657,42 +3296,62 @@ export default [
         weight: 1600,
         affix: "Prefix",
         name: "Pure Commander",
-        id: "pure-commander"
+        skill: 59350
       },
       {
         weight: 1600,
         affix: "Prefix",
         name: "Prismatic Heart",
-        id: "prismatic-heart"
+        skill: 17050
       },
       {
         weight: 400,
         affix: "Prefix",
         name: "Prismatic Carapace",
-        id: "prismatic-carapace"
+        skill: 54766
       },
       {
         weight: 400,
         affix: "Prefix",
         name: "Prismatic Dance",
-        id: "prismatic-dance"
+        skill: 42313
       },
       {
         weight: 800,
         affix: "Prefix",
         name: "Flexible Sentry",
-        id: "flexible-sentry"
+        skill: 4641
       },
       {
         weight: 400,
         affix: "Prefix",
         name: "Winter Prowler",
-        id: "winter-prowler"
+        skill: 38683
       },
-      { weight: 800, affix: "Prefix", name: "Hibernator", id: "hibernator" },
-      { weight: 1600, affix: "Prefix", name: "Pure Guile", id: "pure-guile" },
-      { weight: 1600, affix: "Prefix", name: "Alchemist", id: "alchemist" },
-      { weight: 800, affix: "Prefix", name: "Antifreeze", id: "antifreeze" }
+      {
+        weight: 800,
+        affix: "Prefix",
+        name: "Hibernator",
+        skill: 19508
+      },
+      {
+        weight: 1600,
+        affix: "Prefix",
+        name: "Pure Guile",
+        skill: 26322
+      },
+      {
+        weight: 1600,
+        affix: "Prefix",
+        name: "Alchemist",
+        skill: 58904
+      },
+      {
+        weight: 800,
+        affix: "Prefix",
+        name: "Antifreeze",
+        skill: 33676
+      }
     ]
   },
   {
@@ -2703,42 +3362,57 @@ export default [
         weight: 1600,
         affix: "Prefix",
         name: "Pure Commander",
-        id: "pure-commander"
+        skill: 59350
       },
       {
         weight: 1600,
         affix: "Prefix",
         name: "Prismatic Heart",
-        id: "prismatic-heart"
+        skill: 17050
       },
       {
         weight: 400,
         affix: "Prefix",
         name: "Prismatic Carapace",
-        id: "prismatic-carapace"
+        skill: 54766
       },
       {
         weight: 400,
         affix: "Prefix",
         name: "Prismatic Dance",
-        id: "prismatic-dance"
+        skill: 42313
       },
       {
         weight: 800,
         affix: "Prefix",
         name: "Flexible Sentry",
-        id: "flexible-sentry"
+        skill: 4641
       },
-      { weight: 400, affix: "Prefix", name: "Wizardry", id: "wizardry" },
-      { weight: 800, affix: "Prefix", name: "Capacitor", id: "capacitor" },
+      {
+        weight: 400,
+        affix: "Prefix",
+        name: "Wizardry",
+        skill: 44203
+      },
+      {
+        weight: 800,
+        affix: "Prefix",
+        name: "Capacitor",
+        skill: 22002
+      },
       {
         weight: 1600,
         affix: "Prefix",
         name: "Pure Aptitude",
-        id: "pure-aptitude"
+        skill: 51421
       },
-      { weight: 1600, affix: "Prefix", name: "Sage", id: "sage" },
-      { weight: 800, affix: "Prefix", name: "Insulated", id: "insulated" }
+      { weight: 1600, affix: "Prefix", name: "Sage", skill: 10409, id: "sage" },
+      {
+        weight: 800,
+        affix: "Prefix",
+        name: "Insulated",
+        skill: 54798
+      }
     ]
   },
   {
@@ -2749,27 +3423,37 @@ export default [
         weight: 2857,
         affix: "Prefix",
         name: "Exposure Therapy",
-        id: "exposure-therapy"
+        skill: 56070
       },
       {
         weight: 714,
         affix: "Prefix",
         name: "Born of Chaos",
-        id: "born-of-chaos"
+        skill: 51523
       },
-      { weight: 1429, affix: "Prefix", name: "Antivenom", id: "antivenom" },
+      {
+        weight: 1429,
+        affix: "Prefix",
+        name: "Antivenom",
+        skill: 21688
+      },
       {
         weight: 2857,
         affix: "Prefix",
         name: "Rot-Resistant",
-        id: "rot-resistant"
+        skill: 29096
       },
-      { weight: 714, affix: "Prefix", name: "Blessed", id: "blessed" },
+      {
+        weight: 714,
+        affix: "Prefix",
+        name: "Blessed",
+        skill: 42126
+      },
       {
         weight: 1429,
         affix: "Prefix",
         name: "Student of Decay",
-        id: "student-of-decay"
+        skill: 26179
       }
     ]
   },
@@ -2777,22 +3461,42 @@ export default [
     size: "small",
     enchantment: "1% chance to Dodge Attack Hits",
     notables: [
-      { weight: 2353, affix: "Prefix", name: "Hit and Run", id: "hit-and-run" },
-      { weight: 2353, affix: "Prefix", name: "Untouchable", id: "untouchable" },
-      { weight: 294, affix: "Prefix", name: "Aerialist", id: "aerialist" },
+      {
+        weight: 2353,
+        affix: "Prefix",
+        name: "Hit and Run",
+        skill: 62618
+      },
+      {
+        weight: 2353,
+        affix: "Prefix",
+        name: "Untouchable",
+        skill: 22704
+      },
+      {
+        weight: 294,
+        affix: "Prefix",
+        name: "Aerialist",
+        skill: 23042
+      },
       {
         weight: 2353,
         affix: "Prefix",
         name: "Elegant Form",
-        id: "elegant-form"
+        skill: 40181
       },
       {
         weight: 2353,
         affix: "Prefix",
         name: "Darting Movements",
-        id: "darting-movements"
+        skill: 9276
       },
-      { weight: 294, affix: "Prefix", name: "No Witnesses", id: "no-witnesses" }
+      {
+        weight: 294,
+        affix: "Prefix",
+        name: "No Witnesses",
+        skill: 18155
+      }
     ]
   }
 ];

@@ -1,17 +1,17 @@
 import React from "react";
-import styled from "@emotion/styled";
-import AllNotables from "./AllNotables";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import notables from "./Notables";
 import jewels from "./Jewels";
 
 const Notable = () => {
+  console.log(useParams());
   const { id } = useParams();
+  const skill = typeof id === "string" ? parseInt(id, 10) : 0;
 
-  const notable = notables.find(({ id: nid }) => nid === id);
+  const notable = notables.find(({ skill: nskill }) => nskill === skill);
 
   const appearsOn = jewels.filter(({ notables }) =>
-    notables.some(({ id: nid }) => nid === id)
+    notables.some(({ skill: nskill }) => nskill === skill)
   );
 
   console.log(appearsOn);

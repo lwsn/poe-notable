@@ -4,10 +4,13 @@ import { Link } from "react-router-dom";
 
 interface Notable {
   name: string;
-  description: string | string[];
-  id: string;
+  skill: number;
+  stats: string[];
+  reminderText?: string[];
   icon: string;
-  keystone?: boolean;
+  isKeystone?: boolean;
+  isNotable?: boolean;
+  flavourText?: string[];
 }
 
 const Wrapper = styled(Link)<{ keystone?: boolean }>({
@@ -70,21 +73,17 @@ const Icon = styled.div<{ keystone?: boolean; icon: string }>(
 );
 
 const NotableCard = ({
-  notable: { name, description, icon, keystone, id }
+  notable: { name, stats, icon, isKeystone, skill }
 }: {
   notable: Notable;
 }) => (
-  <Wrapper to={`/notable/${id}`}>
-    <Icon icon={icon} keystone={keystone} />
+  <Wrapper to={`/notable/${skill}`}>
+    <Icon icon={icon} keystone={isKeystone} />
     <TextContainer>
       <Title>{name}</Title>
-      {typeof description === "string" ? (
-        <Description>{description}</Description>
-      ) : (
-        description.map((text, key) => (
-          <Description key={key}>{text}</Description>
-        ))
-      )}
+      {stats.map((text, key) => (
+        <Description key={key}>{text}</Description>
+      ))}
     </TextContainer>
   </Wrapper>
 );
