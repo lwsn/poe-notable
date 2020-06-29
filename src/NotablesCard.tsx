@@ -30,6 +30,7 @@ const Wrapper = styled(Link)({
 const TextContainer = styled.div({
   display: "flex",
   flexDirection: "column",
+  flexGrow: 1,
   color: "white",
   marginLeft: "8px"
 });
@@ -99,6 +100,7 @@ const NotableCard = ({
           {type === "suffix" ? "Suffix" : "Prefix"}, weight: {weight}
         </MetaInfo>
       )}
+      {probability && <Probability>{probability}</Probability>}
     </TextContainer>
   </Wrapper>
 );
