@@ -101,13 +101,6 @@ export const SingleJewel = ({
 }) => {
   const [expanded, setExpanded] = useState(false);
 
-  const suffixWeight = notables
-    .filter(({ affix }) => affix === "Suffix")
-    .reduce((acc, { weight }) => acc + weight, 0);
-  const prefixWeight = notables
-    .filter(({ affix }) => affix === "Prefix")
-    .reduce((acc, { weight }) => acc + weight, 0);
-
   return (
     <Jewel>
       <JewelHeader onClick={() => setExpanded(!expanded)} expanded={expanded}>

@@ -100,7 +100,6 @@ const NotableCard = ({
           {type === "suffix" ? "Suffix" : "Prefix"}, weight: {weight}
         </MetaInfo>
       )}
-      {probability && <Probability>{probability}</Probability>}
     </TextContainer>
   </Wrapper>
 );
