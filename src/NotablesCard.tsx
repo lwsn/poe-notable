@@ -4,13 +4,18 @@ import { Link } from "react-router-dom";
 
 interface Notable {
   name: string;
-  description: string | string[];
-  id: string;
+  skill: number;
+  stats: string[];
+  reminderText?: string[];
   icon: string;
-  keystone?: boolean;
+  isKeystone?: boolean;
+  isNotable?: boolean;
+  flavourText?: string[];
+  type: string;
+  weight: { [key: string]: number | undefined };
 }
 
-const Wrapper = styled(Link)<{ keystone?: boolean }>({
+const Wrapper = styled(Link)({
   display: "flex",
   padding: "8px",
   backgroundColor: "#111",
@@ -42,17 +47,13 @@ const Description = styled.p({
   margin: "0 0 4px"
 });
 
-const Probability = styled.p({
-  fontSize: "11px",
-  lineHeight: "14px",
+const MetaInfo = styled(Description)({
+  color: "#666",
   fontStyle: "italic",
-  textAlign: "right",
-  width: "100%",
-  marginTop: "auto",
-  marginBottom: 0
+  marginTop: "auto"
 });
 
-const Icon = styled.div<{ keystone?: boolean; icon: string }>(
+const Icon = styled.div<{ isKeystone?: boolean; icon: string }>(
   {
     backgroundSize: "cover",
     flexShrink: 0,
@@ -74,29 +75,30 @@ const Icon = styled.div<{ keystone?: boolean; icon: string }>(
   ({ icon }) => ({
     backgroundImage: `url(${process.env.PUBLIC_URL}${icon})`
   }),
-  ({ keystone }) => ({
-    width: keystone ? "64px" : "48px",
-    height: keystone ? "64px" : "48px"
+  ({ isKeystone }) => ({
+    width: isKeystone ? "64px" : "48px",
+    height: isKeystone ? "64px" : "48px"
   })
 );
 
 const NotableCard = ({
-  notable: { name, description, icon, keystone, id },
-  probability
+  notable: { name, stats, icon, isKeystone, skill, type },
+  weight
 }: {
   notable: Notable;
-  probability?: string;
+  weight?: number;
 }) => (
-  <Wrapper to={`/notable/${id}`}>
-    <Icon icon={icon} keystone={keystone} />
+  <Wrapper to={`/notable/${skill}`}>
+    <Icon icon={icon} isKeystone={isKeystone} />
     <TextContainer>
       <Title>{name}</Title>
-      {typeof description === "string" ? (
-        <Description>{description}</Description>
-      ) : (
-        description.map((text, key) => (
-          <Description key={key}>{text}</Description>
-        ))
+      {stats.map((text, key) => (
+        <Description key={key}>{text}</Description>
+      ))}
+      {weight && (
+        <MetaInfo>
+          {type === "suffix" ? "Suffix" : "Prefix"}, weight: {weight}
+        </MetaInfo>
       )}
       {probability && <Probability>{probability}</Probability>}
     </TextContainer>

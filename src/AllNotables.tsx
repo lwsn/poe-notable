@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import styled from "@emotion/styled";
-import Notables from "./Notables";
+import Notables from "./Notables.json";
 import NotableCard from "./NotablesCard";
 import Fuse from "fuse.js";
 import { useLocation, useHistory } from "react-router-dom";
@@ -92,7 +92,7 @@ const List = React.memo(
         includeScore: true,
         keys: [
           {
-            name: "description",
+            name: "stats",
             weight: 0.5
           },
           {
@@ -129,16 +129,19 @@ const AllNotables = () => {
 
   const bounce = useRef<number>();
 
-  useEffect(() => {
-    if (term !== debouncedTerm) {
-      window.clearTimeout(bounce.current);
-      bounce.current = window.setTimeout(() => {
-        hist.replace(term ? `?s=${term}` : "");
-        setDebouncedTerm(term);
-      }, 250);
-    }
-    return () => window.clearTimeout(bounce.current);
-  }, [term, hist, debouncedTerm]);
+  useEffect(
+    () => {
+      if (term !== debouncedTerm) {
+        window.clearTimeout(bounce.current);
+        bounce.current = window.setTimeout(() => {
+          hist.replace(term ? `?s=${term}` : "");
+          setDebouncedTerm(term);
+        }, 250);
+      }
+      return () => window.clearTimeout(bounce.current);
+    },
+    [term, hist, debouncedTerm]
+  );
 
   return (
     <OuterWrapper>

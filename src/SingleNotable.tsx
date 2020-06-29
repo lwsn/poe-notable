@@ -1,53 +1,54 @@
 import React from "react";
 import styled from "@emotion/styled";
 import { useParams } from "react-router-dom";
-import notables from "./Notables";
-import jewels from "./Jewels";
+import notables from "./Notables.json";
+import jewels from "./Jewels.json";
 import { SingleJewel } from "./AllJewels";
 import NotableCard from "./NotablesCard";
 
 const Container = styled.div({
-  display: "flex",
-  flexDirection: "column",
-  padding: "8px",
-  overflowY: "hidden"
-});
-
-const JewelContainer = styled.div({
   display: "grid",
-  gridTemplateRows: "auto",
-  gridGap: "8px",
+  gridTemplateColumns: "1fr",
+  gridGap: "16px",
   overflowY: "auto",
+  overflowX: "hidden",
   "::-webkit-scrollbar": {
     width: "16px",
     borderRight: "8px solid #111"
   },
   "::-webkit-scrollbar-thumb": {
     borderRight: "8px solid #222"
-  },
-  marginTop: "8px"
+  }
+});
+
+const OuterWrapper = styled.div({
+  display: "flex",
+  flexDirection: "column",
+  width: "100%",
+  overflow: "hidden",
+  padding: "16px"
 });
 
 const Notable = () => {
   const { id } = useParams();
+  const skill = typeof id === "string" ? parseInt(id, 10) : 0;
 
-  const notable = notables.find(({ id: nid }) => nid === id);
+  const notable = notables.find(({ skill: nskill }) => nskill === skill);
 
   const appearsOn = jewels.filter(({ notables }) =>
-    notables.some(({ id: nid }) => nid === id)
+    notables.some(({ skill: nskill }) => nskill === skill)
   );
 
   return notable ? (
-    <Container>
-      <NotableCard notable={notable} />
-      {appearsOn && (
-        <JewelContainer>
-          {appearsOn.map(jewel => (
-            <SingleJewel key={jewel.id} jewel={jewel} />
+    <OuterWrapper>
+      <Container>
+        <NotableCard key={notable.skill} notable={notable} />
+        {appearsOn &&
+          appearsOn.map(jewel => (
+            <SingleJewel key={jewel.name} jewel={jewel} />
           ))}
-        </JewelContainer>
-      )}
-    </Container>
+      </Container>
+    </OuterWrapper>
   ) : null;
 };
 

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styled from "@emotion/styled";
-import Jewels from "./Jewels";
-import Notables from "./Notables";
+import Jewels from "./Jewels.json";
+import Notables from "./Notables.json";
 import NotableCard from "./NotablesCard";
 
 const Container = styled.div({
@@ -83,8 +83,19 @@ const JewelHeader = styled.button<{ expanded?: boolean }>(
   })
 );
 
+function hasKey<O>(obj: O, key: keyof any): key is keyof O {
+  return key in obj;
+}
+
+const getWeight = (
+  tag: string,
+  notable: {
+    weight: { [key: string]: number | undefined };
+  }
+) => (hasKey(notable.weight, tag) ? notable.weight[tag] : undefined);
+
 export const SingleJewel = ({
-  jewel: { enchantment, notables }
+  jewel: { enchant, notables, tag }
 }: {
   jewel: typeof Jewels[0];
 }) => {
@@ -100,38 +111,29 @@ export const SingleJewel = ({
   return (
     <Jewel>
       <JewelHeader onClick={() => setExpanded(!expanded)} expanded={expanded}>
-        {typeof enchantment === "string" ? (
-          <Enchantment>{enchantment}</Enchantment>
-        ) : (
-          Array.isArray(enchantment) &&
-          enchantment.map((e, key) => <Enchantment key={key}>{e}</Enchantment>)
-        )}
+        {enchant.map(e => (
+          <Enchantment key={e}>{e}</Enchantment>
+        ))}
       </JewelHeader>
       {expanded && (
         <NotablesContainer>
-          {Notables.filter(({ id }) =>
-            notables.some(({ id: nid }) => id === nid)
-          ).map(notable => {
-            const { weight, affix } =
-              notables.find(({ id: nid }) => nid === notable.id) || {};
-
-            const probability = weight
-              ? (
-                  weight / (affix === "Prefix" ? prefixWeight : suffixWeight)
-                ).toLocaleString("en-us", {
-                  style: "percent",
-                  maximumFractionDigits: 2
-                })
-              : undefined;
-
-            return (
+          {Notables.filter(({ skill }) =>
+            notables.some(({ skill: nskill }) => skill === nskill)
+          )
+            .sort((a, b) =>
+              a.type !== b.type
+                ? a.type === "suffix"
+                  ? 1
+                  : -1
+                : (getWeight(tag, b) || 0) - (getWeight(tag, a) || 0)
+            )
+            .map(notable => (
               <NotableCard
-                key={notable.id}
+                key={notable.skill}
+                weight={getWeight(tag, notable)}
                 notable={notable}
-                probability={`${affix}: ${probability}`}
               />
-            );
-          })}
+            ))}
         </NotablesContainer>
       )}
     </Jewel>
@@ -141,7 +143,7 @@ export const SingleJewel = ({
 const JewelSection = ({ jewels }: { jewels: typeof Jewels }) => (
   <>
     {jewels.map(jewel => (
-      <SingleJewel key={jewel.id} jewel={jewel} />
+      <SingleJewel key={jewel.name} jewel={jewel} />
     ))}
   </>
 );
