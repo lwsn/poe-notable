@@ -54,7 +54,9 @@ const TabsContainer = styled.div({
   }
 });
 
-const Tab = styled(Link)<{ isActive: Boolean }>(
+const Tab = styled(Link, { shouldForwardProp: prop => prop !== "isActive" })<{
+  isActive: Boolean;
+}>(
   {
     marginRight: "4px",
     textDecoration: "none",

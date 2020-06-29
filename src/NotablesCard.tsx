@@ -11,9 +11,11 @@ interface Notable {
   isKeystone?: boolean;
   isNotable?: boolean;
   flavourText?: string[];
+  type: string;
+  weight: { [key: string]: number | undefined };
 }
 
-const Wrapper = styled(Link)<{ keystone?: boolean }>({
+const Wrapper = styled(Link)({
   display: "flex",
   padding: "8px",
   backgroundColor: "#111",
@@ -44,7 +46,13 @@ const Description = styled.p({
   margin: "0 0 4px"
 });
 
-const Icon = styled.div<{ keystone?: boolean; icon: string }>(
+const MetaInfo = styled(Description)({
+  color: "#666",
+  fontStyle: "italic",
+  marginTop: "auto"
+});
+
+const Icon = styled.div<{ isKeystone?: boolean; icon: string }>(
   {
     backgroundSize: "cover",
     flexShrink: 0,
@@ -66,24 +74,31 @@ const Icon = styled.div<{ keystone?: boolean; icon: string }>(
   ({ icon }) => ({
     backgroundImage: `url(${process.env.PUBLIC_URL}${icon})`
   }),
-  ({ keystone }) => ({
-    width: keystone ? "64px" : "48px",
-    height: keystone ? "64px" : "48px"
+  ({ isKeystone }) => ({
+    width: isKeystone ? "64px" : "48px",
+    height: isKeystone ? "64px" : "48px"
   })
 );
 
 const NotableCard = ({
-  notable: { name, stats, icon, isKeystone, skill }
+  notable: { name, stats, icon, isKeystone, skill, type },
+  weight
 }: {
   notable: Notable;
+  weight?: number;
 }) => (
   <Wrapper to={`/notable/${skill}`}>
-    <Icon icon={icon} keystone={isKeystone} />
+    <Icon icon={icon} isKeystone={isKeystone} />
     <TextContainer>
       <Title>{name}</Title>
       {stats.map((text, key) => (
         <Description key={key}>{text}</Description>
       ))}
+      {weight && (
+        <MetaInfo>
+          {type === "suffix" ? "Suffix" : "Prefix"}, weight: {weight}
+        </MetaInfo>
+      )}
     </TextContainer>
   </Wrapper>
 );
