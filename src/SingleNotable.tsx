@@ -10,7 +10,7 @@ import { NotableType, JewelType } from "./types";
 const Container = styled.div({
   display: "grid",
   gridTemplateColumns: "1fr",
-  gridGap: "16px",
+  gridGap: "8px",
   overflowY: "auto",
   overflowX: "hidden",
   "::-webkit-scrollbar": {
@@ -20,6 +20,7 @@ const Container = styled.div({
   "::-webkit-scrollbar-thumb": {
     borderRight: "8px solid #222",
   },
+  padding: "0 8px 8px",
 });
 
 const OuterWrapper = styled.div({
@@ -27,7 +28,13 @@ const OuterWrapper = styled.div({
   flexDirection: "column",
   width: "100%",
   overflow: "hidden",
-  padding: "16px",
+});
+
+const CardWrapper = styled.div({
+  position: "sticky",
+  top: "40px",
+  zIndex: 9,
+  borderBottom: "8px solid #222",
 });
 
 const Notable = () => {
@@ -43,15 +50,19 @@ const Notable = () => {
   );
 
   return notable ? (
-    <OuterWrapper>
-      <Container>
-        <NotableCard key={notable.skill} notable={notable} />
-        {appearsOn &&
-          appearsOn.map((jewel) => (
-            <SingleJewel key={jewel.name} jewel={jewel} />
-          ))}
-      </Container>
-    </OuterWrapper>
+    <>
+      <CardWrapper>
+        <NotableCard showReminder key={notable.skill} notable={notable} />
+      </CardWrapper>
+      <OuterWrapper>
+        <Container>
+          {appearsOn &&
+            appearsOn.map((jewel) => (
+              <SingleJewel key={jewel.name} jewel={jewel} />
+            ))}
+        </Container>
+      </OuterWrapper>
+    </>
   ) : null;
 };
 

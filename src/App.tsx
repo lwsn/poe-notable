@@ -7,70 +7,40 @@ import {
   Route,
   Link,
   Redirect,
-  useLocation
+  useLocation,
+  useRouteMatch,
 } from "react-router-dom";
 import AllJewels from "./AllJewels";
 import SingleNotable from "./SingleNotable";
 
-const OuterWrapper = styled.div({
-  overflow: "hidden",
-  height: "100vh",
-  width: "100vw",
-  backgroundColor: "#555"
-});
-
-const Container = styled.div({
-  display: "flex",
-  flexDirection: "column",
-  alignItems: "stretch",
-  margin: "0 auto",
-  maxWidth: "980px",
-  "@media only screen and (min-width: 768px)": {
-    padding: "16px"
-  },
-  height: "100%"
-});
-
-const Box = styled.div({
-  backgroundColor: "black",
-  color: "white",
-  display: "flex",
-  flexDirection: "column",
-  overflow: "hidden"
-});
-
 const TabsContainer = styled.div({
-  borderBottom: "1px solid orange",
   display: "flex",
-  position: "relative",
-  ":before": {
-    content: `""`,
-    bottom: "0",
-    width: "100%",
-    display: "block",
-    height: "1px",
-    position: "absolute",
-    backgroundColor: "#000"
-  }
+  position: "sticky",
+  top: 0,
+  zIndex: 9,
+  backgroundColor: "#000",
+  height: "40px",
 });
 
-const Tab = styled(Link, { shouldForwardProp: prop => prop !== "isActive" })<{
+const Tab = styled(Link, { shouldForwardProp: (prop) => prop !== "isActive" })<{
   isActive: Boolean;
 }>(
   {
     marginRight: "4px",
     textDecoration: "none",
     padding: "8px",
-    zIndex: 1
+    zIndex: 1,
   },
   ({ isActive }) => ({
     backgroundColor: isActive ? "orange" : "#000",
-    color: isActive ? "#000" : "orange"
+    color: isActive ? "#000" : "orange",
   })
 );
 
 const Tabs = () => {
   const location = useLocation();
+  const id = useRouteMatch<{ id: string }>("/notable/:id")?.params.id;
+  console.log(id);
 
   return (
     <TabsContainer>
@@ -86,25 +56,19 @@ const Tabs = () => {
 
 const App = () => (
   <Router>
-    <OuterWrapper>
-      <Container>
-        <Tabs />
-        <Box>
-          <Switch>
-            <Route path="/notable/:id">
-              <SingleNotable />
-            </Route>
-            <Route path="/jewels">
-              <AllJewels />
-            </Route>
-            <Route exact path="/">
-              <AllNotables />
-            </Route>
-            <Redirect to="/" />
-          </Switch>
-        </Box>
-      </Container>
-    </OuterWrapper>
+    <Tabs />
+    <Switch>
+      <Route path="/notable/:id">
+        <SingleNotable />
+      </Route>
+      <Route path="/jewels">
+        <AllJewels />
+      </Route>
+      <Route exact path="/">
+        <AllNotables />
+      </Route>
+      <Redirect to="/" />
+    </Switch>
   </Router>
 );
 

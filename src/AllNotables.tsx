@@ -7,11 +7,10 @@ import { useLocation, useHistory } from "react-router-dom";
 import { NotableType } from "./types";
 
 const Container = styled.div<{ single?: boolean }>({
-  display: "grid",
-  gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))",
-  overflowY: "auto",
-  overflowX: "hidden",
-  gridGap: "16px",
+  maxHeight: "calc(100vh - )",
+  columns: "300px 5",
+  columnGap: "8px",
+  padding: "0 8px",
   "::-webkit-scrollbar": {
     width: "16px",
     borderRight: "8px solid #111",
@@ -21,26 +20,25 @@ const Container = styled.div<{ single?: boolean }>({
   },
 });
 
-const OuterWrapper = styled.div({
-  display: "flex",
-  flexDirection: "column",
-  width: "100%",
-  overflow: "hidden",
-  padding: "16px",
-});
-
 const Input = styled.input({
   padding: "12px 16px",
   fontSize: "16px",
   flexGrow: 1,
   border: "none",
+  background: "#111",
+  color: "#fff",
+  ":focus": {
+    outline: "none",
+  },
 });
 
 const InputWrapper = styled.div({
   display: "flex",
-  background: "#FFF",
-  margin: "0 0 16px",
   alignItems: "center",
+  position: "sticky",
+  top: "40px",
+  zIndex: 9,
+  borderBottom: "8px solid #222",
 });
 
 const Clear = styled.button({
@@ -50,7 +48,8 @@ const Clear = styled.button({
   border: "none",
   padding: "0 24px 0 27px",
   height: "100%",
-  position: "relative",
+  position: "absolute",
+  right: 0,
   display: "flex",
   flexDirection: "row-reverse",
   alignItems: "center",
@@ -67,13 +66,24 @@ const Clear = styled.button({
   ":before": { transform: "rotateZ(-45deg)" },
 });
 
+const NotableWrapper = styled.div({
+  display: "inline-block",
+  width: "100%",
+  breakInside: "avoid-column",
+  pageBreakInside: "avoid",
+  WebkitColumnBreakInside: "avoid",
+  marginBottom: "8px",
+});
+
 const More = styled.div({
   color: "white",
+  textAlign: "center",
+  padding: "16px",
 });
 
 const formattedNotables = (Notables as NotableType[]).map((n) => ({ item: n }));
 
-const maxNotables = 30;
+const maxNotables = 50;
 
 const getParams = (search: string) =>
   search
@@ -109,12 +119,16 @@ const List = React.memo(
     const rest = result.length - maxNotables;
 
     return (
-      <Container single={result.length === 1}>
-        {result.slice(0, maxNotables).map(({ item: notable }) => (
-          <NotableCard key={notable.name} notable={notable} />
-        ))}
-        {rest > 0 && <More>... And {rest} more</More>}
-      </Container>
+      <>
+        <Container single={result.length === 1}>
+          {result.slice(0, maxNotables).map(({ item: notable }) => (
+            <NotableWrapper key={notable.skill}>
+              <NotableCard notable={notable} />
+            </NotableWrapper>
+          ))}
+        </Container>
+        {rest > 0 && <More>{rest} notables hidden, refine your search</More>}
+      </>
     );
   },
   ({ term: prevTerm }, { term }) => prevTerm === term
@@ -142,7 +156,7 @@ const AllNotables = () => {
   }, [term, hist, debouncedTerm]);
 
   return (
-    <OuterWrapper>
+    <>
       <InputWrapper>
         <Input
           onChange={({ target: { value } }) => setTerm(value)}
@@ -153,7 +167,7 @@ const AllNotables = () => {
         {term && <Clear onClick={() => setTerm("")} />}
       </InputWrapper>
       <List term={debouncedTerm} />
-    </OuterWrapper>
+    </>
   );
 };
 
