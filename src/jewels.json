@@ -1,0 +1,4230 @@
+[
+  {
+    "id": "affliction_maximum_life",
+    "name": "Life",
+    "icon": "Art/2DArt/SkillIcons/passives/IncreasedMaximumLifeNode.png",
+    "tag": "affliction_maximum_life",
+    "stats": [
+      "4% increased maximum Life"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: 4% increased maximum Life"
+    ],
+    "size": "Small",
+    "prefixWeight": 14994,
+    "suffixWeight": 16500,
+    "notables": [
+      {
+        "name": "Gladiator's Fortitude",
+        "skill": 36807,
+        "type": "Prefix",
+        "weight": 146
+      },
+      {
+        "name": "Towering Threat",
+        "skill": 63607,
+        "type": "Prefix",
+        "weight": 146
+      },
+      {
+        "name": "Flow of Life",
+        "skill": 34581,
+        "type": "Prefix",
+        "weight": 146
+      },
+      {
+        "name": "Brush with Death",
+        "skill": 28146,
+        "type": "Prefix",
+        "weight": 146
+      },
+      {
+        "name": "Careful Handling",
+        "skill": 20383,
+        "type": "Prefix",
+        "weight": 146
+      },
+      {
+        "name": "Peak Vigour",
+        "skill": 8949,
+        "type": "Prefix",
+        "weight": 780
+      },
+      {
+        "name": "Fettle",
+        "skill": 52844,
+        "type": "Prefix",
+        "weight": 49
+      },
+      {
+        "name": "Feast of Flesh",
+        "skill": 15538,
+        "type": "Prefix",
+        "weight": 146
+      },
+      {
+        "name": "Sublime Sensation",
+        "skill": 62706,
+        "type": "Prefix",
+        "weight": 390
+      },
+      {
+        "name": "Surging Vitality",
+        "skill": 19723,
+        "type": "Prefix",
+        "weight": 780
+      },
+      {
+        "name": "Peace Amidst Chaos",
+        "skill": 49694,
+        "type": "Prefix",
+        "weight": 390
+      },
+      {
+        "name": "Adrenaline",
+        "skill": 40858,
+        "type": "Prefix",
+        "weight": 146
+      },
+      {
+        "name": "Wall of Muscle",
+        "skill": 3723,
+        "type": "Prefix",
+        "weight": 49
+      },
+      {
+        "name": "Holistic Health",
+        "skill": 23884,
+        "type": "Prefix",
+        "weight": 146
+      },
+      {
+        "name": "Heart of Iron",
+        "skill": 39331,
+        "type": "Prefix",
+        "weight": 146
+      },
+      {
+        "name": "Natural Vigour",
+        "skill": 64259,
+        "type": "Prefix",
+        "weight": 390
+      },
+      {
+        "name": "Vicious Guard",
+        "skill": 58944,
+        "type": "Prefix",
+        "weight": 780
+      },
+      {
+        "name": "Rote Reinforcement",
+        "skill": 11011,
+        "type": "Prefix",
+        "weight": 146
+      },
+      {
+        "name": "Sage",
+        "skill": 10409,
+        "type": "Prefix",
+        "weight": 780
+      },
+      {
+        "name": "Blessed",
+        "skill": 64717,
+        "type": "Prefix",
+        "weight": 146
+      }
+    ]
+  },
+  {
+    "id": "affliction_maximum_energy_shield",
+    "name": "Energy Shield",
+    "icon": "Art/2DArt/SkillIcons/passives/EnergyShieldNode.png",
+    "tag": "affliction_maximum_energy_shield",
+    "stats": [
+      "6% increased maximum Energy Shield"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: 6% increased maximum Energy Shield"
+    ],
+    "size": "Small",
+    "prefixWeight": 14999,
+    "suffixWeight": 16500,
+    "notables": [
+      {
+        "name": "Stalwart Commander",
+        "skill": 61616,
+        "type": "Prefix",
+        "weight": 505
+      },
+      {
+        "name": "Brush with Death",
+        "skill": 28146,
+        "type": "Prefix",
+        "weight": 189
+      },
+      {
+        "name": "Vile Reinvigoration",
+        "skill": 65110,
+        "type": "Prefix",
+        "weight": 505
+      },
+      {
+        "name": "Sublime Sensation",
+        "skill": 62706,
+        "type": "Prefix",
+        "weight": 505
+      },
+      {
+        "name": "Savour the Moment",
+        "skill": 52544,
+        "type": "Prefix",
+        "weight": 1011
+      },
+      {
+        "name": "Energy From Naught",
+        "skill": 20241,
+        "type": "Prefix",
+        "weight": 505
+      },
+      {
+        "name": "Will Shaper",
+        "skill": 33698,
+        "type": "Prefix",
+        "weight": 63
+      },
+      {
+        "name": "Spring Back",
+        "skill": 64782,
+        "type": "Prefix",
+        "weight": 1011
+      },
+      {
+        "name": "Conservation of Energy",
+        "skill": 11513,
+        "type": "Prefix",
+        "weight": 189
+      },
+      {
+        "name": "Self-Control",
+        "skill": 33232,
+        "type": "Prefix",
+        "weight": 505
+      },
+      {
+        "name": "Mystical Ward",
+        "skill": 34108,
+        "type": "Prefix",
+        "weight": 1011
+      }
+    ]
+  },
+  {
+    "id": "affliction_maximum_mana",
+    "name": "Mana",
+    "icon": "Art/2DArt/SkillIcons/passives/MaxManaNode.png",
+    "tag": "affliction_maximum_mana",
+    "stats": [
+      "6% increased maximum Mana"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: 6% increased maximum Mana"
+    ],
+    "size": "Small",
+    "prefixWeight": 15001,
+    "suffixWeight": 16500,
+    "notables": [
+      {
+        "name": "Eldritch Inspiration",
+        "skill": 61043,
+        "type": "Prefix",
+        "weight": 466
+      },
+      {
+        "name": "Careful Handling",
+        "skill": 20383,
+        "type": "Prefix",
+        "weight": 175
+      },
+      {
+        "name": "Mindfulness",
+        "skill": 12867,
+        "type": "Prefix",
+        "weight": 466
+      },
+      {
+        "name": "Liquid Inspiration",
+        "skill": 4958,
+        "type": "Prefix",
+        "weight": 175
+      },
+      {
+        "name": "Openness",
+        "skill": 20968,
+        "type": "Prefix",
+        "weight": 932
+      },
+      {
+        "name": "Daring Ideas",
+        "skill": 15175,
+        "type": "Prefix",
+        "weight": 466
+      },
+      {
+        "name": "Clarity of Purpose",
+        "skill": 2220,
+        "type": "Prefix",
+        "weight": 932
+      },
+      {
+        "name": "Scintillating Idea",
+        "skill": 43834,
+        "type": "Prefix",
+        "weight": 466
+      },
+      {
+        "name": "Holistic Health",
+        "skill": 23884,
+        "type": "Prefix",
+        "weight": 175
+      },
+      {
+        "name": "Genius",
+        "skill": 62160,
+        "type": "Prefix",
+        "weight": 58
+      },
+      {
+        "name": "Improvisor",
+        "skill": 42024,
+        "type": "Prefix",
+        "weight": 175
+      },
+      {
+        "name": "Stubborn Student",
+        "skill": 32031,
+        "type": "Prefix",
+        "weight": 175
+      },
+      {
+        "name": "Will Shaper",
+        "skill": 33698,
+        "type": "Prefix",
+        "weight": 58
+      },
+      {
+        "name": "Wizardry",
+        "skill": 44203,
+        "type": "Prefix",
+        "weight": 175
+      },
+      {
+        "name": "Sage",
+        "skill": 10409,
+        "type": "Prefix",
+        "weight": 932
+      },
+      {
+        "name": "Blessed",
+        "skill": 64717,
+        "type": "Prefix",
+        "weight": 175
+      }
+    ]
+  },
+  {
+    "id": "affliction_armour",
+    "name": "Armour",
+    "icon": "Art/2DArt/SkillIcons/passives/ArmourNode.png",
+    "tag": "affliction_armour",
+    "stats": [
+      "15% increased Armour"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: 15% increased Armour"
+    ],
+    "size": "Small",
+    "prefixWeight": 15002,
+    "suffixWeight": 16500,
+    "notables": [
+      {
+        "name": "Battle-Hardened",
+        "skill": 53318,
+        "type": "Prefix",
+        "weight": 696
+      },
+      {
+        "name": "Stalwart Commander",
+        "skill": 61616,
+        "type": "Prefix",
+        "weight": 696
+      },
+      {
+        "name": "Stubborn Student",
+        "skill": 32031,
+        "type": "Prefix",
+        "weight": 261
+      },
+      {
+        "name": "Heart of Iron",
+        "skill": 39331,
+        "type": "Prefix",
+        "weight": 261
+      },
+      {
+        "name": "Prismatic Carapace",
+        "skill": 54766,
+        "type": "Prefix",
+        "weight": 87
+      },
+      {
+        "name": "Militarism",
+        "skill": 50820,
+        "type": "Prefix",
+        "weight": 696
+      },
+      {
+        "name": "Second Skin",
+        "skill": 60647,
+        "type": "Prefix",
+        "weight": 1391
+      },
+      {
+        "name": "Dragon Hunter",
+        "skill": 14412,
+        "type": "Prefix",
+        "weight": 696
+      },
+      {
+        "name": "Enduring Composure",
+        "skill": 57572,
+        "type": "Prefix",
+        "weight": 261
+      },
+      {
+        "name": "Uncompromising",
+        "skill": 21907,
+        "type": "Prefix",
+        "weight": 696
+      },
+      {
+        "name": "Blacksmith",
+        "skill": 13549,
+        "type": "Prefix",
+        "weight": 261
+      }
+    ]
+  },
+  {
+    "id": "affliction_evasion",
+    "name": "Evasion",
+    "icon": "Art/2DArt/SkillIcons/passives/EvasionNode.png",
+    "tag": "affliction_evasion",
+    "stats": [
+      "15% increased Evasion Rating"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: 15% increased Evasion Rating"
+    ],
+    "size": "Small",
+    "prefixWeight": 15002,
+    "suffixWeight": 16500,
+    "notables": [
+      {
+        "name": "Battle-Hardened",
+        "skill": 53318,
+        "type": "Prefix",
+        "weight": 658
+      },
+      {
+        "name": "Stalwart Commander",
+        "skill": 61616,
+        "type": "Prefix",
+        "weight": 658
+      },
+      {
+        "name": "Prismatic Dance",
+        "skill": 42313,
+        "type": "Prefix",
+        "weight": 82
+      },
+      {
+        "name": "Natural Vigour",
+        "skill": 64259,
+        "type": "Prefix",
+        "weight": 658
+      },
+      {
+        "name": "Untouchable",
+        "skill": 22704,
+        "type": "Prefix",
+        "weight": 1315
+      },
+      {
+        "name": "Shifting Shadow",
+        "skill": 46074,
+        "type": "Prefix",
+        "weight": 658
+      },
+      {
+        "name": "Readiness",
+        "skill": 9245,
+        "type": "Prefix",
+        "weight": 1315
+      },
+      {
+        "name": "Sublime Form",
+        "skill": 60690,
+        "type": "Prefix",
+        "weight": 658
+      }
+    ]
+  },
+  {
+    "id": "affliction_chance_to_block_attack_damage",
+    "name": "Chance to Block Attack Damage",
+    "icon": "Art/2DArt/SkillIcons/passives/BlockAttackDmgNode.png",
+    "tag": "affliction_chance_to_block",
+    "stats": [
+      "1% Chance to Block Attack Damage"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: 1% Chance to Block Attack Damage"
+    ],
+    "size": "Small",
+    "prefixWeight": 15002,
+    "suffixWeight": 16500,
+    "notables": [
+      {
+        "name": "Prodigious Defence",
+        "skill": 44237,
+        "type": "Prefix",
+        "weight": 750
+      },
+      {
+        "name": "Strike Leader",
+        "skill": 12806,
+        "type": "Prefix",
+        "weight": 750
+      },
+      {
+        "name": "Powerful Ward",
+        "skill": 28384,
+        "type": "Prefix",
+        "weight": 141
+      },
+      {
+        "name": "Enduring Ward",
+        "skill": 9042,
+        "type": "Prefix",
+        "weight": 141
+      },
+      {
+        "name": "Stoic Focus",
+        "skill": 35363,
+        "type": "Prefix",
+        "weight": 750
+      },
+      {
+        "name": "Mage Bane",
+        "skill": 24889,
+        "type": "Prefix",
+        "weight": 141
+      },
+      {
+        "name": "Second Skin",
+        "skill": 60647,
+        "type": "Prefix",
+        "weight": 750
+      },
+      {
+        "name": "Flexible Sentry",
+        "skill": 4641,
+        "type": "Prefix",
+        "weight": 375
+      },
+      {
+        "name": "Vicious Guard",
+        "skill": 58944,
+        "type": "Prefix",
+        "weight": 750
+      },
+      {
+        "name": "Mystical Ward",
+        "skill": 34108,
+        "type": "Prefix",
+        "weight": 750
+      },
+      {
+        "name": "Rote Reinforcement",
+        "skill": 11011,
+        "type": "Prefix",
+        "weight": 141
+      },
+      {
+        "name": "Mage Hunter",
+        "skill": 25450,
+        "type": "Prefix",
+        "weight": 141
+      },
+      {
+        "name": "Riot Queller",
+        "skill": 64407,
+        "type": "Prefix",
+        "weight": 47
+      },
+      {
+        "name": "One with the Shield",
+        "skill": 53067,
+        "type": "Prefix",
+        "weight": 375
+      }
+    ]
+  },
+  {
+    "id": "affliction_chance_to_block_spell_damage",
+    "name": "Chance to Block Spell Damage",
+    "icon": "Art/2DArt/SkillIcons/passives/BlockSpellDmgNode.png",
+    "tag": "affliction_chance_to_block",
+    "stats": [
+      "1% Chance to Block Spell Damage"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: 1% Chance to Block Spell Damage"
+    ],
+    "size": "Small",
+    "prefixWeight": 15002,
+    "suffixWeight": 16500,
+    "notables": [
+      {
+        "name": "Prodigious Defence",
+        "skill": 44237,
+        "type": "Prefix",
+        "weight": 750
+      },
+      {
+        "name": "Strike Leader",
+        "skill": 12806,
+        "type": "Prefix",
+        "weight": 750
+      },
+      {
+        "name": "Powerful Ward",
+        "skill": 28384,
+        "type": "Prefix",
+        "weight": 141
+      },
+      {
+        "name": "Enduring Ward",
+        "skill": 9042,
+        "type": "Prefix",
+        "weight": 141
+      },
+      {
+        "name": "Stoic Focus",
+        "skill": 35363,
+        "type": "Prefix",
+        "weight": 750
+      },
+      {
+        "name": "Mage Bane",
+        "skill": 24889,
+        "type": "Prefix",
+        "weight": 141
+      },
+      {
+        "name": "Second Skin",
+        "skill": 60647,
+        "type": "Prefix",
+        "weight": 750
+      },
+      {
+        "name": "Flexible Sentry",
+        "skill": 4641,
+        "type": "Prefix",
+        "weight": 375
+      },
+      {
+        "name": "Vicious Guard",
+        "skill": 58944,
+        "type": "Prefix",
+        "weight": 750
+      },
+      {
+        "name": "Mystical Ward",
+        "skill": 34108,
+        "type": "Prefix",
+        "weight": 750
+      },
+      {
+        "name": "Rote Reinforcement",
+        "skill": 11011,
+        "type": "Prefix",
+        "weight": 141
+      },
+      {
+        "name": "Mage Hunter",
+        "skill": 25450,
+        "type": "Prefix",
+        "weight": 141
+      },
+      {
+        "name": "Riot Queller",
+        "skill": 64407,
+        "type": "Prefix",
+        "weight": 47
+      },
+      {
+        "name": "One with the Shield",
+        "skill": 53067,
+        "type": "Prefix",
+        "weight": 375
+      }
+    ]
+  },
+  {
+    "id": "affliction_fire_resistance",
+    "name": "Fire Resistance",
+    "icon": "Art/2DArt/SkillIcons/passives/FireResistNode.png",
+    "tag": "affliction_fire_resistance",
+    "stats": [
+      "+15% to Fire Resistance"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: +15% to Fire Resistance"
+    ],
+    "size": "Small",
+    "prefixWeight": 15003,
+    "suffixWeight": 16500,
+    "notables": [
+      {
+        "name": "Pure Commander",
+        "skill": 59350,
+        "type": "Prefix",
+        "weight": 247
+      },
+      {
+        "name": "Summer Commander",
+        "skill": 32259,
+        "type": "Prefix",
+        "weight": 247
+      },
+      {
+        "name": "Prismatic Heart",
+        "skill": 17050,
+        "type": "Prefix",
+        "weight": 1315
+      },
+      {
+        "name": "Prismatic Carapace",
+        "skill": 54766,
+        "type": "Prefix",
+        "weight": 82
+      },
+      {
+        "name": "Dragon Hunter",
+        "skill": 14412,
+        "type": "Prefix",
+        "weight": 658
+      },
+      {
+        "name": "Prismatic Dance",
+        "skill": 42313,
+        "type": "Prefix",
+        "weight": 82
+      },
+      {
+        "name": "Flexible Sentry",
+        "skill": 4641,
+        "type": "Prefix",
+        "weight": 658
+      },
+      {
+        "name": "Molten One's Mark",
+        "skill": 48803,
+        "type": "Prefix",
+        "weight": 247
+      },
+      {
+        "name": "Fire Attunement",
+        "skill": 42530,
+        "type": "Prefix",
+        "weight": 1315
+      },
+      {
+        "name": "Pure Might",
+        "skill": 17769,
+        "type": "Prefix",
+        "weight": 247
+      },
+      {
+        "name": "Blacksmith",
+        "skill": 13549,
+        "type": "Prefix",
+        "weight": 247
+      },
+      {
+        "name": "Non-Flammable",
+        "skill": 1581,
+        "type": "Prefix",
+        "weight": 658
+      }
+    ]
+  },
+  {
+    "id": "affliction_cold_resistance",
+    "name": "Cold Resistance",
+    "icon": "Art/2DArt/SkillIcons/passives/ColdResistNode.png",
+    "tag": "affliction_cold_resistance",
+    "stats": [
+      "+15% to Cold Resistance"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: +15% to Cold Resistance"
+    ],
+    "size": "Small",
+    "prefixWeight": 15000,
+    "suffixWeight": 16500,
+    "notables": [
+      {
+        "name": "Pure Commander",
+        "skill": 59350,
+        "type": "Prefix",
+        "weight": 257
+      },
+      {
+        "name": "Winter Commander",
+        "skill": 31333,
+        "type": "Prefix",
+        "weight": 257
+      },
+      {
+        "name": "Prismatic Heart",
+        "skill": 17050,
+        "type": "Prefix",
+        "weight": 1371
+      },
+      {
+        "name": "Prismatic Carapace",
+        "skill": 54766,
+        "type": "Prefix",
+        "weight": 86
+      },
+      {
+        "name": "Prismatic Dance",
+        "skill": 42313,
+        "type": "Prefix",
+        "weight": 86
+      },
+      {
+        "name": "Flexible Sentry",
+        "skill": 4641,
+        "type": "Prefix",
+        "weight": 686
+      },
+      {
+        "name": "Winter Prowler",
+        "skill": 38683,
+        "type": "Prefix",
+        "weight": 257
+      },
+      {
+        "name": "Hibernator",
+        "skill": 19508,
+        "type": "Prefix",
+        "weight": 686
+      },
+      {
+        "name": "Pure Guile",
+        "skill": 26322,
+        "type": "Prefix",
+        "weight": 257
+      },
+      {
+        "name": "Alchemist",
+        "skill": 58904,
+        "type": "Prefix",
+        "weight": 1371
+      },
+      {
+        "name": "Antifreeze",
+        "skill": 33676,
+        "type": "Prefix",
+        "weight": 686
+      }
+    ]
+  },
+  {
+    "id": "affliction_lightning_resistance",
+    "name": "Lightning Resistance",
+    "icon": "Art/2DArt/SkillIcons/passives/LightningResistNode.png",
+    "tag": "affliction_lightning_resistance",
+    "stats": [
+      "+15% to Lightning Resistance"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: +15% to Lightning Resistance"
+    ],
+    "size": "Small",
+    "prefixWeight": 15000,
+    "suffixWeight": 16500,
+    "notables": [
+      {
+        "name": "Pure Commander",
+        "skill": 59350,
+        "type": "Prefix",
+        "weight": 257
+      },
+      {
+        "name": "Grounded Commander",
+        "skill": 907,
+        "type": "Prefix",
+        "weight": 257
+      },
+      {
+        "name": "Prismatic Heart",
+        "skill": 17050,
+        "type": "Prefix",
+        "weight": 1371
+      },
+      {
+        "name": "Prismatic Carapace",
+        "skill": 54766,
+        "type": "Prefix",
+        "weight": 86
+      },
+      {
+        "name": "Prismatic Dance",
+        "skill": 42313,
+        "type": "Prefix",
+        "weight": 86
+      },
+      {
+        "name": "Flexible Sentry",
+        "skill": 4641,
+        "type": "Prefix",
+        "weight": 686
+      },
+      {
+        "name": "Wizardry",
+        "skill": 44203,
+        "type": "Prefix",
+        "weight": 257
+      },
+      {
+        "name": "Capacitor",
+        "skill": 22002,
+        "type": "Prefix",
+        "weight": 686
+      },
+      {
+        "name": "Pure Aptitude",
+        "skill": 51421,
+        "type": "Prefix",
+        "weight": 257
+      },
+      {
+        "name": "Sage",
+        "skill": 10409,
+        "type": "Prefix",
+        "weight": 1371
+      },
+      {
+        "name": "Insulated",
+        "skill": 54798,
+        "type": "Prefix",
+        "weight": 686
+      }
+    ]
+  },
+  {
+    "id": "affliction_chaos_resistance",
+    "name": "Chaos Resistance",
+    "icon": "Art/2DArt/SkillIcons/passives/ChaosResistNode.png",
+    "tag": "affliction_chaos_resistance",
+    "stats": [
+      "+12% to Chaos Resistance"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: +12% to Chaos Resistance"
+    ],
+    "size": "Small",
+    "prefixWeight": 15000,
+    "suffixWeight": 16500,
+    "notables": [
+      {
+        "name": "Exposure Therapy",
+        "skill": 56070,
+        "type": "Prefix",
+        "weight": 2341
+      },
+      {
+        "name": "Born of Chaos",
+        "skill": 51523,
+        "type": "Prefix",
+        "weight": 439
+      },
+      {
+        "name": "Antivenom",
+        "skill": 21688,
+        "type": "Prefix",
+        "weight": 1171
+      },
+      {
+        "name": "Rot-Resistant",
+        "skill": 29096,
+        "type": "Prefix",
+        "weight": 439
+      },
+      {
+        "name": "Blessed",
+        "skill": 64717,
+        "type": "Prefix",
+        "weight": 439
+      },
+      {
+        "name": "Student of Decay",
+        "skill": 26179,
+        "type": "Prefix",
+        "weight": 1171
+      }
+    ]
+  },
+  {
+    "id": "affliction_chance_to_dodge_attacks",
+    "name": "Chance to Dodge Attacks",
+    "icon": "Art/2DArt/SkillIcons/passives/DodgeAtksNode.png",
+    "tag": "affliction_chance_to_dodge_attacks",
+    "stats": [
+      "1% chance to Dodge Attack Hits"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: 1% chance to Dodge Attack Hits"
+    ],
+    "size": "Small",
+    "prefixWeight": 15000,
+    "suffixWeight": 16500,
+    "notables": [
+      {
+        "name": "Hit and Run",
+        "skill": 62618,
+        "type": "Prefix",
+        "weight": 1477
+      },
+      {
+        "name": "Untouchable",
+        "skill": 22704,
+        "type": "Prefix",
+        "weight": 1477
+      },
+      {
+        "name": "Aerialist",
+        "skill": 23042,
+        "type": "Prefix",
+        "weight": 92
+      },
+      {
+        "name": "Elegant Form",
+        "skill": 40181,
+        "type": "Prefix",
+        "weight": 1477
+      },
+      {
+        "name": "Darting Movements",
+        "skill": 9276,
+        "type": "Prefix",
+        "weight": 1477
+      }
+    ]
+  },
+  {
+    "id": "affliction_strength",
+    "name": "Strength",
+    "icon": "Art/2DArt/SkillIcons/passives/plusstrength.png",
+    "tag": "affliction_strength",
+    "stats": [
+      "+10 to Strength"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: +10 to Strength"
+    ],
+    "size": "Small",
+    "prefixWeight": 9000,
+    "suffixWeight": 16500,
+    "notables": []
+  },
+  {
+    "id": "affliction_dexterity",
+    "name": "Dexterity",
+    "icon": "Art/2DArt/SkillIcons/passives/plusdexterity.png",
+    "tag": "affliction_dexterity",
+    "stats": [
+      "+10 to Dexterity"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: +10 to Dexterity"
+    ],
+    "size": "Small",
+    "prefixWeight": 9000,
+    "suffixWeight": 16500,
+    "notables": []
+  },
+  {
+    "id": "affliction_intelligence",
+    "name": "Intelligence",
+    "icon": "Art/2DArt/SkillIcons/passives/plusintelligence.png",
+    "tag": "affliction_intelligence",
+    "stats": [
+      "+10 to Intelligence"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: +10 to Intelligence"
+    ],
+    "size": "Small",
+    "prefixWeight": 9000,
+    "suffixWeight": 16500,
+    "notables": []
+  },
+  {
+    "id": "affliction_fire_damage_over_time_multiplier",
+    "name": "Fire Damage over Time Multiplier",
+    "icon": "Art/2DArt/SkillIcons/passives/FireDamageOverTimeNode.png",
+    "tag": "affliction_fire_damage_over_time_multiplier",
+    "stats": [
+      "+4% to Fire Damage over Time Multiplier"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: +4% to Fire Damage over Time Multiplier"
+    ],
+    "size": "Medium",
+    "prefixWeight": 13195,
+    "suffixWeight": 14150,
+    "notables": [
+      {
+        "name": "Eye of the Storm",
+        "skill": 51541,
+        "type": "Prefix",
+        "weight": 366
+      },
+      {
+        "name": "Master of Fire",
+        "skill": 33482,
+        "type": "Prefix",
+        "weight": 46
+      },
+      {
+        "name": "Smoking Remains",
+        "skill": 13790,
+        "type": "Prefix",
+        "weight": 366
+      },
+      {
+        "name": "Cremator",
+        "skill": 56696,
+        "type": "Prefix",
+        "weight": 366
+      },
+      {
+        "name": "Blowback",
+        "skill": 29748,
+        "type": "Prefix",
+        "weight": 366
+      },
+      {
+        "name": "Fan the Flames",
+        "skill": 45128,
+        "type": "Prefix",
+        "weight": 137
+      },
+      {
+        "name": "Cooked Alive",
+        "skill": 408,
+        "type": "Prefix",
+        "weight": 137
+      },
+      {
+        "name": "Burning Bright",
+        "skill": 56065,
+        "type": "Prefix",
+        "weight": 366
+      },
+      {
+        "name": "Wrapped in Flame",
+        "skill": 10952,
+        "type": "Prefix",
+        "weight": 137
+      },
+      {
+        "name": "Wasting Affliction",
+        "skill": 19686,
+        "type": "Prefix",
+        "weight": 137
+      },
+      {
+        "name": "Haemorrhage",
+        "skill": 56879,
+        "type": "Prefix",
+        "weight": 366
+      },
+      {
+        "name": "Flow of Life",
+        "skill": 34581,
+        "type": "Prefix",
+        "weight": 137
+      },
+      {
+        "name": "Exposure Therapy",
+        "skill": 56070,
+        "type": "Prefix",
+        "weight": 733
+      },
+      {
+        "name": "Brush with Death",
+        "skill": 28146,
+        "type": "Prefix",
+        "weight": 137
+      },
+      {
+        "name": "Vile Reinvigoration",
+        "skill": 65110,
+        "type": "Prefix",
+        "weight": 366
+      },
+      {
+        "name": "Circling Oblivion",
+        "skill": 10355,
+        "type": "Prefix",
+        "weight": 733
+      },
+      {
+        "name": "Brewed for Potency",
+        "skill": 4094,
+        "type": "Prefix",
+        "weight": 733
+      },
+      {
+        "name": "Student of Decay",
+        "skill": 26179,
+        "type": "Prefix",
+        "weight": 366
+      }
+    ]
+  },
+  {
+    "id": "affliction_chaos_damage_over_time_multiplier",
+    "name": "Chaos Damage over Time Multiplier",
+    "icon": "Art/2DArt/SkillIcons/passives/ChaosDamageOverTimeNode.png",
+    "tag": "affliction_chaos_damage_over_time_multiplier",
+    "stats": [
+      "+4% to Chaos Damage over Time Multiplier"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: +4% to Chaos Damage over Time Multiplier"
+    ],
+    "size": "Medium",
+    "prefixWeight": 13200,
+    "suffixWeight": 14150,
+    "notables": [
+      {
+        "name": "Unwaveringly Evil",
+        "skill": 38592,
+        "type": "Prefix",
+        "weight": 696
+      },
+      {
+        "name": "Dark Ideation",
+        "skill": 40828,
+        "type": "Prefix",
+        "weight": 130
+      },
+      {
+        "name": "Wicked Pall",
+        "skill": 34595,
+        "type": "Prefix",
+        "weight": 348
+      },
+      {
+        "name": "Septic Spells",
+        "skill": 38399,
+        "type": "Prefix",
+        "weight": 348
+      },
+      {
+        "name": "Low Tolerance",
+        "skill": 36370,
+        "type": "Prefix",
+        "weight": 130
+      },
+      {
+        "name": "Steady Torment",
+        "skill": 47424,
+        "type": "Prefix",
+        "weight": 130
+      },
+      {
+        "name": "Eternal Suffering",
+        "skill": 11995,
+        "type": "Prefix",
+        "weight": 348
+      },
+      {
+        "name": "Eldritch Inspiration",
+        "skill": 61043,
+        "type": "Prefix",
+        "weight": 348
+      },
+      {
+        "name": "Wasting Affliction",
+        "skill": 19686,
+        "type": "Prefix",
+        "weight": 130
+      },
+      {
+        "name": "Haemorrhage",
+        "skill": 56879,
+        "type": "Prefix",
+        "weight": 348
+      },
+      {
+        "name": "Flow of Life",
+        "skill": 34581,
+        "type": "Prefix",
+        "weight": 130
+      },
+      {
+        "name": "Exposure Therapy",
+        "skill": 56070,
+        "type": "Prefix",
+        "weight": 696
+      },
+      {
+        "name": "Brush with Death",
+        "skill": 28146,
+        "type": "Prefix",
+        "weight": 130
+      },
+      {
+        "name": "Vile Reinvigoration",
+        "skill": 65110,
+        "type": "Prefix",
+        "weight": 348
+      },
+      {
+        "name": "Circling Oblivion",
+        "skill": 10355,
+        "type": "Prefix",
+        "weight": 696
+      },
+      {
+        "name": "Brewed for Potency",
+        "skill": 4094,
+        "type": "Prefix",
+        "weight": 696
+      },
+      {
+        "name": "Student of Decay",
+        "skill": 26179,
+        "type": "Prefix",
+        "weight": 348
+      }
+    ]
+  },
+  {
+    "id": "affliction_physical_damage_over_time_multiplier",
+    "name": "Physical Damage over Time Multiplier",
+    "icon": "Art/2DArt/SkillIcons/passives/PhysicalDamageOverTimeNode.png",
+    "tag": "affliction_physical_damage_over_time_multiplier",
+    "stats": [
+      "+4% to Physical Damage over Time Multiplier"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: +4% to Physical Damage over Time Multiplier"
+    ],
+    "size": "Medium",
+    "prefixWeight": 13676,
+    "suffixWeight": 14150,
+    "notables": [
+      {
+        "name": "Wound Aggravation",
+        "skill": 60894,
+        "type": "Prefix",
+        "weight": 686
+      },
+      {
+        "name": "Vivid Hues",
+        "skill": 4942,
+        "type": "Prefix",
+        "weight": 343
+      },
+      {
+        "name": "Rend",
+        "skill": 8258,
+        "type": "Prefix",
+        "weight": 343
+      },
+      {
+        "name": "Disorienting Wounds",
+        "skill": 42338,
+        "type": "Prefix",
+        "weight": 686
+      },
+      {
+        "name": "Compound Injury",
+        "skill": 37384,
+        "type": "Prefix",
+        "weight": 343
+      },
+      {
+        "name": "Blood Artist",
+        "skill": 9372,
+        "type": "Prefix",
+        "weight": 129
+      },
+      {
+        "name": "Phlebotomist",
+        "skill": 18412,
+        "type": "Prefix",
+        "weight": 343
+      },
+      {
+        "name": "Steady Torment",
+        "skill": 47424,
+        "type": "Prefix",
+        "weight": 129
+      },
+      {
+        "name": "Wasting Affliction",
+        "skill": 19686,
+        "type": "Prefix",
+        "weight": 129
+      },
+      {
+        "name": "Haemorrhage",
+        "skill": 56879,
+        "type": "Prefix",
+        "weight": 343
+      },
+      {
+        "name": "Flow of Life",
+        "skill": 34581,
+        "type": "Prefix",
+        "weight": 129
+      },
+      {
+        "name": "Exposure Therapy",
+        "skill": 56070,
+        "type": "Prefix",
+        "weight": 686
+      },
+      {
+        "name": "Brush with Death",
+        "skill": 28146,
+        "type": "Prefix",
+        "weight": 129
+      },
+      {
+        "name": "Vile Reinvigoration",
+        "skill": 65110,
+        "type": "Prefix",
+        "weight": 343
+      },
+      {
+        "name": "Circling Oblivion",
+        "skill": 10355,
+        "type": "Prefix",
+        "weight": 686
+      },
+      {
+        "name": "Brewed for Potency",
+        "skill": 4094,
+        "type": "Prefix",
+        "weight": 686
+      },
+      {
+        "name": "Student of Decay",
+        "skill": 26179,
+        "type": "Prefix",
+        "weight": 343
+      }
+    ]
+  },
+  {
+    "id": "affliction_cold_damage_over_time_multiplier",
+    "name": "Cold Damage over Time Multiplier",
+    "icon": "Art/2DArt/SkillIcons/passives/ColdDamageOverTimeNode.png",
+    "tag": "affliction_cold_damage_over_time_multiplier",
+    "stats": [
+      "+4% to Cold Damage over Time Multiplier"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: +4% to Cold Damage over Time Multiplier"
+    ],
+    "size": "Medium",
+    "prefixWeight": 13111,
+    "suffixWeight": 14150,
+    "notables": [
+      {
+        "name": "Cold-Blooded Killer",
+        "skill": 23113,
+        "type": "Prefix",
+        "weight": 390
+      },
+      {
+        "name": "Wasting Affliction",
+        "skill": 19686,
+        "type": "Prefix",
+        "weight": 178
+      },
+      {
+        "name": "Haemorrhage",
+        "skill": 56879,
+        "type": "Prefix",
+        "weight": 475
+      },
+      {
+        "name": "Flow of Life",
+        "skill": 34581,
+        "type": "Prefix",
+        "weight": 178
+      },
+      {
+        "name": "Exposure Therapy",
+        "skill": 56070,
+        "type": "Prefix",
+        "weight": 950
+      },
+      {
+        "name": "Brush with Death",
+        "skill": 28146,
+        "type": "Prefix",
+        "weight": 178
+      },
+      {
+        "name": "Vile Reinvigoration",
+        "skill": 65110,
+        "type": "Prefix",
+        "weight": 475
+      },
+      {
+        "name": "Circling Oblivion",
+        "skill": 10355,
+        "type": "Prefix",
+        "weight": 950
+      },
+      {
+        "name": "Brewed for Potency",
+        "skill": 4094,
+        "type": "Prefix",
+        "weight": 950
+      },
+      {
+        "name": "Chilling Presence",
+        "skill": 58248,
+        "type": "Prefix",
+        "weight": 59
+      },
+      {
+        "name": "Deep Chill",
+        "skill": 18861,
+        "type": "Prefix",
+        "weight": 950
+      },
+      {
+        "name": "Blast-Freeze",
+        "skill": 39874,
+        "type": "Prefix",
+        "weight": 178
+      }
+    ]
+  },
+  {
+    "id": "affliction_damage_over_time_multiplier",
+    "name": "Damage over Time Multiplier",
+    "icon": "Art/2DArt/SkillIcons/passives/DamageOverTimeNode.png",
+    "tag": "affliction_damage_over_time_multiplier",
+    "stats": [
+      "+4% to Damage over Time Multiplier"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: +4% to Damage over Time Multiplier"
+    ],
+    "size": "Medium",
+    "prefixWeight": 13200,
+    "suffixWeight": 14150,
+    "notables": [
+      {
+        "name": "Wasting Affliction",
+        "skill": 19686,
+        "type": "Prefix",
+        "weight": 222
+      },
+      {
+        "name": "Haemorrhage",
+        "skill": 56879,
+        "type": "Prefix",
+        "weight": 593
+      },
+      {
+        "name": "Flow of Life",
+        "skill": 34581,
+        "type": "Prefix",
+        "weight": 222
+      },
+      {
+        "name": "Exposure Therapy",
+        "skill": 56070,
+        "type": "Prefix",
+        "weight": 1185
+      },
+      {
+        "name": "Brush with Death",
+        "skill": 28146,
+        "type": "Prefix",
+        "weight": 222
+      },
+      {
+        "name": "Vile Reinvigoration",
+        "skill": 65110,
+        "type": "Prefix",
+        "weight": 593
+      },
+      {
+        "name": "Circling Oblivion",
+        "skill": 10355,
+        "type": "Prefix",
+        "weight": 1185
+      },
+      {
+        "name": "Brewed for Potency",
+        "skill": 4094,
+        "type": "Prefix",
+        "weight": 1185
+      },
+      {
+        "name": "Student of Decay",
+        "skill": 26179,
+        "type": "Prefix",
+        "weight": 593
+      }
+    ]
+  },
+  {
+    "id": "affliction_effect_of_non-damaging_ailments",
+    "name": "Effect of Non-Damaging Ailments",
+    "icon": "Art/2DArt/SkillIcons/passives/IncreasedNonDamageAilmentNode.png",
+    "tag": "affliction_effect_of_non-damaging_ailments",
+    "stats": [
+      "10% increased Effect of Non-Damaging Ailments"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: 10% increased Effect of Non-Damaging Ailments"
+    ],
+    "size": "Medium",
+    "prefixWeight": 13201,
+    "suffixWeight": 14150,
+    "notables": [
+      {
+        "name": "Eye of the Storm",
+        "skill": 51541,
+        "type": "Prefix",
+        "weight": 814
+      },
+      {
+        "name": "Astonishing Affliction",
+        "skill": 51467,
+        "type": "Prefix",
+        "weight": 1627
+      },
+      {
+        "name": "Cold Conduction",
+        "skill": 25563,
+        "type": "Prefix",
+        "weight": 305
+      },
+      {
+        "name": "Inspired Oppression",
+        "skill": 20343,
+        "type": "Prefix",
+        "weight": 102
+      },
+      {
+        "name": "Chilling Presence",
+        "skill": 58248,
+        "type": "Prefix",
+        "weight": 102
+      },
+      {
+        "name": "Deep Chill",
+        "skill": 18861,
+        "type": "Prefix",
+        "weight": 1627
+      },
+      {
+        "name": "Blast-Freeze",
+        "skill": 39874,
+        "type": "Prefix",
+        "weight": 305
+      },
+      {
+        "name": "Stormrider",
+        "skill": 37478,
+        "type": "Prefix",
+        "weight": 305
+      },
+      {
+        "name": "Overshock",
+        "skill": 28682,
+        "type": "Prefix",
+        "weight": 814
+      }
+    ]
+  },
+  {
+    "id": "affliction_aura_effect",
+    "name": "Aura Effect",
+    "icon": "Art/2DArt/SkillIcons/passives/AuraEffectNode.png",
+    "tag": "affliction_aura_effect",
+    "stats": [
+      "3% increased effect of Non-Curse Auras from your Skills"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: 3% increased effect of Non-Curse Auras from your Skills"
+    ],
+    "size": "Medium",
+    "prefixWeight": 13200,
+    "suffixWeight": 14150,
+    "notables": [
+      {
+        "name": "Replenishing Presence",
+        "skill": 62634,
+        "type": "Prefix",
+        "weight": 480
+      },
+      {
+        "name": "Master of Command",
+        "skill": 29540,
+        "type": "Prefix",
+        "weight": 180
+      },
+      {
+        "name": "First Among Equals",
+        "skill": 47393,
+        "type": "Prefix",
+        "weight": 960
+      },
+      {
+        "name": "Purposeful Harbinger",
+        "skill": 51870,
+        "type": "Prefix",
+        "weight": 60
+      },
+      {
+        "name": "Precise Commander",
+        "skill": 58221,
+        "type": "Prefix",
+        "weight": 180
+      },
+      {
+        "name": "Pure Commander",
+        "skill": 59350,
+        "type": "Prefix",
+        "weight": 180
+      },
+      {
+        "name": "Summer Commander",
+        "skill": 32259,
+        "type": "Prefix",
+        "weight": 180
+      },
+      {
+        "name": "Winter Commander",
+        "skill": 31333,
+        "type": "Prefix",
+        "weight": 180
+      },
+      {
+        "name": "Grounded Commander",
+        "skill": 907,
+        "type": "Prefix",
+        "weight": 180
+      },
+      {
+        "name": "Stalwart Commander",
+        "skill": 61616,
+        "type": "Prefix",
+        "weight": 480
+      },
+      {
+        "name": "Vengeful Commander",
+        "skill": 28338,
+        "type": "Prefix",
+        "weight": 960
+      },
+      {
+        "name": "Self-Control",
+        "skill": 33232,
+        "type": "Prefix",
+        "weight": 480
+      },
+      {
+        "name": "Uncompromising",
+        "skill": 21907,
+        "type": "Prefix",
+        "weight": 480
+      },
+      {
+        "name": "Sublime Form",
+        "skill": 60690,
+        "type": "Prefix",
+        "weight": 480
+      },
+      {
+        "name": "Pure Might",
+        "skill": 17769,
+        "type": "Prefix",
+        "weight": 180
+      },
+      {
+        "name": "Pure Guile",
+        "skill": 26322,
+        "type": "Prefix",
+        "weight": 180
+      },
+      {
+        "name": "Pure Aptitude",
+        "skill": 51421,
+        "type": "Prefix",
+        "weight": 180
+      }
+    ]
+  },
+  {
+    "id": "affliction_curse_effect",
+    "name": "Curse Effect",
+    "icon": "Art/2DArt/SkillIcons/passives/CurseEffectNode.png",
+    "tag": "affliction_curse_effect",
+    "stats": [
+      "3% increased Effect of your Curses"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: 3% increased Effect of your Curses"
+    ],
+    "size": "Medium",
+    "prefixWeight": 13202,
+    "suffixWeight": 14150,
+    "notables": [
+      {
+        "name": "Evil Eye",
+        "skill": 42305,
+        "type": "Prefix",
+        "weight": 941
+      },
+      {
+        "name": "Whispers of Death",
+        "skill": 57104,
+        "type": "Prefix",
+        "weight": 941
+      },
+      {
+        "name": "Forbidden Words",
+        "skill": 61549,
+        "type": "Prefix",
+        "weight": 176
+      },
+      {
+        "name": "Dark Discourse",
+        "skill": 18624,
+        "type": "Prefix",
+        "weight": 471
+      },
+      {
+        "name": "Victim Maker",
+        "skill": 42929,
+        "type": "Prefix",
+        "weight": 471
+      },
+      {
+        "name": "Master of Fear",
+        "skill": 14418,
+        "type": "Prefix",
+        "weight": 176
+      },
+      {
+        "name": "Wish for Death",
+        "skill": 7279,
+        "type": "Prefix",
+        "weight": 471
+      },
+      {
+        "name": "Lord of Drought",
+        "skill": 33,
+        "type": "Prefix",
+        "weight": 471
+      },
+      {
+        "name": "Blizzard Caller",
+        "skill": 25938,
+        "type": "Prefix",
+        "weight": 471
+      },
+      {
+        "name": "Tempt the Storm",
+        "skill": 17662,
+        "type": "Prefix",
+        "weight": 471
+      },
+      {
+        "name": "Misery Everlasting",
+        "skill": 14061,
+        "type": "Prefix",
+        "weight": 471
+      },
+      {
+        "name": "Exploit Weakness",
+        "skill": 42601,
+        "type": "Prefix",
+        "weight": 471
+      }
+    ]
+  },
+  {
+    "id": "affliction_damage_while_you_have_a_herald",
+    "name": "Damage while you have a Herald",
+    "icon": "Art/2DArt/SkillIcons/passives/DmgHeraldSkillsNode.png",
+    "tag": "affliction_damage_while_you_have_a_herald",
+    "stats": [
+      "10% increased Damage while affected by a Herald"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: 10% increased Damage while affected by a Herald"
+    ],
+    "size": "Medium",
+    "prefixWeight": 13200,
+    "suffixWeight": 14150,
+    "notables": [
+      {
+        "name": "Purposeful Harbinger",
+        "skill": 51870,
+        "type": "Prefix",
+        "weight": 118
+      },
+      {
+        "name": "Heraldry",
+        "skill": 28551,
+        "type": "Prefix",
+        "weight": 118
+      },
+      {
+        "name": "Endbringer",
+        "skill": 24038,
+        "type": "Prefix",
+        "weight": 353
+      },
+      {
+        "name": "Empowered Envoy",
+        "skill": 17066,
+        "type": "Prefix",
+        "weight": 1882
+      },
+      {
+        "name": "Dark Messenger",
+        "skill": 8897,
+        "type": "Prefix",
+        "weight": 941
+      },
+      {
+        "name": "Agent of Destruction",
+        "skill": 61998,
+        "type": "Prefix",
+        "weight": 1882
+      },
+      {
+        "name": "Lasting Impression",
+        "skill": 17905,
+        "type": "Prefix",
+        "weight": 353
+      },
+      {
+        "name": "Self-Fulfilling Prophecy",
+        "skill": 65521,
+        "type": "Prefix",
+        "weight": 353
+      }
+    ]
+  },
+  {
+    "id": "affliction_minion_damage_while_you_have_a_herald",
+    "name": "Minion Damage while you have a Herald",
+    "icon": "Art/2DArt/SkillIcons/passives/MinionDmgHeraldSkillsNode.png",
+    "tag": "affliction_minion_damage_while_you_have_a_herald",
+    "stats": [
+      "Minions deal 10% increased Damage while you are affected by a Herald"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: Minions deal 10% increased Damage while you are affected by a Herald"
+    ],
+    "size": "Medium",
+    "prefixWeight": 13201,
+    "suffixWeight": 14150,
+    "notables": [
+      {
+        "name": "Purposeful Harbinger",
+        "skill": 51870,
+        "type": "Prefix",
+        "weight": 158
+      },
+      {
+        "name": "Heraldry",
+        "skill": 28551,
+        "type": "Prefix",
+        "weight": 158
+      },
+      {
+        "name": "Endbringer",
+        "skill": 24038,
+        "type": "Prefix",
+        "weight": 474
+      },
+      {
+        "name": "Cult-Leader",
+        "skill": 16952,
+        "type": "Prefix",
+        "weight": 2526
+      },
+      {
+        "name": "Lasting Impression",
+        "skill": 17905,
+        "type": "Prefix",
+        "weight": 474
+      },
+      {
+        "name": "Invigorating Portents",
+        "skill": 40402,
+        "type": "Prefix",
+        "weight": 1263
+      },
+      {
+        "name": "Pure Agony",
+        "skill": 5781,
+        "type": "Prefix",
+        "weight": 474
+      },
+      {
+        "name": "Disciples",
+        "skill": 24357,
+        "type": "Prefix",
+        "weight": 474
+      }
+    ]
+  },
+  {
+    "id": "affliction_warcry_buff_effect",
+    "name": "Exerted Attack Damage",
+    "icon": "Art/2DArt/SkillIcons/passives/IncreasedWarcryNode.png",
+    "tag": "affliction_warcry_buff_effect",
+    "stats": [
+      "Exerted Attacks deal 20% increased Damage"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: Exerted Attacks deal 20% increased Damage"
+    ],
+    "size": "Medium",
+    "prefixWeight": 13199,
+    "suffixWeight": 14150,
+    "notables": [
+      {
+        "name": "Mob Mentality",
+        "skill": 28744,
+        "type": "Prefix",
+        "weight": 109
+      },
+      {
+        "name": "Cry Wolf",
+        "skill": 17816,
+        "type": "Prefix",
+        "weight": 327
+      },
+      {
+        "name": "Haunting Shout",
+        "skill": 6696,
+        "type": "Prefix",
+        "weight": 873
+      },
+      {
+        "name": "Lead By Example",
+        "skill": 36655,
+        "type": "Prefix",
+        "weight": 1745
+      },
+      {
+        "name": "Provocateur",
+        "skill": 33182,
+        "type": "Prefix",
+        "weight": 873
+      },
+      {
+        "name": "Warning Call",
+        "skill": 7107,
+        "type": "Prefix",
+        "weight": 327
+      },
+      {
+        "name": "Rattling Bellow",
+        "skill": 29450,
+        "type": "Prefix",
+        "weight": 1745
+      }
+    ]
+  },
+  {
+    "id": "affliction_critical_chance",
+    "name": "Critical Chance",
+    "icon": "Art/2DArt/SkillIcons/passives/IncreaseCritChanceNode.png",
+    "tag": "affliction_critical_chance",
+    "stats": [
+      "15% increased Critical Strike Chance"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: 15% increased Critical Strike Chance"
+    ],
+    "size": "Medium",
+    "prefixWeight": 13197,
+    "suffixWeight": 14150,
+    "notables": [
+      {
+        "name": "Precise Retaliation",
+        "skill": 28398,
+        "type": "Prefix",
+        "weight": 457
+      },
+      {
+        "name": "Precise Commander",
+        "skill": 58221,
+        "type": "Prefix",
+        "weight": 171
+      },
+      {
+        "name": "Skullbreaker",
+        "skill": 63142,
+        "type": "Prefix",
+        "weight": 171
+      },
+      {
+        "name": "Pressure Points",
+        "skill": 38633,
+        "type": "Prefix",
+        "weight": 457
+      },
+      {
+        "name": "Overwhelming Malice",
+        "skill": 2977,
+        "type": "Prefix",
+        "weight": 171
+      },
+      {
+        "name": "Magnifier",
+        "skill": 60617,
+        "type": "Prefix",
+        "weight": 914
+      },
+      {
+        "name": "Savage Response",
+        "skill": 25966,
+        "type": "Prefix",
+        "weight": 457
+      },
+      {
+        "name": "Eye of the Storm",
+        "skill": 51541,
+        "type": "Prefix",
+        "weight": 457
+      },
+      {
+        "name": "Basics of Pain",
+        "skill": 44544,
+        "type": "Prefix",
+        "weight": 914
+      },
+      {
+        "name": "Quick Getaway",
+        "skill": 23238,
+        "type": "Prefix",
+        "weight": 914
+      },
+      {
+        "name": "Provocateur",
+        "skill": 33182,
+        "type": "Prefix",
+        "weight": 457
+      },
+      {
+        "name": "Haemorrhage",
+        "skill": 56879,
+        "type": "Prefix",
+        "weight": 457
+      }
+    ]
+  },
+  {
+    "id": "affliction_minion_life",
+    "name": "Minion Life",
+    "icon": "Art/2DArt/SkillIcons/passives/IncreaseMinionLifeNode.png",
+    "tag": "affliction_minion_life",
+    "stats": [
+      "Minions have 12% increased maximum Life"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: Minions have 12% increased maximum Life"
+    ],
+    "size": "Medium",
+    "prefixWeight": 13199,
+    "suffixWeight": 14150,
+    "notables": [
+      {
+        "name": "Renewal",
+        "skill": 58949,
+        "type": "Prefix",
+        "weight": 716
+      },
+      {
+        "name": "Hulking Corpses",
+        "skill": 68,
+        "type": "Prefix",
+        "weight": 716
+      },
+      {
+        "name": "Dread March",
+        "skill": 55171,
+        "type": "Prefix",
+        "weight": 1433
+      },
+      {
+        "name": "Blessed Rebirth",
+        "skill": 42126,
+        "type": "Prefix",
+        "weight": 269
+      },
+      {
+        "name": "Life from Death",
+        "skill": 62318,
+        "type": "Prefix",
+        "weight": 716
+      },
+      {
+        "name": "Feasting Fiends",
+        "skill": 22540,
+        "type": "Prefix",
+        "weight": 1433
+      },
+      {
+        "name": "Bodyguards",
+        "skill": 11199,
+        "type": "Prefix",
+        "weight": 716
+      }
+    ]
+  },
+  {
+    "id": "affliction_area_damage",
+    "name": "Area Damage",
+    "icon": "Art/2DArt/SkillIcons/passives/AreaDmgNode.png",
+    "tag": "affliction_area_damage",
+    "stats": [
+      "10% increased Area Damage"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: 10% increased Area Damage"
+    ],
+    "size": "Medium",
+    "prefixWeight": 13200,
+    "suffixWeight": 14150,
+    "notables": [
+      {
+        "name": "Magnifier",
+        "skill": 60617,
+        "type": "Prefix",
+        "weight": 1959
+      },
+      {
+        "name": "Assert Dominance",
+        "skill": 12149,
+        "type": "Prefix",
+        "weight": 367
+      },
+      {
+        "name": "Vast Power",
+        "skill": 63969,
+        "type": "Prefix",
+        "weight": 980
+      },
+      {
+        "name": "Powerful Assault",
+        "skill": 11661,
+        "type": "Prefix",
+        "weight": 980
+      },
+      {
+        "name": "Titanic Swings",
+        "skill": 48550,
+        "type": "Prefix",
+        "weight": 980
+      },
+      {
+        "name": "Towering Threat",
+        "skill": 63607,
+        "type": "Prefix",
+        "weight": 367
+      },
+      {
+        "name": "Expansive Might",
+        "skill": 48925,
+        "type": "Prefix",
+        "weight": 367
+      }
+    ]
+  },
+  {
+    "id": "affliction_projectile_damage",
+    "name": "Projectile Damage",
+    "icon": "Art/2DArt/SkillIcons/passives/ProjectileDmgNode.png",
+    "tag": "affliction_projectile_damage",
+    "stats": [
+      "10% increased Projectile Damage"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: 10% increased Projectile Damage"
+    ],
+    "size": "Medium",
+    "prefixWeight": 13200,
+    "suffixWeight": 14150,
+    "notables": [
+      {
+        "name": "Follow-Through",
+        "skill": 42068,
+        "type": "Prefix",
+        "weight": 333
+      },
+      {
+        "name": "Streamlined",
+        "skill": 36645,
+        "type": "Prefix",
+        "weight": 1778
+      },
+      {
+        "name": "Shrieking Bolts",
+        "skill": 12400,
+        "type": "Prefix",
+        "weight": 889
+      },
+      {
+        "name": "Eye to Eye",
+        "skill": 54170,
+        "type": "Prefix",
+        "weight": 889
+      },
+      {
+        "name": "Repeater",
+        "skill": 53285,
+        "type": "Prefix",
+        "weight": 1778
+      },
+      {
+        "name": "Aerodynamics",
+        "skill": 13812,
+        "type": "Prefix",
+        "weight": 333
+      }
+    ]
+  },
+  {
+    "id": "affliction_trap_and_mine_damage",
+    "name": "Trap and Mine Damage",
+    "icon": "Art/2DArt/SkillIcons/passives/TrapAndMineDmgNode.png",
+    "tag": "affliction_trap_and_mine_damage",
+    "stats": [
+      "12% increased Trap Damage",
+      "12% increased Mine Damage"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: 12% increased Trap Damage",
+      "Added Small Passive Skills grant: 12% increased Mine Damage"
+    ],
+    "size": "Medium",
+    "prefixWeight": 13200,
+    "suffixWeight": 14150,
+    "notables": [
+      {
+        "name": "Set and Forget",
+        "skill": 29193,
+        "type": "Prefix",
+        "weight": 980
+      },
+      {
+        "name": "Expert Sabotage",
+        "skill": 54760,
+        "type": "Prefix",
+        "weight": 980
+      },
+      {
+        "name": "Guerilla Tactics",
+        "skill": 24645,
+        "type": "Prefix",
+        "weight": 1959
+      },
+      {
+        "name": "Expendability",
+        "skill": 65138,
+        "type": "Prefix",
+        "weight": 367
+      },
+      {
+        "name": "Arcane Pyrotechnics",
+        "skill": 52058,
+        "type": "Prefix",
+        "weight": 367
+      },
+      {
+        "name": "Surprise Sabotage",
+        "skill": 22434,
+        "type": "Prefix",
+        "weight": 980
+      },
+      {
+        "name": "Careful Handling",
+        "skill": 20383,
+        "type": "Prefix",
+        "weight": 367
+      }
+    ]
+  },
+  {
+    "id": "affliction_totem_damage",
+    "name": "Totem Damage",
+    "icon": "Art/2DArt/SkillIcons/passives/TotemDmgNode.png",
+    "tag": "affliction_totem_damage",
+    "stats": [
+      "12% increased Totem Damage"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: 12% increased Totem Damage"
+    ],
+    "size": "Medium",
+    "prefixWeight": 13199,
+    "suffixWeight": 14150,
+    "notables": [
+      {
+        "name": "Ancestral Echo",
+        "skill": 31440,
+        "type": "Prefix",
+        "weight": 1477
+      },
+      {
+        "name": "Ancestral Reach",
+        "skill": 57212,
+        "type": "Prefix",
+        "weight": 1477
+      },
+      {
+        "name": "Ancestral Might",
+        "skill": 60864,
+        "type": "Prefix",
+        "weight": 738
+      },
+      {
+        "name": "Ancestral Preservation",
+        "skill": 56686,
+        "type": "Prefix",
+        "weight": 277
+      },
+      {
+        "name": "Snaring Spirits",
+        "skill": 2004,
+        "type": "Prefix",
+        "weight": 738
+      },
+      {
+        "name": "Sleepless Sentries",
+        "skill": 57383,
+        "type": "Prefix",
+        "weight": 277
+      },
+      {
+        "name": "Ancestral Guidance",
+        "skill": 54209,
+        "type": "Prefix",
+        "weight": 738
+      },
+      {
+        "name": "Ancestral Inspiration",
+        "skill": 13950,
+        "type": "Prefix",
+        "weight": 277
+      }
+    ]
+  },
+  {
+    "id": "affliction_brand_damage",
+    "name": "Brand Damage",
+    "icon": "Art/2DArt/SkillIcons/passives/BrandDmgNode.png",
+    "tag": "affliction_brand_damage",
+    "stats": [
+      "12% increased Brand Damage"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: 12% increased Brand Damage"
+    ],
+    "size": "Medium",
+    "prefixWeight": 13200,
+    "suffixWeight": 14150,
+    "notables": [
+      {
+        "name": "Chip Away",
+        "skill": 26839,
+        "type": "Prefix",
+        "weight": 1171
+      },
+      {
+        "name": "Seeker Runes",
+        "skill": 37358,
+        "type": "Prefix",
+        "weight": 439
+      },
+      {
+        "name": "Remarkable",
+        "skill": 59307,
+        "type": "Prefix",
+        "weight": 439
+      },
+      {
+        "name": "Brand Loyalty",
+        "skill": 36276,
+        "type": "Prefix",
+        "weight": 2341
+      },
+      {
+        "name": "Holy Conquest",
+        "skill": 42636,
+        "type": "Prefix",
+        "weight": 1171
+      },
+      {
+        "name": "Grand Design",
+        "skill": 13392,
+        "type": "Prefix",
+        "weight": 439
+      }
+    ]
+  },
+  {
+    "id": "affliction_channelling_skill_damage",
+    "name": "Channelling Skill Damage",
+    "icon": "Art/2DArt/SkillIcons/passives/DmgWhenChannelSkillsNode.png",
+    "tag": "affliction_channelling_skill_damage",
+    "stats": [
+      "Channelling Skills deal 12% increased Damage"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: Channelling Skills deal 12% increased Damage"
+    ],
+    "size": "Medium",
+    "prefixWeight": 13200,
+    "suffixWeight": 14150,
+    "notables": [
+      {
+        "name": "Vital Focus",
+        "skill": 54382,
+        "type": "Prefix",
+        "weight": 1811
+      },
+      {
+        "name": "Rapid Infusion",
+        "skill": 45935,
+        "type": "Prefix",
+        "weight": 340
+      },
+      {
+        "name": "Unwavering Focus",
+        "skill": 38275,
+        "type": "Prefix",
+        "weight": 906
+      },
+      {
+        "name": "Enduring Focus",
+        "skill": 46264,
+        "type": "Prefix",
+        "weight": 113
+      },
+      {
+        "name": "Precise Focus",
+        "skill": 55714,
+        "type": "Prefix",
+        "weight": 906
+      },
+      {
+        "name": "Stoic Focus",
+        "skill": 35363,
+        "type": "Prefix",
+        "weight": 1811
+      },
+      {
+        "name": "Hex Breaker",
+        "skill": 65117,
+        "type": "Prefix",
+        "weight": 113
+      }
+    ]
+  },
+  {
+    "id": "affliction_flask_duration",
+    "name": "Flask Duration",
+    "icon": "Art/2DArt/SkillIcons/passives/FlaskDurationnode.png",
+    "tag": "affliction_flask_duration",
+    "stats": [
+      "6% increased Flask Effect Duration"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: 6% increased Flask Effect Duration"
+    ],
+    "size": "Medium",
+    "prefixWeight": 13200,
+    "suffixWeight": 14150,
+    "notables": [
+      {
+        "name": "Distilled Perfection",
+        "skill": 56886,
+        "type": "Prefix",
+        "weight": 1079
+      },
+      {
+        "name": "Spiked Concoction",
+        "skill": 25282,
+        "type": "Prefix",
+        "weight": 539
+      },
+      {
+        "name": "Fasting",
+        "skill": 5075,
+        "type": "Prefix",
+        "weight": 539
+      },
+      {
+        "name": "Mender's Wellspring",
+        "skill": 41509,
+        "type": "Prefix",
+        "weight": 202
+      },
+      {
+        "name": "Special Reserve",
+        "skill": 47584,
+        "type": "Prefix",
+        "weight": 1079
+      },
+      {
+        "name": "Numbing Elixir",
+        "skill": 62707,
+        "type": "Prefix",
+        "weight": 202
+      },
+      {
+        "name": "Brewed for Potency",
+        "skill": 4094,
+        "type": "Prefix",
+        "weight": 1079
+      },
+      {
+        "name": "Peak Vigour",
+        "skill": 8949,
+        "type": "Prefix",
+        "weight": 1079
+      },
+      {
+        "name": "Liquid Inspiration",
+        "skill": 4958,
+        "type": "Prefix",
+        "weight": 202
+      }
+    ]
+  },
+  {
+    "id": "affliction_life_and_mana_recovery_from_flasks",
+    "name": "Life and Mana recovery from Flasks",
+    "icon": "Art/2DArt/SkillIcons/passives/LifeManaFlasksrecoverynode.png",
+    "tag": "affliction_life_and_mana_recovery_from_flasks",
+    "stats": [
+      "10% increased Life Recovery from Flasks",
+      "10% increased Mana Recovery from Flasks"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: 10% increased Life Recovery from Flasks",
+      "Added Small Passive Skills grant: 10% increased Mana Recovery from Flasks"
+    ],
+    "size": "Medium",
+    "prefixWeight": 13200,
+    "suffixWeight": 14150,
+    "notables": [
+      {
+        "name": "Distilled Perfection",
+        "skill": 56886,
+        "type": "Prefix",
+        "weight": 1778
+      },
+      {
+        "name": "Spiked Concoction",
+        "skill": 25282,
+        "type": "Prefix",
+        "weight": 889
+      },
+      {
+        "name": "Fasting",
+        "skill": 5075,
+        "type": "Prefix",
+        "weight": 889
+      },
+      {
+        "name": "Mender's Wellspring",
+        "skill": 41509,
+        "type": "Prefix",
+        "weight": 333
+      },
+      {
+        "name": "Special Reserve",
+        "skill": 47584,
+        "type": "Prefix",
+        "weight": 1778
+      },
+      {
+        "name": "Numbing Elixir",
+        "skill": 62707,
+        "type": "Prefix",
+        "weight": 333
+      }
+    ]
+  },
+  {
+    "id": "affliction_axe_and_sword_damage",
+    "name": "Axe and Sword Damage",
+    "icon": "Art/2DArt/SkillIcons/passives/NodeAxeandSwordDamage.png",
+    "tag": "affliction_axe_and_sword_damage",
+    "stats": [
+      "Axe Attacks deal 12% increased Damage with Hits and Ailments",
+      "Sword Attacks deal 12% increased Damage with Hits and Ailments"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: Axe Attacks deal 12% increased Damage with Hits and Ailments",
+      "Added Small Passive Skills grant: Sword Attacks deal 12% increased Damage with Hits and Ailments"
+    ],
+    "size": "Large",
+    "prefixWeight": 11059,
+    "suffixWeight": 16293,
+    "notables": [
+      {
+        "name": "Vicious Skewering",
+        "skill": 28635,
+        "type": "Prefix",
+        "weight": 161
+      },
+      {
+        "name": "Bloodscent",
+        "skill": 39006,
+        "type": "Prefix",
+        "weight": 54
+      },
+      {
+        "name": "Run Through",
+        "skill": 58189,
+        "type": "Prefix",
+        "weight": 161
+      },
+      {
+        "name": "Wound Aggravation",
+        "skill": 60894,
+        "type": "Prefix",
+        "weight": 857
+      },
+      {
+        "name": "Smite the Weak",
+        "skill": 44670,
+        "type": "Suffix",
+        "weight": 857
+      },
+      {
+        "name": "Heavy Hitter",
+        "skill": 38790,
+        "type": "Suffix",
+        "weight": 429
+      },
+      {
+        "name": "Martial Prowess",
+        "skill": 37,
+        "type": "Suffix",
+        "weight": 857
+      },
+      {
+        "name": "Calamitous",
+        "skill": 41594,
+        "type": "Prefix",
+        "weight": 429
+      },
+      {
+        "name": "Devastator",
+        "skill": 22581,
+        "type": "Prefix",
+        "weight": 54
+      },
+      {
+        "name": "Fuel the Fight",
+        "skill": 14518,
+        "type": "Prefix",
+        "weight": 857
+      },
+      {
+        "name": "Drive the Destruction",
+        "skill": 41284,
+        "type": "Prefix",
+        "weight": 857
+      },
+      {
+        "name": "Feed the Fury",
+        "skill": 26197,
+        "type": "Prefix",
+        "weight": 429
+      }
+    ]
+  },
+  {
+    "id": "affliction_mace_and_staff_damage",
+    "name": "Mace and Staff Damage",
+    "icon": "Art/2DArt/SkillIcons/passives/NodeMaceandStaffDamage.png",
+    "tag": "affliction_mace_and_staff_damage",
+    "stats": [
+      "Staff Attacks deal 12% increased Damage with Hits and Ailments",
+      "Mace or Sceptre Attacks deal 12% increased Damage with Hits and Ailments"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: Staff Attacks deal 12% increased Damage with Hits and Ailments",
+      "Added Small Passive Skills grant: Mace or Sceptre Attacks deal 12% increased Damage with Hits and Ailments"
+    ],
+    "size": "Large",
+    "prefixWeight": 11059,
+    "suffixWeight": 16293,
+    "notables": [
+      {
+        "name": "Vicious Skewering",
+        "skill": 28635,
+        "type": "Prefix",
+        "weight": 161
+      },
+      {
+        "name": "Overlord",
+        "skill": 13054,
+        "type": "Prefix",
+        "weight": 54
+      },
+      {
+        "name": "Expansive Might",
+        "skill": 48925,
+        "type": "Prefix",
+        "weight": 161
+      },
+      {
+        "name": "Weight Advantage",
+        "skill": 4205,
+        "type": "Prefix",
+        "weight": 857
+      },
+      {
+        "name": "Smite the Weak",
+        "skill": 44670,
+        "type": "Suffix",
+        "weight": 857
+      },
+      {
+        "name": "Heavy Hitter",
+        "skill": 38790,
+        "type": "Suffix",
+        "weight": 429
+      },
+      {
+        "name": "Martial Prowess",
+        "skill": 37,
+        "type": "Suffix",
+        "weight": 857
+      },
+      {
+        "name": "Calamitous",
+        "skill": 41594,
+        "type": "Prefix",
+        "weight": 429
+      },
+      {
+        "name": "Devastator",
+        "skill": 22581,
+        "type": "Prefix",
+        "weight": 54
+      },
+      {
+        "name": "Fuel the Fight",
+        "skill": 14518,
+        "type": "Prefix",
+        "weight": 857
+      },
+      {
+        "name": "Drive the Destruction",
+        "skill": 41284,
+        "type": "Prefix",
+        "weight": 857
+      },
+      {
+        "name": "Feed the Fury",
+        "skill": 26197,
+        "type": "Prefix",
+        "weight": 429
+      }
+    ]
+  },
+  {
+    "id": "affliction_dagger_and_claw_damage",
+    "name": "Dagger and Claw Damage",
+    "icon": "Art/2DArt/SkillIcons/passives/NodeDaggerandClawDamage.png",
+    "tag": "affliction_dagger_and_claw_damage",
+    "stats": [
+      "Claw Attacks deal 12% increased Damage with Hits and Ailments",
+      "Dagger Attacks deal 12% increased Damage with Hits and Ailments"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: Claw Attacks deal 12% increased Damage with Hits and Ailments",
+      "Added Small Passive Skills grant: Dagger Attacks deal 12% increased Damage with Hits and Ailments"
+    ],
+    "size": "Large",
+    "prefixWeight": 10894,
+    "suffixWeight": 16458,
+    "notables": [
+      {
+        "name": "Vicious Skewering",
+        "skill": 28635,
+        "type": "Prefix",
+        "weight": 173
+      },
+      {
+        "name": "Wind-up",
+        "skill": 1067,
+        "type": "Prefix",
+        "weight": 173
+      },
+      {
+        "name": "Fan of Blades",
+        "skill": 39738,
+        "type": "Prefix",
+        "weight": 58
+      },
+      {
+        "name": "Disease Vector",
+        "skill": 57141,
+        "type": "Prefix",
+        "weight": 462
+      },
+      {
+        "name": "Smite the Weak",
+        "skill": 44670,
+        "type": "Suffix",
+        "weight": 923
+      },
+      {
+        "name": "Heavy Hitter",
+        "skill": 38790,
+        "type": "Suffix",
+        "weight": 462
+      },
+      {
+        "name": "Martial Prowess",
+        "skill": 37,
+        "type": "Suffix",
+        "weight": 923
+      },
+      {
+        "name": "Calamitous",
+        "skill": 41594,
+        "type": "Prefix",
+        "weight": 462
+      },
+      {
+        "name": "Devastator",
+        "skill": 22581,
+        "type": "Prefix",
+        "weight": 58
+      },
+      {
+        "name": "Fuel the Fight",
+        "skill": 14518,
+        "type": "Prefix",
+        "weight": 923
+      },
+      {
+        "name": "Drive the Destruction",
+        "skill": 41284,
+        "type": "Prefix",
+        "weight": 923
+      },
+      {
+        "name": "Feed the Fury",
+        "skill": 26197,
+        "type": "Prefix",
+        "weight": 462
+      }
+    ]
+  },
+  {
+    "id": "affliction_bow_damage",
+    "name": "Bow Damage",
+    "icon": "Art/2DArt/SkillIcons/passives/NodeBowDamage.png",
+    "tag": "affliction_bow_damage",
+    "stats": [
+      "12% increased Damage with Bows",
+      "12% increased Damage Over Time with Bow Skills"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: 12% increased Damage with Bows",
+      "Added Small Passive Skills grant: 12% increased Damage Over Time with Bow Skills"
+    ],
+    "size": "Large",
+    "prefixWeight": 11263,
+    "suffixWeight": 16085,
+    "notables": [
+      {
+        "name": "Vicious Skewering",
+        "skill": 28635,
+        "type": "Prefix",
+        "weight": 145
+      },
+      {
+        "name": "Arcing Shot",
+        "skill": 7343,
+        "type": "Prefix",
+        "weight": 387
+      },
+      {
+        "name": "Tempered Arrowheads",
+        "skill": 38563,
+        "type": "Prefix",
+        "weight": 387
+      },
+      {
+        "name": "Broadside",
+        "skill": 20834,
+        "type": "Prefix",
+        "weight": 774
+      },
+      {
+        "name": "Smite the Weak",
+        "skill": 44670,
+        "type": "Suffix",
+        "weight": 774
+      },
+      {
+        "name": "Heavy Hitter",
+        "skill": 38790,
+        "type": "Suffix",
+        "weight": 387
+      },
+      {
+        "name": "Martial Prowess",
+        "skill": 37,
+        "type": "Suffix",
+        "weight": 774
+      },
+      {
+        "name": "Calamitous",
+        "skill": 41594,
+        "type": "Prefix",
+        "weight": 387
+      },
+      {
+        "name": "Devastator",
+        "skill": 22581,
+        "type": "Prefix",
+        "weight": 48
+      },
+      {
+        "name": "Fuel the Fight",
+        "skill": 14518,
+        "type": "Prefix",
+        "weight": 774
+      },
+      {
+        "name": "Drive the Destruction",
+        "skill": 41284,
+        "type": "Prefix",
+        "weight": 774
+      },
+      {
+        "name": "Feed the Fury",
+        "skill": 26197,
+        "type": "Prefix",
+        "weight": 387
+      }
+    ]
+  },
+  {
+    "id": "affliction_wand_damage",
+    "name": "Wand Damage",
+    "icon": "Art/2DArt/SkillIcons/passives/NodeWandDamage.png",
+    "tag": "affliction_wand_damage",
+    "stats": [
+      "Wand Attacks deal 12% increased Damage with Hits and Ailments"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: Wand Attacks deal 12% increased Damage with Hits and Ailments"
+    ],
+    "size": "Large",
+    "prefixWeight": 11182,
+    "suffixWeight": 16167,
+    "notables": [
+      {
+        "name": "Vicious Skewering",
+        "skill": 28635,
+        "type": "Prefix",
+        "weight": 151
+      },
+      {
+        "name": "Explosive Force",
+        "skill": 33002,
+        "type": "Prefix",
+        "weight": 151
+      },
+      {
+        "name": "Opportunistic Fusilade",
+        "skill": 41056,
+        "type": "Prefix",
+        "weight": 807
+      },
+      {
+        "name": "Storm's Hand",
+        "skill": 30622,
+        "type": "Prefix",
+        "weight": 403
+      },
+      {
+        "name": "Smite the Weak",
+        "skill": 44670,
+        "type": "Suffix",
+        "weight": 807
+      },
+      {
+        "name": "Heavy Hitter",
+        "skill": 38790,
+        "type": "Suffix",
+        "weight": 403
+      },
+      {
+        "name": "Martial Prowess",
+        "skill": 37,
+        "type": "Suffix",
+        "weight": 807
+      },
+      {
+        "name": "Calamitous",
+        "skill": 41594,
+        "type": "Prefix",
+        "weight": 403
+      },
+      {
+        "name": "Devastator",
+        "skill": 22581,
+        "type": "Prefix",
+        "weight": 50
+      },
+      {
+        "name": "Fuel the Fight",
+        "skill": 14518,
+        "type": "Prefix",
+        "weight": 807
+      },
+      {
+        "name": "Drive the Destruction",
+        "skill": 41284,
+        "type": "Prefix",
+        "weight": 807
+      },
+      {
+        "name": "Feed the Fury",
+        "skill": 26197,
+        "type": "Prefix",
+        "weight": 403
+      }
+    ]
+  },
+  {
+    "id": "affliction_damage_with_two_handed_melee_weapons",
+    "name": "Damage with Two Handed Melee Weapons",
+    "icon": "Art/2DArt/SkillIcons/passives/NodeTwoHandedMeleeDamage.png",
+    "tag": "affliction_damage_with_two_handed_melee_weapons",
+    "stats": [
+      "12% increased Damage with Two Handed Weapons"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: 12% increased Damage with Two Handed Weapons"
+    ],
+    "size": "Large",
+    "prefixWeight": 11692,
+    "suffixWeight": 15660,
+    "notables": [
+      {
+        "name": "Vicious Skewering",
+        "skill": 28635,
+        "type": "Prefix",
+        "weight": 113
+      },
+      {
+        "name": "Titanic Swings",
+        "skill": 48550,
+        "type": "Prefix",
+        "weight": 302
+      },
+      {
+        "name": "Battlefield Dominator",
+        "skill": 18463,
+        "type": "Prefix",
+        "weight": 604
+      },
+      {
+        "name": "Martial Mastery",
+        "skill": 14431,
+        "type": "Prefix",
+        "weight": 302
+      },
+      {
+        "name": "Surefooted Striker",
+        "skill": 61474,
+        "type": "Prefix",
+        "weight": 302
+      },
+      {
+        "name": "Graceful Execution",
+        "skill": 42687,
+        "type": "Prefix",
+        "weight": 604
+      },
+      {
+        "name": "Brutal Infamy",
+        "skill": 6553,
+        "type": "Prefix",
+        "weight": 302
+      },
+      {
+        "name": "Fearsome Warrior",
+        "skill": 20996,
+        "type": "Prefix",
+        "weight": 113
+      },
+      {
+        "name": "Smite the Weak",
+        "skill": 44670,
+        "type": "Suffix",
+        "weight": 604
+      },
+      {
+        "name": "Heavy Hitter",
+        "skill": 38790,
+        "type": "Suffix",
+        "weight": 302
+      },
+      {
+        "name": "Martial Prowess",
+        "skill": 37,
+        "type": "Suffix",
+        "weight": 604
+      },
+      {
+        "name": "Calamitous",
+        "skill": 41594,
+        "type": "Prefix",
+        "weight": 302
+      },
+      {
+        "name": "Devastator",
+        "skill": 22581,
+        "type": "Prefix",
+        "weight": 38
+      },
+      {
+        "name": "Fuel the Fight",
+        "skill": 14518,
+        "type": "Prefix",
+        "weight": 604
+      },
+      {
+        "name": "Drive the Destruction",
+        "skill": 41284,
+        "type": "Prefix",
+        "weight": 604
+      },
+      {
+        "name": "Feed the Fury",
+        "skill": 26197,
+        "type": "Prefix",
+        "weight": 302
+      }
+    ]
+  },
+  {
+    "id": "affliction_attack_damage_while_dual_wielding_",
+    "name": "Attack Damage while Dual Wielding",
+    "icon": "Art/2DArt/SkillIcons/passives/NodeDualWieldingDamage.png",
+    "tag": "affliction_attack_damage_while_dual_wielding_",
+    "stats": [
+      "12% increased Attack Damage while Dual Wielding"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: 12% increased Attack Damage while Dual Wielding"
+    ],
+    "size": "Large",
+    "prefixWeight": 11642,
+    "suffixWeight": 15708,
+    "notables": [
+      {
+        "name": "Vicious Skewering",
+        "skill": 28635,
+        "type": "Prefix",
+        "weight": 117
+      },
+      {
+        "name": "Combat Rhythm",
+        "skill": 24484,
+        "type": "Prefix",
+        "weight": 312
+      },
+      {
+        "name": "Hit and Run",
+        "skill": 62618,
+        "type": "Prefix",
+        "weight": 623
+      },
+      {
+        "name": "Insatiable Killer",
+        "skill": 23232,
+        "type": "Prefix",
+        "weight": 312
+      },
+      {
+        "name": "Mage Bane",
+        "skill": 24889,
+        "type": "Prefix",
+        "weight": 117
+      },
+      {
+        "name": "Martial Momentum",
+        "skill": 2655,
+        "type": "Prefix",
+        "weight": 312
+      },
+      {
+        "name": "Deadly Repartee",
+        "skill": 1478,
+        "type": "Prefix",
+        "weight": 623
+      },
+      {
+        "name": "Quick and Deadly",
+        "skill": 39058,
+        "type": "Prefix",
+        "weight": 117
+      },
+      {
+        "name": "Smite the Weak",
+        "skill": 44670,
+        "type": "Suffix",
+        "weight": 623
+      },
+      {
+        "name": "Heavy Hitter",
+        "skill": 38790,
+        "type": "Suffix",
+        "weight": 312
+      },
+      {
+        "name": "Martial Prowess",
+        "skill": 37,
+        "type": "Suffix",
+        "weight": 623
+      },
+      {
+        "name": "Calamitous",
+        "skill": 41594,
+        "type": "Prefix",
+        "weight": 312
+      },
+      {
+        "name": "Devastator",
+        "skill": 22581,
+        "type": "Prefix",
+        "weight": 39
+      },
+      {
+        "name": "Fuel the Fight",
+        "skill": 14518,
+        "type": "Prefix",
+        "weight": 623
+      },
+      {
+        "name": "Drive the Destruction",
+        "skill": 41284,
+        "type": "Prefix",
+        "weight": 623
+      },
+      {
+        "name": "Feed the Fury",
+        "skill": 26197,
+        "type": "Prefix",
+        "weight": 312
+      }
+    ]
+  },
+  {
+    "id": "affliction_attack_damage_while_holding_a_shield",
+    "name": "Attack Damage while holding a Shield",
+    "icon": "Art/2DArt/SkillIcons/passives/NodeHoldingShieldDamage.png",
+    "tag": "affliction_attack_damage_while_holding_a_shield",
+    "stats": [
+      "12% increased Attack Damage while holding a Shield"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: 12% increased Attack Damage while holding a Shield"
+    ],
+    "size": "Large",
+    "prefixWeight": 11702,
+    "suffixWeight": 15650,
+    "notables": [
+      {
+        "name": "Prodigious Defence",
+        "skill": 44237,
+        "type": "Prefix",
+        "weight": 600
+      },
+      {
+        "name": "Advance Guard",
+        "skill": 35790,
+        "type": "Prefix",
+        "weight": 300
+      },
+      {
+        "name": "Strike Leader",
+        "skill": 12806,
+        "type": "Prefix",
+        "weight": 600
+      },
+      {
+        "name": "Gladiator's Fortitude",
+        "skill": 36807,
+        "type": "Prefix",
+        "weight": 113
+      },
+      {
+        "name": "Precise Retaliation",
+        "skill": 28398,
+        "type": "Prefix",
+        "weight": 300
+      },
+      {
+        "name": "Veteran Defender",
+        "skill": 23989,
+        "type": "Prefix",
+        "weight": 600
+      },
+      {
+        "name": "Vicious Skewering",
+        "skill": 28635,
+        "type": "Prefix",
+        "weight": 113
+      },
+      {
+        "name": "Smite the Weak",
+        "skill": 44670,
+        "type": "Suffix",
+        "weight": 600
+      },
+      {
+        "name": "Heavy Hitter",
+        "skill": 38790,
+        "type": "Suffix",
+        "weight": 300
+      },
+      {
+        "name": "Martial Prowess",
+        "skill": 37,
+        "type": "Suffix",
+        "weight": 600
+      },
+      {
+        "name": "Calamitous",
+        "skill": 41594,
+        "type": "Prefix",
+        "weight": 300
+      },
+      {
+        "name": "Devastator",
+        "skill": 22581,
+        "type": "Prefix",
+        "weight": 38
+      },
+      {
+        "name": "Fuel the Fight",
+        "skill": 14518,
+        "type": "Prefix",
+        "weight": 600
+      },
+      {
+        "name": "Drive the Destruction",
+        "skill": 41284,
+        "type": "Prefix",
+        "weight": 600
+      },
+      {
+        "name": "Feed the Fury",
+        "skill": 26197,
+        "type": "Prefix",
+        "weight": 300
+      },
+      {
+        "name": "Riot Queller",
+        "skill": 64407,
+        "type": "Prefix",
+        "weight": 38
+      }
+    ]
+  },
+  {
+    "id": "affliction_attack_damage_",
+    "name": "Attack Damage",
+    "icon": "Art/2DArt/SkillIcons/passives/IncreasedAttackDamageNode.png",
+    "tag": "affliction_attack_damage_",
+    "stats": [
+      "10% increased Attack Damage"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: 10% increased Attack Damage"
+    ],
+    "size": "Large",
+    "prefixWeight": 8604,
+    "suffixWeight": 15230,
+    "notables": [
+      {
+        "name": "Vicious Skewering",
+        "skill": 28635,
+        "type": "Prefix",
+        "weight": 81
+      },
+      {
+        "name": "Smite the Weak",
+        "skill": 44670,
+        "type": "Suffix",
+        "weight": 432
+      },
+      {
+        "name": "Heavy Hitter",
+        "skill": 38790,
+        "type": "Suffix",
+        "weight": 216
+      },
+      {
+        "name": "Martial Prowess",
+        "skill": 37,
+        "type": "Suffix",
+        "weight": 432
+      },
+      {
+        "name": "Calamitous",
+        "skill": 41594,
+        "type": "Prefix",
+        "weight": 216
+      },
+      {
+        "name": "Devastator",
+        "skill": 22581,
+        "type": "Prefix",
+        "weight": 27
+      },
+      {
+        "name": "Fuel the Fight",
+        "skill": 14518,
+        "type": "Prefix",
+        "weight": 432
+      },
+      {
+        "name": "Drive the Destruction",
+        "skill": 41284,
+        "type": "Prefix",
+        "weight": 432
+      },
+      {
+        "name": "Feed the Fury",
+        "skill": 26197,
+        "type": "Prefix",
+        "weight": 216
+      }
+    ]
+  },
+  {
+    "id": "affliction_spell_damage",
+    "name": "Spell Damage",
+    "icon": "Art/2DArt/SkillIcons/passives/IncreasedSpellDamageNode.png",
+    "tag": "affliction_spell_damage",
+    "stats": [
+      "10% increased Spell Damage"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: 10% increased Spell Damage"
+    ],
+    "size": "Large",
+    "prefixWeight": 11418,
+    "suffixWeight": 15931,
+    "notables": [
+      {
+        "name": "Ancestral Inspiration",
+        "skill": 13950,
+        "type": "Prefix",
+        "weight": 281
+      },
+      {
+        "name": "Arcane Adept",
+        "skill": 15990,
+        "type": "Prefix",
+        "weight": 281
+      },
+      {
+        "name": "Seal Mender",
+        "skill": 1066,
+        "type": "Prefix",
+        "weight": 94
+      },
+      {
+        "name": "Conjured Wall",
+        "skill": 784,
+        "type": "Prefix",
+        "weight": 750
+      },
+      {
+        "name": "Arcane Heroism",
+        "skill": 20533,
+        "type": "Prefix",
+        "weight": 281
+      },
+      {
+        "name": "Practiced Caster",
+        "skill": 34205,
+        "type": "Prefix",
+        "weight": 1500
+      },
+      {
+        "name": "Burden Projection",
+        "skill": 5190,
+        "type": "Prefix",
+        "weight": 750
+      },
+      {
+        "name": "Thaumophage",
+        "skill": 14085,
+        "type": "Suffix",
+        "weight": 750
+      },
+      {
+        "name": "Essence Rush",
+        "skill": 32415,
+        "type": "Suffix",
+        "weight": 750
+      },
+      {
+        "name": "Sap Psyche",
+        "skill": 42648,
+        "type": "Suffix",
+        "weight": 281
+      },
+      {
+        "name": "Mage Hunter",
+        "skill": 25450,
+        "type": "Prefix",
+        "weight": 281
+      }
+    ]
+  },
+  {
+    "id": "affliction_elemental_damage",
+    "name": "Elemental Damage",
+    "icon": "Art/2DArt/SkillIcons/passives/ElementalDamagenode.png",
+    "tag": "affliction_elemental_damage",
+    "stats": [
+      "10% increased Elemental Damage"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: 10% increased Elemental Damage"
+    ],
+    "size": "Large",
+    "prefixWeight": 10669,
+    "suffixWeight": 16681,
+    "notables": [
+      {
+        "name": "Vengeful Commander",
+        "skill": 28338,
+        "type": "Prefix",
+        "weight": 1500
+      },
+      {
+        "name": "Sadist",
+        "skill": 42117,
+        "type": "Prefix",
+        "weight": 281
+      },
+      {
+        "name": "Corrosive Elements",
+        "skill": 2306,
+        "type": "Prefix",
+        "weight": 94
+      },
+      {
+        "name": "Doryani's Lesson",
+        "skill": 7039,
+        "type": "Suffix",
+        "weight": 281
+      },
+      {
+        "name": "Disorienting Display",
+        "skill": 17255,
+        "type": "Suffix",
+        "weight": 750
+      },
+      {
+        "name": "Prismatic Heart",
+        "skill": 17050,
+        "type": "Prefix",
+        "weight": 1500
+      },
+      {
+        "name": "Widespread Destruction",
+        "skill": 36776,
+        "type": "Suffix",
+        "weight": 1500
+      },
+      {
+        "name": "Inspired Oppression",
+        "skill": 20343,
+        "type": "Prefix",
+        "weight": 94
+      }
+    ]
+  },
+  {
+    "id": "affliction_physical_damage",
+    "name": "Physical Damage",
+    "icon": "Art/2DArt/SkillIcons/passives/PhysicalDamagenode2.png",
+    "tag": "affliction_physical_damage",
+    "stats": [
+      "12% increased Physical Damage"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: 12% increased Physical Damage"
+    ],
+    "size": "Large",
+    "prefixWeight": 8360,
+    "suffixWeight": 14933,
+    "notables": [
+      {
+        "name": "Iron Breaker",
+        "skill": 28015,
+        "type": "Prefix",
+        "weight": 464
+      },
+      {
+        "name": "Master the Fundamentals",
+        "skill": 2796,
+        "type": "Prefix",
+        "weight": 232
+      },
+      {
+        "name": "Force Multiplier",
+        "skill": 3805,
+        "type": "Suffix",
+        "weight": 232
+      },
+      {
+        "name": "Furious Assault",
+        "skill": 981,
+        "type": "Suffix",
+        "weight": 464
+      },
+      {
+        "name": "Grim Oath",
+        "skill": 23335,
+        "type": "Suffix",
+        "weight": 87
+      },
+      {
+        "name": "Battle-Hardened",
+        "skill": 53318,
+        "type": "Prefix",
+        "weight": 232
+      },
+      {
+        "name": "Exploit Weakness",
+        "skill": 42601,
+        "type": "Prefix",
+        "weight": 232
+      }
+    ]
+  },
+  {
+    "id": "affliction_fire_damage",
+    "name": "Fire Damage",
+    "icon": "Art/2DArt/SkillIcons/passives/FireDamagenode.png",
+    "tag": "affliction_fire_damage",
+    "stats": [
+      "12% increased Fire Damage"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: 12% increased Fire Damage"
+    ],
+    "size": "Large",
+    "prefixWeight": 9251,
+    "suffixWeight": 14952,
+    "notables": [
+      {
+        "name": "Vengeful Commander",
+        "skill": 28338,
+        "type": "Prefix",
+        "weight": 475
+      },
+      {
+        "name": "Sadist",
+        "skill": 42117,
+        "type": "Prefix",
+        "weight": 89
+      },
+      {
+        "name": "Corrosive Elements",
+        "skill": 2306,
+        "type": "Prefix",
+        "weight": 30
+      },
+      {
+        "name": "Doryani's Lesson",
+        "skill": 7039,
+        "type": "Suffix",
+        "weight": 89
+      },
+      {
+        "name": "Disorienting Display",
+        "skill": 17255,
+        "type": "Suffix",
+        "weight": 238
+      },
+      {
+        "name": "Prismatic Heart",
+        "skill": 17050,
+        "type": "Prefix",
+        "weight": 475
+      },
+      {
+        "name": "Widespread Destruction",
+        "skill": 36776,
+        "type": "Suffix",
+        "weight": 475
+      },
+      {
+        "name": "Master of Fire",
+        "skill": 33482,
+        "type": "Prefix",
+        "weight": 30
+      },
+      {
+        "name": "Smoking Remains",
+        "skill": 13790,
+        "type": "Prefix",
+        "weight": 238
+      },
+      {
+        "name": "Cremator",
+        "skill": 56696,
+        "type": "Prefix",
+        "weight": 238
+      },
+      {
+        "name": "Burning Bright",
+        "skill": 56065,
+        "type": "Prefix",
+        "weight": 238
+      },
+      {
+        "name": "Lord of Drought",
+        "skill": 33,
+        "type": "Prefix",
+        "weight": 238
+      }
+    ]
+  },
+  {
+    "id": "affliction_lightning_damage",
+    "name": "Lightning Damage",
+    "icon": "Art/2DArt/SkillIcons/passives/LightningDamagenode.png",
+    "tag": "affliction_lightning_damage",
+    "stats": [
+      "12% increased Lightning Damage"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: 12% increased Lightning Damage"
+    ],
+    "size": "Large",
+    "prefixWeight": 11972,
+    "suffixWeight": 15377,
+    "notables": [
+      {
+        "name": "Vengeful Commander",
+        "skill": 28338,
+        "type": "Prefix",
+        "weight": 727
+      },
+      {
+        "name": "Sadist",
+        "skill": 42117,
+        "type": "Prefix",
+        "weight": 136
+      },
+      {
+        "name": "Corrosive Elements",
+        "skill": 2306,
+        "type": "Prefix",
+        "weight": 45
+      },
+      {
+        "name": "Doryani's Lesson",
+        "skill": 7039,
+        "type": "Suffix",
+        "weight": 136
+      },
+      {
+        "name": "Disorienting Display",
+        "skill": 17255,
+        "type": "Suffix",
+        "weight": 364
+      },
+      {
+        "name": "Prismatic Heart",
+        "skill": 17050,
+        "type": "Prefix",
+        "weight": 727
+      },
+      {
+        "name": "Widespread Destruction",
+        "skill": 36776,
+        "type": "Suffix",
+        "weight": 727
+      },
+      {
+        "name": "Snowstorm",
+        "skill": 40870,
+        "type": "Prefix",
+        "weight": 364
+      },
+      {
+        "name": "Storm Drinker",
+        "skill": 22607,
+        "type": "Prefix",
+        "weight": 727
+      },
+      {
+        "name": "Paralysis",
+        "skill": 31825,
+        "type": "Prefix",
+        "weight": 364
+      },
+      {
+        "name": "Supercharge",
+        "skill": 59646,
+        "type": "Prefix",
+        "weight": 45
+      },
+      {
+        "name": "Inspired Oppression",
+        "skill": 20343,
+        "type": "Prefix",
+        "weight": 45
+      },
+      {
+        "name": "Thunderstruck",
+        "skill": 35430,
+        "type": "Prefix",
+        "weight": 364
+      },
+      {
+        "name": "Stormrider",
+        "skill": 37478,
+        "type": "Prefix",
+        "weight": 136
+      },
+      {
+        "name": "Overshock",
+        "skill": 28682,
+        "type": "Prefix",
+        "weight": 364
+      },
+      {
+        "name": "Tempt the Storm",
+        "skill": 17662,
+        "type": "Prefix",
+        "weight": 364
+      },
+      {
+        "name": "Scintillating Idea",
+        "skill": 43834,
+        "type": "Prefix",
+        "weight": 364
+      }
+    ]
+  },
+  {
+    "id": "affliction_cold_damage",
+    "name": "Cold Damage",
+    "icon": "Art/2DArt/SkillIcons/passives/ColdDamagenode.png",
+    "tag": "affliction_cold_damage",
+    "stats": [
+      "12% increased Cold Damage"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: 12% increased Cold Damage"
+    ],
+    "size": "Large",
+    "prefixWeight": 10013,
+    "suffixWeight": 15003,
+    "notables": [
+      {
+        "name": "Vengeful Commander",
+        "skill": 28338,
+        "type": "Prefix",
+        "weight": 505
+      },
+      {
+        "name": "Sadist",
+        "skill": 42117,
+        "type": "Prefix",
+        "weight": 95
+      },
+      {
+        "name": "Corrosive Elements",
+        "skill": 2306,
+        "type": "Prefix",
+        "weight": 32
+      },
+      {
+        "name": "Doryani's Lesson",
+        "skill": 7039,
+        "type": "Suffix",
+        "weight": 95
+      },
+      {
+        "name": "Disorienting Display",
+        "skill": 17255,
+        "type": "Suffix",
+        "weight": 253
+      },
+      {
+        "name": "Prismatic Heart",
+        "skill": 17050,
+        "type": "Prefix",
+        "weight": 505
+      },
+      {
+        "name": "Widespread Destruction",
+        "skill": 36776,
+        "type": "Suffix",
+        "weight": 505
+      },
+      {
+        "name": "Snowstorm",
+        "skill": 40870,
+        "type": "Prefix",
+        "weight": 253
+      },
+      {
+        "name": "Blanketed Snow",
+        "skill": 6258,
+        "type": "Prefix",
+        "weight": 95
+      },
+      {
+        "name": "Cold to the Core",
+        "skill": 54436,
+        "type": "Prefix",
+        "weight": 95
+      },
+      {
+        "name": "Cold-Blooded Killer",
+        "skill": 23113,
+        "type": "Prefix",
+        "weight": 253
+      },
+      {
+        "name": "Inspired Oppression",
+        "skill": 20343,
+        "type": "Prefix",
+        "weight": 32
+      },
+      {
+        "name": "Deep Chill",
+        "skill": 18861,
+        "type": "Prefix",
+        "weight": 505
+      },
+      {
+        "name": "Blast-Freeze",
+        "skill": 39874,
+        "type": "Prefix",
+        "weight": 95
+      },
+      {
+        "name": "Stormrider",
+        "skill": 37478,
+        "type": "Prefix",
+        "weight": 95
+      },
+      {
+        "name": "Blizzard Caller",
+        "skill": 25938,
+        "type": "Prefix",
+        "weight": 253
+      }
+    ]
+  },
+  {
+    "id": "affliction_chaos_damage",
+    "name": "Chaos Damage",
+    "icon": "Art/2DArt/SkillIcons/passives/ChaosDamagenode.png",
+    "tag": "affliction_chaos_damage",
+    "stats": [
+      "12% increased Chaos Damage"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: 12% increased Chaos Damage"
+    ],
+    "size": "Large",
+    "prefixWeight": 8950,
+    "suffixWeight": 14798,
+    "notables": [
+      {
+        "name": "Grim Oath",
+        "skill": 23335,
+        "type": "Suffix",
+        "weight": 97
+      },
+      {
+        "name": "Overwhelming Malice",
+        "skill": 2977,
+        "type": "Prefix",
+        "weight": 97
+      },
+      {
+        "name": "Touch of Cruelty",
+        "skill": 49273,
+        "type": "Prefix",
+        "weight": 519
+      },
+      {
+        "name": "Unwaveringly Evil",
+        "skill": 38592,
+        "type": "Prefix",
+        "weight": 519
+      },
+      {
+        "name": "Unspeakable Gifts",
+        "skill": 1494,
+        "type": "Suffix",
+        "weight": 32
+      },
+      {
+        "name": "Dark Ideation",
+        "skill": 40828,
+        "type": "Prefix",
+        "weight": 97
+      },
+      {
+        "name": "Unholy Grace",
+        "skill": 2264,
+        "type": "Suffix",
+        "weight": 519
+      },
+      {
+        "name": "Wicked Pall",
+        "skill": 34595,
+        "type": "Prefix",
+        "weight": 259
+      },
+      {
+        "name": "Misery Everlasting",
+        "skill": 14061,
+        "type": "Prefix",
+        "weight": 259
+      }
+    ]
+  },
+  {
+    "id": "affliction_minion_damage",
+    "name": "Minion Damage",
+    "icon": "Art/2DArt/SkillIcons/passives/IncreasedMinionDamageNode.png",
+    "tag": "affliction_minion_damage",
+    "stats": [
+      "Minions deal 10% increased Damage"
+    ],
+    "enchant": [
+      "Added Small Passive Skills grant: Minions deal 10% increased Damage"
+    ],
+    "size": "Large",
+    "prefixWeight": 9576,
+    "suffixWeight": 15401,
+    "notables": [
+      {
+        "name": "Renewal",
+        "skill": 58949,
+        "type": "Prefix",
+        "weight": 500
+      },
+      {
+        "name": "Raze and Pillage",
+        "skill": 6703,
+        "type": "Prefix",
+        "weight": 188
+      },
+      {
+        "name": "Rotten Claws",
+        "skill": 16650,
+        "type": "Prefix",
+        "weight": 500
+      },
+      {
+        "name": "Call to the Slaughter",
+        "skill": 55022,
+        "type": "Suffix",
+        "weight": 1000
+      },
+      {
+        "name": "Skeletal Atrophy",
+        "skill": 11535,
+        "type": "Prefix",
+        "weight": 188
+      },
+      {
+        "name": "Vicious Bite",
+        "skill": 41983,
+        "type": "Suffix",
+        "weight": 63
+      },
+      {
+        "name": "Primordial Bond",
+        "skill": 57892,
+        "type": "Suffix",
+        "weight": 188
+      },
+      {
+        "name": "Feasting Fiends",
+        "skill": 22540,
+        "type": "Prefix",
+        "weight": 1000
+      }
+    ]
+  }
+]

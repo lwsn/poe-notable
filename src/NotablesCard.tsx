@@ -1,19 +1,7 @@
 import React from "react";
 import styled from "@emotion/styled";
 import { Link } from "react-router-dom";
-
-interface Notable {
-  name: string;
-  skill: number;
-  stats: string[];
-  reminderText?: string[];
-  icon: string;
-  isKeystone?: boolean;
-  isNotable?: boolean;
-  flavourText?: string[];
-  type: string;
-  weight: { [key: string]: number | undefined };
-}
+import { NotableType } from "./types";
 
 const Wrapper = styled(Link)({
   display: "flex",
@@ -23,8 +11,8 @@ const Wrapper = styled(Link)({
   textDecoration: "none",
   transition: "background-color 0.3s",
   ":hover": {
-    backgroundColor: "#1A1A1A"
-  }
+    backgroundColor: "#1A1A1A",
+  },
 });
 
 const TextContainer = styled.div({
@@ -32,25 +20,25 @@ const TextContainer = styled.div({
   flexDirection: "column",
   flexGrow: 1,
   color: "white",
-  marginLeft: "8px"
+  marginLeft: "8px",
 });
 
 const Title = styled.h3({
   fontSize: "16px",
   margin: 0,
-  marginBottom: "8px"
+  marginBottom: "8px",
 });
 
 const Description = styled.p({
   fontSize: "12px",
   lineHeight: "16px",
-  margin: "0 0 4px"
+  margin: "0 0 4px",
 });
 
 const MetaInfo = styled(Description)({
   color: "#666",
   fontStyle: "italic",
-  marginTop: "auto"
+  marginTop: "auto",
 });
 
 const Icon = styled.div<{ isKeystone?: boolean; icon: string }>(
@@ -69,24 +57,26 @@ const Icon = styled.div<{ isKeystone?: boolean; icon: string }>(
       right: 0,
       bottom: 0,
       border: "1px solid rgba(255, 255, 255, 0.7)",
-      mixBlendMode: "overlay"
-    }
+      mixBlendMode: "overlay",
+    },
   },
   ({ icon }) => ({
-    backgroundImage: `url(${process.env.PUBLIC_URL}${icon})`
+    backgroundImage: `url(${process.env.PUBLIC_URL}${icon})`,
   }),
   ({ isKeystone }) => ({
     width: isKeystone ? "64px" : "48px",
-    height: isKeystone ? "64px" : "48px"
+    height: isKeystone ? "64px" : "48px",
   })
 );
 
 const NotableCard = ({
   notable: { name, stats, icon, isKeystone, skill, type },
-  weight
+  weight,
+  totalWeight = 1,
 }: {
-  notable: Notable;
+  notable: NotableType;
   weight?: number;
+  totalWeight?: number;
 }) => (
   <Wrapper to={`/notable/${skill}`}>
     <Icon icon={icon} isKeystone={isKeystone} />
@@ -97,7 +87,8 @@ const NotableCard = ({
       ))}
       {weight && (
         <MetaInfo>
-          {type === "suffix" ? "Suffix" : "Prefix"}, weight: {weight}
+          {type}, weight: {weight}, ~{((weight / totalWeight) * 100).toFixed(2)}
+          %
         </MetaInfo>
       )}
     </TextContainer>

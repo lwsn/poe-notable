@@ -1,9 +1,10 @@
 import React, { useState, useRef, useEffect } from "react";
 import styled from "@emotion/styled";
-import Notables from "./Notables.json";
+import Notables from "./notables.json";
 import NotableCard from "./NotablesCard";
 import Fuse from "fuse.js";
 import { useLocation, useHistory } from "react-router-dom";
+import { NotableType } from "./types";
 
 const Container = styled.div<{ single?: boolean }>({
   display: "grid",
@@ -13,11 +14,11 @@ const Container = styled.div<{ single?: boolean }>({
   gridGap: "16px",
   "::-webkit-scrollbar": {
     width: "16px",
-    borderRight: "8px solid #111"
+    borderRight: "8px solid #111",
   },
   "::-webkit-scrollbar-thumb": {
-    borderRight: "8px solid #222"
-  }
+    borderRight: "8px solid #222",
+  },
 });
 
 const OuterWrapper = styled.div({
@@ -25,21 +26,21 @@ const OuterWrapper = styled.div({
   flexDirection: "column",
   width: "100%",
   overflow: "hidden",
-  padding: "16px"
+  padding: "16px",
 });
 
 const Input = styled.input({
   padding: "12px 16px",
   fontSize: "16px",
   flexGrow: 1,
-  border: "none"
+  border: "none",
 });
 
 const InputWrapper = styled.div({
   display: "flex",
   background: "#FFF",
   margin: "0 0 16px",
-  alignItems: "center"
+  alignItems: "center",
 });
 
 const Clear = styled.button({
@@ -61,16 +62,16 @@ const Clear = styled.button({
     background: "#777",
     transform: "rotateZ(45deg)",
     borderRadius: "2px",
-    marginLeft: "-3px"
+    marginLeft: "-3px",
   },
-  ":before": { transform: "rotateZ(-45deg)" }
+  ":before": { transform: "rotateZ(-45deg)" },
 });
 
 const More = styled.div({
-  color: "white"
+  color: "white",
 });
 
-const formattedNotables = Notables.map(n => ({ item: n }));
+const formattedNotables = (Notables as NotableType[]).map((n) => ({ item: n }));
 
 const maxNotables = 30;
 
@@ -86,20 +87,20 @@ const getParams = (search: string) =>
 const List = React.memo(
   ({ term }: { term: string }) => {
     const { current: fuse } = useRef(
-      new Fuse(Notables, {
+      new Fuse(Notables as NotableType[], {
         threshold: 0.15,
         distance: 1000,
         includeScore: true,
         keys: [
           {
             name: "stats",
-            weight: 0.5
+            weight: 0.5,
           },
           {
             name: "name",
-            weight: 0.5
-          }
-        ]
+            weight: 0.5,
+          },
+        ],
       })
     );
 
@@ -129,19 +130,16 @@ const AllNotables = () => {
 
   const bounce = useRef<number>();
 
-  useEffect(
-    () => {
-      if (term !== debouncedTerm) {
-        window.clearTimeout(bounce.current);
-        bounce.current = window.setTimeout(() => {
-          hist.replace(term ? `?s=${term}` : "");
-          setDebouncedTerm(term);
-        }, 250);
-      }
-      return () => window.clearTimeout(bounce.current);
-    },
-    [term, hist, debouncedTerm]
-  );
+  useEffect(() => {
+    if (term !== debouncedTerm) {
+      window.clearTimeout(bounce.current);
+      bounce.current = window.setTimeout(() => {
+        hist.replace(term ? `?s=${term}` : "");
+        setDebouncedTerm(term);
+      }, 250);
+    }
+    return () => window.clearTimeout(bounce.current);
+  }, [term, hist, debouncedTerm]);
 
   return (
     <OuterWrapper>
