@@ -8,6 +8,7 @@ import { JewelType, NotableType } from "./types";
 const Container = styled.div({
   display: "grid",
   gridGap: "8px",
+  gridTemplateColumns: "100%",
 });
 
 const Name = styled.div({
@@ -15,6 +16,10 @@ const Name = styled.div({
   lineHeight: "18px",
   fontSize: "14px",
   marginLeft: "8px",
+  marginRight: "8px",
+  overflow: "hidden",
+  whiteSpace: "nowrap",
+  textOverflow: "ellipsis",
 });
 
 const Size = styled.div({
@@ -52,7 +57,9 @@ const JewelHeader = styled.button<{ expanded?: boolean }>(
     position: "relative",
     border: "none",
     display: "flex",
-    flexDirection: "row",
+    maxWidth: "100%",
+    gridTemplateColumns: "min-content 1fr min-content min-content",
+    justifyItems: "start",
     alignItems: "center",
     cursor: "pointer",
     padding: "4px",
@@ -62,7 +69,9 @@ const JewelHeader = styled.button<{ expanded?: boolean }>(
       content: `""`,
       display: "block",
       marginLeft: "12px",
-      marginRight: "4px",
+      marginRight: "8px",
+      width: 0,
+      height: 0,
       border: "4px solid transparent",
       borderRight: "4px solid #555",
       borderBottom: "4px solid #555",
