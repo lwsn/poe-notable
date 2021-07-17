@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5f8530784a0118fe39d6eb80f0cd724a",
+    "revision": "faace05f17cdb44a0d3aa5194c1c93fa",
     "url": "/poe-notable/index.html"
   },
   {
-    "revision": "268c806b2b460cea70bf",
+    "revision": "ef52474a45b4b636d71d",
     "url": "/poe-notable/static/css/main.88c025de.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/poe-notable/static/js/2.428653f6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "268c806b2b460cea70bf",
-    "url": "/poe-notable/static/js/main.1a08e405.chunk.js"
+    "revision": "ef52474a45b4b636d71d",
+    "url": "/poe-notable/static/js/main.fd0eb2c2.chunk.js"
   },
   {
     "revision": "2db9f60f345d92ee2a03",
