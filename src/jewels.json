@@ -2,7 +2,7 @@
   {
     "id": "affliction_maximum_life",
     "name": "Life",
-    "icon": "Art/2DArt/SkillIcons/passives/IncreasedMaximumLifeNode.png",
+    "icon": "/notable-icons/IncreasedMaximumLifeNode.png",
     "tag": "affliction_maximum_life",
     "stats": [
       "4% increased maximum Life"
@@ -139,7 +139,7 @@
   {
     "id": "affliction_maximum_energy_shield",
     "name": "Energy Shield",
-    "icon": "Art/2DArt/SkillIcons/passives/EnergyShieldNode.png",
+    "icon": "/notable-icons/EnergyShieldNode.png",
     "tag": "affliction_maximum_energy_shield",
     "stats": [
       "6% increased maximum Energy Shield"
@@ -222,7 +222,7 @@
   {
     "id": "affliction_maximum_mana",
     "name": "Mana",
-    "icon": "Art/2DArt/SkillIcons/passives/MaxManaNode.png",
+    "icon": "/notable-icons/MaxManaNode.png",
     "tag": "affliction_maximum_mana",
     "stats": [
       "6% increased maximum Mana"
@@ -335,7 +335,7 @@
   {
     "id": "affliction_armour",
     "name": "Armour",
-    "icon": "Art/2DArt/SkillIcons/passives/ArmourNode.png",
+    "icon": "/notable-icons/ArmourNode.png",
     "tag": "affliction_armour",
     "stats": [
       "15% increased Armour"
@@ -418,7 +418,7 @@
   {
     "id": "affliction_evasion",
     "name": "Evasion",
-    "icon": "Art/2DArt/SkillIcons/passives/EvasionNode.png",
+    "icon": "/notable-icons/EvasionNode.png",
     "tag": "affliction_evasion",
     "stats": [
       "15% increased Evasion Rating"
@@ -483,7 +483,7 @@
   {
     "id": "affliction_chance_to_block_attack_damage",
     "name": "Chance to Block Attack Damage",
-    "icon": "Art/2DArt/SkillIcons/passives/BlockAttackDmgNode.png",
+    "icon": "/notable-icons/BlockAttackDmgNode.png",
     "tag": "affliction_chance_to_block",
     "stats": [
       "1% Chance to Block Attack Damage"
@@ -584,7 +584,7 @@
   {
     "id": "affliction_chance_to_block_spell_damage",
     "name": "Chance to Block Spell Damage",
-    "icon": "Art/2DArt/SkillIcons/passives/BlockSpellDmgNode.png",
+    "icon": "/notable-icons/BlockSpellDmgNode.png",
     "tag": "affliction_chance_to_block",
     "stats": [
       "1% Chance to Block Spell Damage"
@@ -685,7 +685,7 @@
   {
     "id": "affliction_fire_resistance",
     "name": "Fire Resistance",
-    "icon": "Art/2DArt/SkillIcons/passives/FireResistNode.png",
+    "icon": "/notable-icons/FireResistNode.png",
     "tag": "affliction_fire_resistance",
     "stats": [
       "+15% to Fire Resistance"
@@ -774,7 +774,7 @@
   {
     "id": "affliction_cold_resistance",
     "name": "Cold Resistance",
-    "icon": "Art/2DArt/SkillIcons/passives/ColdResistNode.png",
+    "icon": "/notable-icons/ColdResistNode.png",
     "tag": "affliction_cold_resistance",
     "stats": [
       "+15% to Cold Resistance"
@@ -857,7 +857,7 @@
   {
     "id": "affliction_lightning_resistance",
     "name": "Lightning Resistance",
-    "icon": "Art/2DArt/SkillIcons/passives/LightningResistNode.png",
+    "icon": "/notable-icons/LightningResistNode.png",
     "tag": "affliction_lightning_resistance",
     "stats": [
       "+15% to Lightning Resistance"
@@ -940,7 +940,7 @@
   {
     "id": "affliction_chaos_resistance",
     "name": "Chaos Resistance",
-    "icon": "Art/2DArt/SkillIcons/passives/ChaosResistNode.png",
+    "icon": "/notable-icons/ChaosResistNode.png",
     "tag": "affliction_chaos_resistance",
     "stats": [
       "+12% to Chaos Resistance"
@@ -993,7 +993,7 @@
   {
     "id": "affliction_chance_to_dodge_attacks",
     "name": "Chance to Dodge Attacks",
-    "icon": "Art/2DArt/SkillIcons/passives/DodgeAtksNode.png",
+    "icon": "/notable-icons/DodgeAtksNode.png",
     "tag": "affliction_chance_to_dodge_attacks",
     "stats": [
       "1% chance to Dodge Attack Hits"
@@ -1040,7 +1040,7 @@
   {
     "id": "affliction_strength",
     "name": "Strength",
-    "icon": "Art/2DArt/SkillIcons/passives/plusstrength.png",
+    "icon": "/notable-icons/plusstrength.png",
     "tag": "affliction_strength",
     "stats": [
       "+10 to Strength"
@@ -1056,7 +1056,7 @@
   {
     "id": "affliction_dexterity",
     "name": "Dexterity",
-    "icon": "Art/2DArt/SkillIcons/passives/plusdexterity.png",
+    "icon": "/notable-icons/plusdexterity.png",
     "tag": "affliction_dexterity",
     "stats": [
       "+10 to Dexterity"
@@ -1072,7 +1072,7 @@
   {
     "id": "affliction_intelligence",
     "name": "Intelligence",
-    "icon": "Art/2DArt/SkillIcons/passives/plusintelligence.png",
+    "icon": "/notable-icons/plusintelligence.png",
     "tag": "affliction_intelligence",
     "stats": [
       "+10 to Intelligence"
@@ -1088,7 +1088,7 @@
   {
     "id": "affliction_fire_damage_over_time_multiplier",
     "name": "Fire Damage over Time Multiplier",
-    "icon": "Art/2DArt/SkillIcons/passives/FireDamageOverTimeNode.png",
+    "icon": "/notable-icons/FireDamageOverTimeNode.png",
     "tag": "affliction_fire_damage_over_time_multiplier",
     "stats": [
       "+4% to Fire Damage over Time Multiplier"
@@ -1213,7 +1213,7 @@
   {
     "id": "affliction_chaos_damage_over_time_multiplier",
     "name": "Chaos Damage over Time Multiplier",
-    "icon": "Art/2DArt/SkillIcons/passives/ChaosDamageOverTimeNode.png",
+    "icon": "/notable-icons/ChaosDamageOverTimeNode.png",
     "tag": "affliction_chaos_damage_over_time_multiplier",
     "stats": [
       "+4% to Chaos Damage over Time Multiplier"
@@ -1332,7 +1332,7 @@
   {
     "id": "affliction_physical_damage_over_time_multiplier",
     "name": "Physical Damage over Time Multiplier",
-    "icon": "Art/2DArt/SkillIcons/passives/PhysicalDamageOverTimeNode.png",
+    "icon": "/notable-icons/PhysicalDamageOverTimeNode.png",
     "tag": "affliction_physical_damage_over_time_multiplier",
     "stats": [
       "+4% to Physical Damage over Time Multiplier"
@@ -1451,7 +1451,7 @@
   {
     "id": "affliction_cold_damage_over_time_multiplier",
     "name": "Cold Damage over Time Multiplier",
-    "icon": "Art/2DArt/SkillIcons/passives/ColdDamageOverTimeNode.png",
+    "icon": "/notable-icons/ColdDamageOverTimeNode.png",
     "tag": "affliction_cold_damage_over_time_multiplier",
     "stats": [
       "+4% to Cold Damage over Time Multiplier"
@@ -1540,7 +1540,7 @@
   {
     "id": "affliction_damage_over_time_multiplier",
     "name": "Damage over Time Multiplier",
-    "icon": "Art/2DArt/SkillIcons/passives/DamageOverTimeNode.png",
+    "icon": "/notable-icons/DamageOverTimeNode.png",
     "tag": "affliction_damage_over_time_multiplier",
     "stats": [
       "+4% to Damage over Time Multiplier"
@@ -1611,7 +1611,7 @@
   {
     "id": "affliction_effect_of_non-damaging_ailments",
     "name": "Effect of Non-Damaging Ailments",
-    "icon": "Art/2DArt/SkillIcons/passives/IncreasedNonDamageAilmentNode.png",
+    "icon": "/notable-icons/IncreasedNonDamageAilmentNode.png",
     "tag": "affliction_effect_of_non-damaging_ailments",
     "stats": [
       "10% increased Effect of Non-Damaging Ailments"
@@ -1682,7 +1682,7 @@
   {
     "id": "affliction_aura_effect",
     "name": "Aura Effect",
-    "icon": "Art/2DArt/SkillIcons/passives/AuraEffectNode.png",
+    "icon": "/notable-icons/AuraEffectNode.png",
     "tag": "affliction_aura_effect",
     "stats": [
       "3% increased effect of Non-Curse Auras from your Skills"
@@ -1801,7 +1801,7 @@
   {
     "id": "affliction_curse_effect",
     "name": "Curse Effect",
-    "icon": "Art/2DArt/SkillIcons/passives/CurseEffectNode.png",
+    "icon": "/notable-icons/CurseEffectNode.png",
     "tag": "affliction_curse_effect",
     "stats": [
       "3% increased Effect of your Curses"
@@ -1890,7 +1890,7 @@
   {
     "id": "affliction_damage_while_you_have_a_herald",
     "name": "Damage while you have a Herald",
-    "icon": "Art/2DArt/SkillIcons/passives/DmgHeraldSkillsNode.png",
+    "icon": "/notable-icons/DmgHeraldSkillsNode.png",
     "tag": "affliction_damage_while_you_have_a_herald",
     "stats": [
       "10% increased Damage while affected by a Herald"
@@ -1955,7 +1955,7 @@
   {
     "id": "affliction_minion_damage_while_you_have_a_herald",
     "name": "Minion Damage while you have a Herald",
-    "icon": "Art/2DArt/SkillIcons/passives/MinionDmgHeraldSkillsNode.png",
+    "icon": "/notable-icons/MinionDmgHeraldSkillsNode.png",
     "tag": "affliction_minion_damage_while_you_have_a_herald",
     "stats": [
       "Minions deal 10% increased Damage while you are affected by a Herald"
@@ -2020,7 +2020,7 @@
   {
     "id": "affliction_warcry_buff_effect",
     "name": "Exerted Attack Damage",
-    "icon": "Art/2DArt/SkillIcons/passives/IncreasedWarcryNode.png",
+    "icon": "/notable-icons/IncreasedWarcryNode.png",
     "tag": "affliction_warcry_buff_effect",
     "stats": [
       "Exerted Attacks deal 20% increased Damage"
@@ -2079,7 +2079,7 @@
   {
     "id": "affliction_critical_chance",
     "name": "Critical Chance",
-    "icon": "Art/2DArt/SkillIcons/passives/IncreaseCritChanceNode.png",
+    "icon": "/notable-icons/IncreaseCritChanceNode.png",
     "tag": "affliction_critical_chance",
     "stats": [
       "15% increased Critical Strike Chance"
@@ -2168,7 +2168,7 @@
   {
     "id": "affliction_minion_life",
     "name": "Minion Life",
-    "icon": "Art/2DArt/SkillIcons/passives/IncreaseMinionLifeNode.png",
+    "icon": "/notable-icons/IncreaseMinionLifeNode.png",
     "tag": "affliction_minion_life",
     "stats": [
       "Minions have 12% increased maximum Life"
@@ -2227,7 +2227,7 @@
   {
     "id": "affliction_area_damage",
     "name": "Area Damage",
-    "icon": "Art/2DArt/SkillIcons/passives/AreaDmgNode.png",
+    "icon": "/notable-icons/AreaDmgNode.png",
     "tag": "affliction_area_damage",
     "stats": [
       "10% increased Area Damage"
@@ -2286,7 +2286,7 @@
   {
     "id": "affliction_projectile_damage",
     "name": "Projectile Damage",
-    "icon": "Art/2DArt/SkillIcons/passives/ProjectileDmgNode.png",
+    "icon": "/notable-icons/ProjectileDmgNode.png",
     "tag": "affliction_projectile_damage",
     "stats": [
       "10% increased Projectile Damage"
@@ -2339,7 +2339,7 @@
   {
     "id": "affliction_trap_and_mine_damage",
     "name": "Trap and Mine Damage",
-    "icon": "Art/2DArt/SkillIcons/passives/TrapAndMineDmgNode.png",
+    "icon": "/notable-icons/TrapAndMineDmgNode.png",
     "tag": "affliction_trap_and_mine_damage",
     "stats": [
       "12% increased Trap Damage",
@@ -2400,7 +2400,7 @@
   {
     "id": "affliction_totem_damage",
     "name": "Totem Damage",
-    "icon": "Art/2DArt/SkillIcons/passives/TotemDmgNode.png",
+    "icon": "/notable-icons/TotemDmgNode.png",
     "tag": "affliction_totem_damage",
     "stats": [
       "12% increased Totem Damage"
@@ -2465,7 +2465,7 @@
   {
     "id": "affliction_brand_damage",
     "name": "Brand Damage",
-    "icon": "Art/2DArt/SkillIcons/passives/BrandDmgNode.png",
+    "icon": "/notable-icons/BrandDmgNode.png",
     "tag": "affliction_brand_damage",
     "stats": [
       "12% increased Brand Damage"
@@ -2518,7 +2518,7 @@
   {
     "id": "affliction_channelling_skill_damage",
     "name": "Channelling Skill Damage",
-    "icon": "Art/2DArt/SkillIcons/passives/DmgWhenChannelSkillsNode.png",
+    "icon": "/notable-icons/DmgWhenChannelSkillsNode.png",
     "tag": "affliction_channelling_skill_damage",
     "stats": [
       "Channelling Skills deal 12% increased Damage"
@@ -2577,7 +2577,7 @@
   {
     "id": "affliction_flask_duration",
     "name": "Flask Duration",
-    "icon": "Art/2DArt/SkillIcons/passives/FlaskDurationnode.png",
+    "icon": "/notable-icons/FlaskDurationnode.png",
     "tag": "affliction_flask_duration",
     "stats": [
       "6% increased Flask Effect Duration"
@@ -2648,7 +2648,7 @@
   {
     "id": "affliction_life_and_mana_recovery_from_flasks",
     "name": "Life and Mana recovery from Flasks",
-    "icon": "Art/2DArt/SkillIcons/passives/LifeManaFlasksrecoverynode.png",
+    "icon": "/notable-icons/LifeManaFlasksrecoverynode.png",
     "tag": "affliction_life_and_mana_recovery_from_flasks",
     "stats": [
       "10% increased Life Recovery from Flasks",
@@ -2703,7 +2703,7 @@
   {
     "id": "affliction_axe_and_sword_damage",
     "name": "Axe and Sword Damage",
-    "icon": "Art/2DArt/SkillIcons/passives/NodeAxeandSwordDamage.png",
+    "icon": "/notable-icons/NodeAxeandSwordDamage.png",
     "tag": "affliction_axe_and_sword_damage",
     "stats": [
       "Axe Attacks deal 12% increased Damage with Hits and Ailments",
@@ -2794,7 +2794,7 @@
   {
     "id": "affliction_mace_and_staff_damage",
     "name": "Mace and Staff Damage",
-    "icon": "Art/2DArt/SkillIcons/passives/NodeMaceandStaffDamage.png",
+    "icon": "/notable-icons/NodeMaceandStaffDamage.png",
     "tag": "affliction_mace_and_staff_damage",
     "stats": [
       "Staff Attacks deal 12% increased Damage with Hits and Ailments",
@@ -2885,7 +2885,7 @@
   {
     "id": "affliction_dagger_and_claw_damage",
     "name": "Dagger and Claw Damage",
-    "icon": "Art/2DArt/SkillIcons/passives/NodeDaggerandClawDamage.png",
+    "icon": "/notable-icons/NodeDaggerandClawDamage.png",
     "tag": "affliction_dagger_and_claw_damage",
     "stats": [
       "Claw Attacks deal 12% increased Damage with Hits and Ailments",
@@ -2976,7 +2976,7 @@
   {
     "id": "affliction_bow_damage",
     "name": "Bow Damage",
-    "icon": "Art/2DArt/SkillIcons/passives/NodeBowDamage.png",
+    "icon": "/notable-icons/NodeBowDamage.png",
     "tag": "affliction_bow_damage",
     "stats": [
       "12% increased Damage with Bows",
@@ -3067,7 +3067,7 @@
   {
     "id": "affliction_wand_damage",
     "name": "Wand Damage",
-    "icon": "Art/2DArt/SkillIcons/passives/NodeWandDamage.png",
+    "icon": "/notable-icons/NodeWandDamage.png",
     "tag": "affliction_wand_damage",
     "stats": [
       "Wand Attacks deal 12% increased Damage with Hits and Ailments"
@@ -3156,7 +3156,7 @@
   {
     "id": "affliction_damage_with_two_handed_melee_weapons",
     "name": "Damage with Two Handed Melee Weapons",
-    "icon": "Art/2DArt/SkillIcons/passives/NodeTwoHandedMeleeDamage.png",
+    "icon": "/notable-icons/NodeTwoHandedMeleeDamage.png",
     "tag": "affliction_damage_with_two_handed_melee_weapons",
     "stats": [
       "12% increased Damage with Two Handed Weapons"
@@ -3269,7 +3269,7 @@
   {
     "id": "affliction_attack_damage_while_dual_wielding_",
     "name": "Attack Damage while Dual Wielding",
-    "icon": "Art/2DArt/SkillIcons/passives/NodeDualWieldingDamage.png",
+    "icon": "/notable-icons/NodeDualWieldingDamage.png",
     "tag": "affliction_attack_damage_while_dual_wielding_",
     "stats": [
       "12% increased Attack Damage while Dual Wielding"
@@ -3382,7 +3382,7 @@
   {
     "id": "affliction_attack_damage_while_holding_a_shield",
     "name": "Attack Damage while holding a Shield",
-    "icon": "Art/2DArt/SkillIcons/passives/NodeHoldingShieldDamage.png",
+    "icon": "/notable-icons/NodeHoldingShieldDamage.png",
     "tag": "affliction_attack_damage_while_holding_a_shield",
     "stats": [
       "12% increased Attack Damage while holding a Shield"
@@ -3495,7 +3495,7 @@
   {
     "id": "affliction_attack_damage_",
     "name": "Attack Damage",
-    "icon": "Art/2DArt/SkillIcons/passives/IncreasedAttackDamageNode.png",
+    "icon": "/notable-icons/IncreasedAttackDamageNode.png",
     "tag": "affliction_attack_damage_",
     "stats": [
       "10% increased Attack Damage"
@@ -3566,7 +3566,7 @@
   {
     "id": "affliction_spell_damage",
     "name": "Spell Damage",
-    "icon": "Art/2DArt/SkillIcons/passives/IncreasedSpellDamageNode.png",
+    "icon": "/notable-icons/IncreasedSpellDamageNode.png",
     "tag": "affliction_spell_damage",
     "stats": [
       "10% increased Spell Damage"
@@ -3649,7 +3649,7 @@
   {
     "id": "affliction_elemental_damage",
     "name": "Elemental Damage",
-    "icon": "Art/2DArt/SkillIcons/passives/ElementalDamagenode.png",
+    "icon": "/notable-icons/ElementalDamagenode.png",
     "tag": "affliction_elemental_damage",
     "stats": [
       "10% increased Elemental Damage"
@@ -3714,7 +3714,7 @@
   {
     "id": "affliction_physical_damage",
     "name": "Physical Damage",
-    "icon": "Art/2DArt/SkillIcons/passives/PhysicalDamagenode2.png",
+    "icon": "/notable-icons/PhysicalDamagenode2.png",
     "tag": "affliction_physical_damage",
     "stats": [
       "12% increased Physical Damage"
@@ -3773,7 +3773,7 @@
   {
     "id": "affliction_fire_damage",
     "name": "Fire Damage",
-    "icon": "Art/2DArt/SkillIcons/passives/FireDamagenode.png",
+    "icon": "/notable-icons/FireDamagenode.png",
     "tag": "affliction_fire_damage",
     "stats": [
       "12% increased Fire Damage"
@@ -3862,7 +3862,7 @@
   {
     "id": "affliction_lightning_damage",
     "name": "Lightning Damage",
-    "icon": "Art/2DArt/SkillIcons/passives/LightningDamagenode.png",
+    "icon": "/notable-icons/LightningDamagenode.png",
     "tag": "affliction_lightning_damage",
     "stats": [
       "12% increased Lightning Damage"
@@ -3981,7 +3981,7 @@
   {
     "id": "affliction_cold_damage",
     "name": "Cold Damage",
-    "icon": "Art/2DArt/SkillIcons/passives/ColdDamagenode.png",
+    "icon": "/notable-icons/ColdDamagenode.png",
     "tag": "affliction_cold_damage",
     "stats": [
       "12% increased Cold Damage"
@@ -4094,7 +4094,7 @@
   {
     "id": "affliction_chaos_damage",
     "name": "Chaos Damage",
-    "icon": "Art/2DArt/SkillIcons/passives/ChaosDamagenode.png",
+    "icon": "/notable-icons/ChaosDamagenode.png",
     "tag": "affliction_chaos_damage",
     "stats": [
       "12% increased Chaos Damage"
@@ -4165,7 +4165,7 @@
   {
     "id": "affliction_minion_damage",
     "name": "Minion Damage",
-    "icon": "Art/2DArt/SkillIcons/passives/IncreasedMinionDamageNode.png",
+    "icon": "/notable-icons/IncreasedMinionDamageNode.png",
     "tag": "affliction_minion_damage",
     "stats": [
       "Minions deal 10% increased Damage"

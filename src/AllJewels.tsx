@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styled from "@emotion/styled";
 import Jewels from "./jewels.json";
 import Notables from "./notables.json";
-import NotableCard from "./NotablesCard";
+import NotableCard, { Icon } from "./NotablesCard";
 import { JewelType, NotableType } from "./types";
 
 const Container = styled.div({
@@ -37,7 +37,7 @@ const Enchantment = styled.div({
   color: "lightblue",
   lineHeight: "18px",
   fontSize: "14px",
-  marginRight: "32px",
+  marginLeft: "8px",
 });
 
 const OuterWrapper = styled.div({
@@ -60,17 +60,15 @@ const JewelHeader = styled.button<{ expanded?: boolean }>(
     position: "relative",
     border: "none",
     display: "flex",
-    flexDirection: "column",
+    flexDirection: "row",
+    alignItems: "center",
     background: "none",
     cursor: "pointer",
     ":focus": { outline: "none" },
     ":after": {
       content: `""`,
-      position: "absolute",
       display: "block",
-      right: "4px",
-      width: 0,
-      height: 0,
+      marginLeft: "auto",
       border: "4px solid transparent",
       borderRight: "4px solid #555",
       borderBottom: "4px solid #555",
@@ -79,13 +77,13 @@ const JewelHeader = styled.button<{ expanded?: boolean }>(
   ({ expanded }) => ({
     ":after": {
       transform: `rotateZ(${expanded ? "225" : "45"}deg)`,
-      top: expanded ? "5px" : 0,
+      marginTop: expanded ? "3px" : "-5px",
     },
   })
 );
 
 export const SingleJewel = ({
-  jewel: { enchant, notables, tag, prefixWeight, suffixWeight },
+  jewel: { name, icon, enchant, notables, tag, prefixWeight, suffixWeight },
 }: {
   jewel: JewelType;
 }) => {
@@ -94,9 +92,8 @@ export const SingleJewel = ({
   return (
     <Jewel>
       <JewelHeader onClick={() => setExpanded(!expanded)} expanded={expanded}>
-        {enchant.map((e) => (
-          <Enchantment key={e}>{e}</Enchantment>
-        ))}
+        <Icon isSmall icon={icon} />
+        <Enchantment>{name}</Enchantment>
       </JewelHeader>
       {expanded && (
         <NotablesContainer>
@@ -132,9 +129,11 @@ export const SingleJewel = ({
 
 const JewelSection = ({ jewels }: { jewels: JewelType[] }) => (
   <>
-    {jewels.map((jewel) => (
-      <SingleJewel key={jewel.name} jewel={jewel} />
-    ))}
+    {jewels
+      .filter(({ notables }) => notables.length)
+      .map((jewel) => (
+        <SingleJewel key={jewel.name} jewel={jewel} />
+      ))}
   </>
 );
 

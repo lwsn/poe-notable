@@ -176,7 +176,7 @@ const parse = (value) => luaAstToJson(parseLua(value, { comments: false }));
       return {
         id,
         name,
-        icon,
+        icon: icon.replace("Art/2DArt/SkillIcons/passives/", "/notable-icons/"),
         tag,
         stats,
         enchant,
