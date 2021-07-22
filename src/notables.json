@@ -105,8 +105,8 @@
   {
     "stats": [
       "You count as Dual Wielding while you are Unencumbered",
-      "60% more Attack Speed while you are Unencumbered",
-      "14 to 20 Added Attack Physical Damage per 10 Dexterity while you are Unencumbered"
+      "40% more Attack Speed with Melee Skills while you are Unencumbered",
+      "Adds 14 to 20 Attack Physical Damage to Melee Skills per 10 Dexterity while you are Unencumbered"
     ],
     "skill": 60069,
     "name": "Hollow Palm Technique",
@@ -293,7 +293,7 @@
     ],
     "reminderText": [
       "(Attributes are Strength, Dexterity, and Intelligence)",
-      "(Defences are Armour, Evasion Rating and Energy Shield)"
+      "(Armour, Evasion Rating and Energy Shield are the standard Defences)"
     ],
     "type": "Prefix",
     "level": 1,
@@ -593,7 +593,7 @@
     "name": "Winter Commander",
     "isNotable": true,
     "stats": [
-      "4% increased Movement Speed",
+      "8% increased Evasion Rating",
       "Purity of Ice has 30% increased Aura Effect"
     ],
     "type": "Prefix",
@@ -768,7 +768,7 @@
     "name": "Eye of the Storm",
     "isNotable": true,
     "stats": [
-      "+20% to Damage over Time Multiplier for Ignite from Critical Strikes",
+      "+10% to Damage over Time Multiplier for Ignite from Critical Strikes",
       "20% increased Effect of non-Damaging Ailments you inflict with Critical Strikes",
       "40% increased Critical Strike Chance"
     ],
@@ -1082,7 +1082,7 @@
       "Spells cast by Totems deal 25% increased Damage"
     ],
     "reminderText": [
-      "(Arcane Surge grants 10% more Spell Damage, 10% increased Cast Speed, and 0.5% of maximum Mana Regenerated per second, for 4 seconds)"
+      "(Arcane Surge grants 10% more Spell Damage and 30% increased Mana Regeneration rate, for 4 seconds)"
     ],
     "type": "Prefix",
     "level": 68,
@@ -1226,7 +1226,7 @@
       "Gain Arcane Surge after Channelling for 1 second"
     ],
     "reminderText": [
-      "(Arcane Surge grants 10% more Spell Damage, 10% increased Cast Speed, and 0.5% of maximum Mana Regenerated per second, for 4 seconds)"
+      "(Arcane Surge grants 10% more Spell Damage and 30% increased Mana Regeneration rate, for 4 seconds)"
     ],
     "type": "Prefix",
     "level": 68,
@@ -1244,7 +1244,7 @@
     "stats": [
       "25% increased Life Recovery from Flasks",
       "25% increased Mana Recovery from Flasks",
-      "20% increased Flask Effect Duration"
+      "10% increased Flask Effect Duration"
     ],
     "type": "Prefix",
     "level": 1,
@@ -1265,7 +1265,7 @@
       "Gain Alchemist's Genius when you use a Flask"
     ],
     "reminderText": [
-      "(Alchemist's Genius increases Flask Charges gained and effect of Flasks by 20%, for 4 seconds)"
+      "(Alchemist's Genius increases Flask Charges gained by 20% and effect of Flasks by 10%, for 4 seconds)"
     ],
     "type": "Prefix",
     "level": 50,
@@ -1283,7 +1283,7 @@
     "isNotable": true,
     "stats": [
       "20% increased Flask Charges gained",
-      "20% increased Movement Speed while under no Flask Effects"
+      "10% increased Movement Speed while under no Flask Effects"
     ],
     "type": "Prefix",
     "level": 50,
@@ -1337,8 +1337,8 @@
     "name": "Numbing Elixir",
     "isNotable": true,
     "stats": [
-      "40% reduced Effect of Curses on you during Effect of any Life or Mana Flask",
-      "40% reduced Effect of non-Damaging Ailments on you during Effect of any Life or Mana Flask"
+      "40% reduced Effect of Curses on you during Effect of any Mana Flask",
+      "40% reduced Effect of Non-Damaging Ailments on you during Effect of any Life Flask"
     ],
     "type": "Prefix",
     "level": 68,
@@ -1534,7 +1534,7 @@
     "stats": [
       "Axe or Sword Attacks deal 20% increased Damage with Ailments",
       "20% increased Physical Damage with Axes or Swords",
-      "+10% to Physical Damage over Time Multiplier while wielding an Axe or Sword"
+      "+5% to Physical Damage over Time Multiplier while wielding an Axe or Sword"
     ],
     "reminderText": [
       "(Ailments that deal Damage are Bleeding, Ignited, and Poisoned)"
@@ -1654,7 +1654,7 @@
     "isNotable": true,
     "stats": [
       "Enemies Poisoned by you cannot Regenerate Life",
-      "+10% to Damage over Time Multiplier for Poison while wielding a Claw or Dagger"
+      "+6% to Damage over Time Multiplier for Poison while wielding a Claw or Dagger"
     ],
     "type": "Prefix",
     "level": 50,
@@ -1687,7 +1687,7 @@
     "name": "Tempered Arrowheads",
     "isNotable": true,
     "stats": [
-      "Bow Skills have +10% to Damage over Time Multiplier",
+      "Bow Skills have +6% to Damage over Time Multiplier",
       "Bow Skills have 10% increased Skill Effect Duration",
       "10% increased Duration of Ailments inflicted while wielding a Bow"
     ],
@@ -2315,7 +2315,7 @@
       "10% chance to gain Arcane Surge when you Hit a Unique enemy"
     ],
     "reminderText": [
-      "(Arcane Surge grants 10% more Spell Damage, 10% increased Cast Speed, and 0.5% of maximum Mana Regenerated per second, for 4 seconds)"
+      "(Arcane Surge grants 10% more Spell Damage and 30% increased Mana Regeneration rate, for 4 seconds)"
     ],
     "type": "Prefix",
     "level": 68,
@@ -2734,7 +2734,7 @@
     "name": "Cold-Blooded Killer",
     "isNotable": true,
     "stats": [
-      "+8% to Cold Damage over Time Multiplier",
+      "+5% to Cold Damage over Time Multiplier",
       "Recover 2% of Life on Killing a Chilled Enemy"
     ],
     "type": "Prefix",
@@ -2997,7 +2997,7 @@
     "name": "Blowback",
     "isNotable": true,
     "stats": [
-      "Ignites you inflict deal Damage 15% faster"
+      "Ignites you inflict deal Damage 8% faster"
     ],
     "reminderText": [
       "(They will deal the same total damage over a shorter duration)"
@@ -3033,7 +3033,7 @@
     "isNotable": true,
     "stats": [
       "15% chance to Ignite",
-      "Enemies Ignited by you have -10% to Fire Resistance"
+      "Enemies Ignited by you have -5% to Fire Resistance"
     ],
     "reminderText": [
       "(Ignite deals Fire Damage over time, based on the base Fire Damage of the Skill, for 4 seconds)"
@@ -3052,8 +3052,7 @@
     "name": "Burning Bright",
     "isNotable": true,
     "stats": [
-      "+8% to Fire Damage over Time Multiplier",
-      "20% increased Fire Damage",
+      "25% increased Burning Damage",
       "8% increased Area of Effect"
     ],
     "type": "Prefix",
@@ -3092,9 +3091,9 @@
     "name": "Vivid Hues",
     "isNotable": true,
     "stats": [
-      "+12% to Damage over Time Multiplier for Bleeding",
       "2% of Attack Damage Leeched as Life against Bleeding Enemies",
-      "20% increased Recovery per second from Life Leech"
+      "20% increased total Recovery per second from Life Leech",
+      "20% increased Damage with Bleeding"
     ],
     "reminderText": [
       "(Leeched Life is recovered over time. Multiple Leeches can occur simultaneously, up to a maximum rate)"
@@ -3113,8 +3112,8 @@
     "name": "Rend",
     "isNotable": true,
     "stats": [
-      "+12% to Physical Damage over Time Multiplier",
-      "30% increased Bleeding Duration"
+      "+5% to Physical Damage over Time Multiplier",
+      "20% increased Bleeding Duration"
     ],
     "type": "Prefix",
     "level": 50,
@@ -3150,7 +3149,7 @@
     "name": "Compound Injury",
     "isNotable": true,
     "stats": [
-      "50% increased Damage with Bleeding you inflict on Maimed Enemies"
+      "35% increased Damage with Bleeding you inflict on Maimed Enemies"
     ],
     "type": "Prefix",
     "level": 50,
@@ -3167,7 +3166,7 @@
     "isNotable": true,
     "grantedStrength": 20,
     "stats": [
-      "+14% to Physical Damage over Time Multiplier if you've Spent Life Recently",
+      "+6% to Physical Damage over Time Multiplier if you've Spent Life Recently",
       "+20 to Strength"
     ],
     "reminderText": [
@@ -3187,7 +3186,7 @@
     "name": "Phlebotomist",
     "isNotable": true,
     "stats": [
-      "+14% to Physical Damage over Time Multiplier if you've dealt a Critical Strike Recently",
+      "+6% to Physical Damage over Time Multiplier if you've dealt a Critical Strike Recently",
       "20% increased Critical Strike Chance"
     ],
     "reminderText": [
@@ -3207,8 +3206,8 @@
     "name": "Septic Spells",
     "isNotable": true,
     "stats": [
-      "8% increased Cast Speed",
-      "Spell Skills have +10% to Damage over Time Multiplier for Poison",
+      "5% increased Cast Speed",
+      "Spell Skills have +5% to Damage over Time Multiplier for Poison",
       "20% chance to Poison on Hit with Spell Damage"
     ],
     "reminderText": [
@@ -3228,7 +3227,6 @@
     "name": "Low Tolerance",
     "isNotable": true,
     "stats": [
-      "+8% to Damage over Time Multiplier for Poison",
       "Poisons you inflict on non-Poisoned Enemies deal 300% increased Damage"
     ],
     "type": "Prefix",
@@ -3245,10 +3243,10 @@
     "name": "Steady Torment",
     "isNotable": true,
     "stats": [
-      "20% increased Poison Duration",
-      "20% increased Bleeding Duration",
-      "+10% to Damage over Time Multiplier for Bleeding you inflict on Poisoned Enemies",
-      "+10% to Damage over Time Multiplier for Poison you inflict on Bleeding Enemies"
+      "15% increased Poison Duration",
+      "15% increased Bleeding Duration",
+      "+6% to Damage over Time Multiplier for Bleeding you inflict on Poisoned Enemies",
+      "+6% to Damage over Time Multiplier for Poison you inflict on Bleeding Enemies"
     ],
     "type": "Prefix",
     "level": 68,
@@ -3285,7 +3283,7 @@
     "name": "Eldritch Inspiration",
     "isNotable": true,
     "stats": [
-      "+8% to Chaos Damage over Time Multiplier",
+      "20% increased Chaos Damage",
       "16% increased maximum Mana",
       "20% increased Mana Regeneration Rate"
     ],
@@ -3305,7 +3303,7 @@
     "isNotable": true,
     "stats": [
       "20% increased Damage with Ailments",
-      "Damaging Ailments deal damage 10% faster"
+      "Damaging Ailments deal damage 5% faster"
     ],
     "reminderText": [
       "(Ailments that deal Damage are Bleeding, Ignited, and Poisoned)",
@@ -3329,7 +3327,7 @@
     "name": "Haemorrhage",
     "isNotable": true,
     "stats": [
-      "+15% to Damage over Time Multiplier for Ailments from Critical Strikes",
+      "+10% to Damage over Time Multiplier for Ailments from Critical Strikes",
       "30% increased Critical Strike Chance"
     ],
     "type": "Prefix",
@@ -3374,7 +3372,7 @@
     "name": "Exposure Therapy",
     "isNotable": true,
     "stats": [
-      "+8% to Damage over Time Multiplier",
+      "+5% to Damage over Time Multiplier",
       "+30% Chaos Resistance against Damage Over Time"
     ],
     "type": "Prefix",
@@ -3396,7 +3394,7 @@
     "name": "Brush with Death",
     "isNotable": true,
     "stats": [
-      "+10% to Damage over Time Multiplier",
+      "+5% to Damage over Time Multiplier",
       "Recover 1% of Life on Kill",
       "Recover 1% of Energy Shield on Kill"
     ],
@@ -3447,7 +3445,7 @@
     "isNotable": true,
     "stats": [
       "25% increased Damage over Time",
-      "25% increased Duration of Ailments on Enemies"
+      "15% increased Duration of Ailments on Enemies"
     ],
     "reminderText": [
       "(Ailments are Bleeding, Ignited, Scorched, Chilled, Frozen, Brittle, Shocked, Sapped, and Poisoned)"
@@ -3516,12 +3514,12 @@
     "name": "Cold Conduction",
     "isNotable": true,
     "stats": [
-      "Enemies Chilled by your Hits are Shocked",
-      "Enemies Shocked by your Hits are Chilled"
+      "25% increased Effect of Cold Ailments you inflict on Shocked Enemies",
+      "25% increased Effect of Lightning Ailments you inflict on Chilled Enemies"
     ],
     "reminderText": [
-      "(Shock increases Damage taken by 15%)",
-      "(Chill reduces Enemy Action Speed by 10%)"
+      "(Cold Ailments are Chilled, Frozen and Brittle)",
+      "(Lightning Ailments are Shocked and Sapped)"
     ],
     "type": "Prefix",
     "level": 68,
@@ -3583,7 +3581,7 @@
     "name": "Deep Chill",
     "isNotable": true,
     "stats": [
-      "+10% to Cold Damage over Time Multiplier",
+      "+5% to Cold Damage over Time Multiplier",
       "30% increased Effect of Cold Ailments"
     ],
     "reminderText": [
@@ -4369,8 +4367,7 @@
     "name": "Brand Loyalty",
     "isNotable": true,
     "stats": [
-      "Enemies take 4% increased Damage for each of your Brands Attached to them",
-      "20% increased Brand Attachment range"
+      "Enemies take 3% increased Damage for each of your Brands Attached to them"
     ],
     "type": "Prefix",
     "level": 1,
@@ -4386,9 +4383,7 @@
     "name": "Holy Conquest",
     "isNotable": true,
     "stats": [
-      "5% increased Movement Speed",
-      "Brands Attach to a new Enemy each time they Activate, no more than once every 0.3 seconds",
-      "10% increased Cast Speed with Brand Skills"
+      "Brands Attach to a new Enemy each time they Activate, no more than once every 0.3 seconds"
     ],
     "type": "Prefix",
     "level": 50,
@@ -4404,9 +4399,12 @@
     "name": "Grand Design",
     "isNotable": true,
     "stats": [
-      "10% increased Cast Speed with Brand Skills",
+      "20% increased Brand Damage",
       "Brand Skills have 10% increased Duration",
       "10% increased Brand Attachment range"
+    ],
+    "reminderText": [
+      "(Brand Damage is any Damage dealt by Brand Skills or by Skills Triggered by a Brand)"
     ],
     "type": "Prefix",
     "level": 68,
@@ -4506,7 +4504,7 @@
       "Gain Arcane Surge when your Trap is Triggered by an Enemy"
     ],
     "reminderText": [
-      "(Arcane Surge grants 10% more Spell Damage, 10% increased Cast Speed, and 0.5% of maximum Mana Regenerated per second, for 4 seconds)"
+      "(Arcane Surge grants 10% more Spell Damage and 30% increased Mana Regeneration rate, for 4 seconds)"
     ],
     "type": "Prefix",
     "level": 68,
@@ -4563,7 +4561,7 @@
     "isNotable": true,
     "stats": [
       "8% increased maximum Life",
-      "30% increased Life Recovery from Flasks"
+      "20% increased Life Recovery from Flasks"
     ],
     "type": "Prefix",
     "level": 1,
@@ -4725,7 +4723,7 @@
     "isNotable": true,
     "stats": [
       "15% increased maximum Mana",
-      "30% increased Mana Recovery from Flasks",
+      "20% increased Mana Recovery from Flasks",
       "25% chance to gain a Power Charge when you use a Mana Flask"
     ],
     "type": "Prefix",
@@ -5396,7 +5394,7 @@
       "+5% Chance to Block Attack Damage while holding a Shield"
     ],
     "reminderText": [
-      "(Defences are Armour, Evasion Rating and Energy Shield)"
+      "(Armour, Evasion Rating and Energy Shield are the standard Defences)"
     ],
     "type": "Prefix",
     "level": 50,
@@ -5430,7 +5428,7 @@
     "name": "Elegant Form",
     "isNotable": true,
     "stats": [
-      "30% chance to Avoid Elemental Ailments",
+      "15% chance to Avoid Elemental Ailments",
       "3% chance to Dodge Attack Hits",
       "3% chance to Dodge Spell Hits"
     ],
@@ -5451,7 +5449,7 @@
     "name": "Darting Movements",
     "isNotable": true,
     "stats": [
-      "5% increased Movement Speed",
+      "3% increased Movement Speed",
       "5% chance to Dodge Attack and Spell Hits while moving"
     ],
     "type": "Prefix",
@@ -5593,7 +5591,7 @@
     "isNotable": true,
     "stats": [
       "+2% to maximum Cold Resistance",
-      "6% increased Movement Speed"
+      "10% increased Life Recovery from Flasks"
     ],
     "reminderText": [
       "(Maximum Resistances cannot be raised above 90%)"

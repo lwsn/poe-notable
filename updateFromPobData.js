@@ -65,16 +65,12 @@ const parse = (value) => luaAstToJson(parseLua(value, { comments: false }));
     })
   )
     .filter((dirent) => dirent.isDirectory())
-    .map((dirent) => parseFloat(dirent.name.replace("_", ".")))
-    .sort()
-    .reverse()[0];
+    .map((dirent) => dirent.name.split("_"))
+    .filter(([n]) => Number(n))
+    .sort((a, b) => (a[0] === b[0] ? b[1] - a[1] : b[0] - a[0]))[0]
+    .join("_");
 
-  if (Number.isNaN(treeDataVersion)) throw new Error("No tree data found");
-
-  const treeRootPath = `./pob/TreeData/${String(treeDataVersion).replace(
-    ".",
-    "_"
-  )}`;
+  const treeRootPath = `./pob/TreeData/${treeDataVersion}`;
 
   const { nodes, skillSprites } = parse(
     await fs.readFile(`${treeRootPath}/tree.lua`, {
